@@ -1,5 +1,34 @@
 {
-  "updated": "2026-08-26T06:22:54.373019+00:00",
-  "latest": [],
-  "upcoming": []
+  "updated": "2026-08-16T14:20:00-04:00",
+  "featured": {"id": "5h3JP1-KE_Q", "title": "Super Formula Race 5 | Finally A-Class!"},
+  "next_up": {
+    "when": "Sun Aug 17 · 6:00 PM ET",
+    "what": "Unexpected Race Start in Super Formula SF23 — Rumble + X",
+    "url": "https://www.youtube.com/shorts/C7dHznRiqOg",
+    "thumb": "https://i.ytimg.com/vi/C7dHznRiqOg/maxresdefault.jpg",
+    "format": "short"
+  },
+  "previously": {
+    "id": "1SyiWcpldYQ",
+    "title": "My First Race in the SF23 Toyota – Absolutely Insane",
+    "url": "https://youtu.be/1SyiWcpldYQ",
+    "thumb": "https://i.ytimg.com/vi/1SyiWcpldYQ/maxresdefault.jpg",
+    "views": 180,
+    "format": "long"
+  },
+  "latest": [
+    {"platform": "YouTube", "format": "long", "title": "Super Formula Race 5 | Finally A-Class!", "url": "https://youtu.be/5h3JP1-KE_Q"},
+    {"platform": "Rumble", "format": "short", "title": "Near Miss in the Super Formula SF23 Toyota", "url": "https://rumble.com/v7e948u-near-miss-in-the-super-formula-sf23-toyota-iracing-class-a.html"},
+    {"platform": "Rumble", "format": "short", "title": "Car Explodes on Impact! Insane SF23 Crash", "url": "https://rumble.com/v7e94eg-car-explodes-on-impact-insane-sf23-crash-in-iracing-super-formula.html"},
+    {"platform": "X", "format": "short", "title": "Car explodes on impact 💥 SF23 crash", "url": "https://x.com/Bosskronik"}
+  ],
+  "upcoming": [
+    {"when": "Sun Aug 17 · 5:00 PM ET", "format": "short", "what": "Close Call — TikTok + Instagram"},
+    {"when": "Sun Aug 17 · 6:00 PM ET", "format": "short", "what": "Unexpected Race Start — Rumble + X"},
+    {"when": "Sun Aug 17 · 8:00 PM ET", "format": "short", "what": "Patient Racing Wins Races — Rumble + X"},
+    {"when": "Mon Aug 18 · 6:00 PM ET", "format": "short", "what": "Netcode Crash Explained — Rumble + X"},
+    {"when": "Mon Aug 18 · 8:00 PM ET", "format": "short", "what": "Massive SF23 Crash — Rumble + X"},
+    {"when": "Tue Aug 19 · 6:00 PM ET", "format": "short", "what": "Instant Replay Moment — Rumble + X"},
+    {"when": "Tue Aug 19 · 8:00 PM ET", "format": "short", "what": "Won Then Crashed Same Lap — Rumble + X"}
+  ]
 }
