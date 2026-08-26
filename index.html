@@ -40,6 +40,8 @@ h2::before{content:"";display:inline-block;width:9px;height:24px;background:var(
 .card svg{width:38px;height:38px;margin-bottom:8px}
 .card .n{font-weight:700;font-size:16px;letter-spacing:1px}
 .card .h{color:var(--grey);font-size:12.5px;margin-top:2px}
+.card .c{margin-top:8px;font-weight:700;font-size:14px;color:var(--orange)}
+.card .c small{display:block;font-weight:400;font-size:10.5px;color:var(--grey);letter-spacing:.5px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:760px){.two{grid-template-columns:1fr}.hero h1{font-size:42px}}
 .panel{background:var(--panel);border:1px solid #ffffff14;border-radius:12px;padding:18px;backdrop-filter:blur(3px)}
@@ -87,7 +89,7 @@ footer .mark{font-family:'Barlow Condensed';font-style:italic;font-weight:900;co
     <h1>Bosskronik</h1>
     <div class="tag" data-i18n="tag">Raw &amp; Honest Sim Racing • iRacing</div>
     <div class="sub" data-i18n="sub">Military vet &amp; ex-pro biathlete. Full-race POVs — the wins, the crashes, and everything I got wrong.</div>
-    <div class="stats"><span><b>7.4K</b><span data-i18n="s_subs">subs</span></span><span><b>544</b><span data-i18n="s_videos">videos</span></span><span><b>248K</b><span data-i18n="s_views">views</span></span><span><b>Class A</b>iRacing</span></div>
+    <div class="stats"><span><b id="stat-subs">7,340</b><span data-i18n="s_subs">subs</span></span><span><b id="stat-videos">548</b><span data-i18n="s_videos">videos</span></span><span><b id="stat-views">249K</b><span data-i18n="s_views">views</span></span><span><b>Class A</b>iRacing</span></div>
   </div>
 </div>
 
@@ -96,22 +98,22 @@ footer .mark{font-family:'Barlow Condensed';font-style:italic;font-weight:900;co
 <div class="grid">
   <a class="card" href="https://www.youtube.com/@bosskronik?sub_confirmation=1">
     <svg viewBox="0 0 24 24" fill="#FF0000"><rect x="1" y="4.5" width="22" height="15" rx="4"/><path d="M10 9l6 3-6 3z" fill="#fff"/></svg>
-    <div class="n">YouTube</div><div class="h">@bosskronik</div></a>
+    <div class="n">YouTube</div><div class="h">@bosskronik</div><div class="c" data-stat="youtube">7,340<small>subscribers</small></div></a>
   <a class="card" href="https://rumble.com/user/Bosskronik">
     <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="#85c742"/><path d="M9.5 7.5l7 4.5-7 4.5z" fill="#0e1120"/></svg>
-    <div class="n">Rumble</div><div class="h">Bosskronik</div></a>
+    <div class="n">Rumble</div><div class="h">Bosskronik</div><div class="c" data-stat="rumble">20<small>followers</small></div></a>
   <a class="card" href="https://x.com/Bosskronik">
     <svg viewBox="0 0 24 24" fill="#f5f7fc"><path d="M3 2h5.6l4.9 6.9L19.4 2H22l-7.3 8.7L22.5 22h-5.6l-5.3-7.4L5 22H2.3l8-9.5z"/></svg>
-    <div class="n">X</div><div class="h">@Bosskronik</div></a>
+    <div class="n">X</div><div class="h">@Bosskronik</div><div class="c" data-stat="x">16<small>followers</small></div></a>
   <a class="card" href="https://www.tiktok.com/@bosskronik">
     <svg viewBox="0 0 24 24"><path d="M15 3c.4 2.3 1.9 3.8 4.3 4v3.2c-1.6 0-3-.5-4.3-1.4v6.5c0 4-2.7 6.2-5.9 6.2A5.5 5.5 0 0 1 3.6 16c0-3.4 2.9-5.8 6.3-5.4v3.3c-1.6-.4-3.1.6-3.1 2.1 0 1.4 1.1 2.4 2.4 2.4 1.5 0 2.6-1.1 2.6-3V3z" fill="#f5f7fc"/><path d="M15 3c.4 2.3 1.9 3.8 4.3 4v2.1C16.6 8.9 15.2 7 15 5z" fill="#ff0050"/></svg>
-    <div class="n">TikTok</div><div class="h">@bosskronik</div></a>
+    <div class="n">TikTok</div><div class="h">@bosskronik</div><div class="c" data-stat="tiktok">4,854<small>followers</small></div></a>
   <a class="card" href="https://www.instagram.com/bosskronik/">
     <svg viewBox="0 0 24 24" fill="none" stroke="#e23a9c" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.6" cy="6.4" r="1.3" fill="#e23a9c" stroke="none"/></svg>
-    <div class="n">Instagram</div><div class="h">@bosskronik</div></a>
+    <div class="n">Instagram</div><div class="h">@bosskronik</div><div class="c" data-stat="instagram">95<small>followers</small></div></a>
   <a class="card" href="https://www.facebook.com/968005913043248">
     <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="#1877f2"/><path d="M13.3 21v-7h2.3l.4-2.8h-2.7v-1.8c0-.8.3-1.4 1.5-1.4h1.3V5.5c-.3 0-1.1-.1-2-.1-2 0-3.4 1.2-3.4 3.5v2.3H8.5V14h2.2v7z" fill="#fff"/></svg>
-    <div class="n">Facebook</div><div class="h">BossKronik</div></a>
+    <div class="n">Facebook</div><div class="h">BossKronik</div><div class="c" data-stat="facebook">41<small>followers</small></div></a>
 </div>
 </section>
 
