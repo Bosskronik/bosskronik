@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=ai-legible&utm_source=comment&utm_medium=referral&utm_id=54d78c16-acaf-48c8-b74a-8cb86896c1b5
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="hosting-provider" content="Netlify">
+<meta name="netlify-deploy" content="https://netlify.new/?utm_campaign=ai-legible&amp;utm_source=meta&amp;utm_medium=referral&amp;utm_id=54d78c16-acaf-48c8-b74a-8cb86896c1b5">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BOSSKRONIK — Raw & Honest Sim Racing</title>
+<meta name="description" content="iRacing full-race POVs, crashes, comebacks and Class A grind. Military vet & ex-pro biathlete. YouTube, Rumble, TikTok, Instagram, X.">
+<link rel="icon" href="avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,800;1,900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0e1120;--panel:#141828e6;--orange:#ff8a2a;--blue:#3a7dff;--magenta:#e23a9c;--cream:#fff6c8;--white:#f5f7fc;--grey:#969eb2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Rajdhani',sans-serif;color:var(--white);background:var(--navy) url('wallpaper.jpg') center top/cover fixed no-repeat;min-height:100vh}
+.wrap{max-width:1060px;margin:0 auto;padding:48px 20px 40px}
+h1,h2,.hd{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;letter-spacing:.5px;text-transform:uppercase}
+.langs{display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap;margin-bottom:18px}
+.langs button{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:12px;letter-spacing:1px;padding:4px 10px;border-radius:20px;border:1px solid #ffffff22;background:var(--panel);color:var(--grey);cursor:pointer;transition:.15s}
+.langs button:hover{color:var(--white);border-color:var(--orange)}
+.langs button.on{background:var(--orange);color:var(--navy);border-color:var(--orange)}
+.hero{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.hero img{width:104px;height:104px;border-radius:50%;border:3px solid var(--orange);box-shadow:0 0 24px #ff8a2a55}
+.hero h1{font-size:56px;line-height:.95}
+.hero .tag{color:var(--blue);font-weight:700;letter-spacing:3px;text-transform:uppercase;font-size:15px;margin-top:6px}
+.hero .sub{color:var(--grey);margin-top:4px;font-size:15px}
+.stats{display:flex;gap:26px;margin:22px 0 6px;color:var(--cream);font-weight:700;font-size:15px;letter-spacing:1px}
+.stats b{color:var(--orange);font-size:19px;margin-right:5px}
+[dir="rtl"] .stats b{margin-right:0;margin-left:5px}
+section{margin-top:42px}
+h2{font-size:27px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+h2::before{content:"";display:inline-block;width:9px;height:24px;background:var(--orange);transform:skewX(-18deg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid #ffffff14;border-radius:12px;padding:18px 14px;text-align:center;text-decoration:none;color:var(--white);transition:.15s;backdrop-filter:blur(3px)}
+.card:hover{transform:translateY(-3px);border-color:var(--orange);box-shadow:0 6px 22px #0008}
+.card svg{width:38px;height:38px;margin-bottom:8px}
+.card .n{font-weight:700;font-size:16px;letter-spacing:1px}
+.card .h{color:var(--grey);font-size:12.5px;margin-top:2px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:760px){.two{grid-template-columns:1fr}.hero h1{font-size:42px}}
+.panel{background:var(--panel);border:1px solid #ffffff14;border-radius:12px;padding:18px;backdrop-filter:blur(3px)}
+.panel ul{list-style:none}
+.panel li{padding:9px 2px;border-bottom:1px solid #ffffff0e;font-size:15px;display:flex;gap:10px;align-items:baseline}
+.panel li:last-child{border-bottom:0}
+.pill{font-size:11px;font-weight:700;letter-spacing:1px;padding:2px 8px;border-radius:20px;background:#3a7dff26;color:var(--blue);white-space:nowrap}
+.pill.o{background:#ff8a2a26;color:var(--orange)}
+.fmt{font-size:10px;font-weight:700;letter-spacing:1px;padding:2px 7px;border-radius:4px;white-space:nowrap;transform:skewX(-8deg);display:inline-block}
+.fmt.L{background:var(--orange);color:var(--navy)}
+.fmt.S{background:#3a7dff2e;color:#8ab0ff;border:1px solid #3a7dff66}
+.panel a{color:var(--white);text-decoration:none}
+.panel a:hover{color:var(--orange)}
+.watch{display:grid;grid-template-columns:2fr 1fr;gap:16px;align-items:start}
+@media(max-width:760px){.watch{grid-template-columns:1fr}}
+.embed{position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;border:1px solid #ffffff14;background:#000}
+.embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.nextup{display:block;background:var(--panel);border:1px solid #ffffff14;border-radius:12px;overflow:hidden;text-decoration:none;color:var(--white);transition:.15s;backdrop-filter:blur(3px)}
+.nextup:hover{transform:translateY(-3px);border-color:var(--orange);box-shadow:0 6px 22px #0008}
+.nu-label{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;letter-spacing:2px;font-size:15px;color:var(--orange);padding:10px 14px 6px}
+.nu-thumb{position:relative;padding-top:56.25%;background:linear-gradient(135deg,#171c2e,#0e1120)}
+.nu-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.nu-thumb .pill{position:absolute;left:10px;bottom:10px;background:#0e1120d9;color:var(--cream);border:1px solid #ffffff22}
+[dir="rtl"] .nu-thumb .pill{left:auto;right:10px}
+.nu-title{padding:10px 14px 14px;font-weight:700;font-size:15.5px;line-height:1.25}
+.side{display:flex;flex-direction:column;gap:16px}
+.nextup.prev .nu-label{color:var(--blue)}
+.aff a{color:var(--cream);text-decoration:none;font-weight:700}
+.aff a:hover{color:var(--orange)}
+.gear{color:var(--grey);font-size:14px;margin-top:14px;letter-spacing:1px}
+.gear b{color:var(--white)}
+.ftc{color:#6c7488;font-size:12px;margin-top:10px}
+footer{margin-top:52px;text-align:center;color:#6c7488;font-size:13px;padding-bottom:8px}
+footer .mark{font-family:'Barlow Condensed';font-style:italic;font-weight:900;color:#ffffff2e;font-size:30px;letter-spacing:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="langs" id="langs"></div>
+
+<div class="hero">
+  <a href="https://www.youtube.com/@bosskronik?sub_confirmation=1"><img src="avatar.jpg" alt="Bosskronik"></a>
+  <div>
+    <h1>Bosskronik</h1>
+    <div class="tag" data-i18n="tag">Raw &amp; Honest Sim Racing • iRacing</div>
+    <div class="sub" data-i18n="sub">Military vet &amp; ex-pro biathlete. Full-race POVs — the wins, the crashes, and everything I got wrong.</div>
+    <div class="stats"><span><b>7.4K</b><span data-i18n="s_subs">subs</span></span><span><b>544</b><span data-i18n="s_videos">videos</span></span><span><b>248K</b><span data-i18n="s_views">views</span></span><span><b>Class A</b>iRacing</span></div>
+  </div>
+</div>
+
+<section>
+<h2 data-i18n="h_find">Find me everywhere</h2>
+<div class="grid">
+  <a class="card" href="https://www.youtube.com/@bosskronik?sub_confirmation=1">
+    <svg viewBox="0 0 24 24" fill="#FF0000"><rect x="1" y="4.5" width="22" height="15" rx="4"/><path d="M10 9l6 3-6 3z" fill="#fff"/></svg>
+    <div class="n">YouTube</div><div class="h">@bosskronik</div></a>
+  <a class="card" href="https://rumble.com/user/Bosskronik">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="#85c742"/><path d="M9.5 7.5l7 4.5-7 4.5z" fill="#0e1120"/></svg>
+    <div class="n">Rumble</div><div class="h">Bosskronik</div></a>
+  <a class="card" href="https://x.com/Bosskronik">
+    <svg viewBox="0 0 24 24" fill="#f5f7fc"><path d="M3 2h5.6l4.9 6.9L19.4 2H22l-7.3 8.7L22.5 22h-5.6l-5.3-7.4L5 22H2.3l8-9.5z"/></svg>
+    <div class="n">X</div><div class="h">@Bosskronik</div></a>
+  <a class="card" href="https://www.tiktok.com/@bosskronik">
+    <svg viewBox="0 0 24 24"><path d="M15 3c.4 2.3 1.9 3.8 4.3 4v3.2c-1.6 0-3-.5-4.3-1.4v6.5c0 4-2.7 6.2-5.9 6.2A5.5 5.5 0 0 1 3.6 16c0-3.4 2.9-5.8 6.3-5.4v3.3c-1.6-.4-3.1.6-3.1 2.1 0 1.4 1.1 2.4 2.4 2.4 1.5 0 2.6-1.1 2.6-3V3z" fill="#f5f7fc"/><path d="M15 3c.4 2.3 1.9 3.8 4.3 4v2.1C16.6 8.9 15.2 7 15 5z" fill="#ff0050"/></svg>
+    <div class="n">TikTok</div><div class="h">@bosskronik</div></a>
+  <a class="card" href="https://www.instagram.com/bosskronik/">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#e23a9c" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.6" cy="6.4" r="1.3" fill="#e23a9c" stroke="none"/></svg>
+    <div class="n">Instagram</div><div class="h">@bosskronik</div></a>
+  <a class="card" href="https://www.facebook.com/968005913043248">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="#1877f2"/><path d="M13.3 21v-7h2.3l.4-2.8h-2.7v-1.8c0-.8.3-1.4 1.5-1.4h1.3V5.5c-.3 0-1.1-.1-2-.1-2 0-3.4 1.2-3.4 3.5v2.3H8.5V14h2.2v7z" fill="#fff"/></svg>
+    <div class="n">Facebook</div><div class="h">BossKronik</div></a>
+</div>
+</section>
+
+<section class="two">
+  <div>
+    <h2 data-i18n="h_latest">Latest drops</h2>
+    <div class="panel"><ul id="latest"><li data-i18n="loading">Loading…</li></ul></div>
+  </div>
+  <div>
+    <h2 data-i18n="h_coming">Coming up</h2>
+    <div class="panel"><ul id="upcoming"><li data-i18n="loading">Loading…</li></ul></div>
+  </div>
+</section>
+
+<section>
+<h2 data-i18n="h_watch">Latest race — watch here</h2>
+<div class="watch">
+  <div class="embed"><iframe id="player" src="https://www.youtube.com/embed/5h3JP1-KE_Q" title="Latest Bosskronik race" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+  <div class="side">
+  <a class="nextup" id="nextup" href="https://www.youtube.com/@bosskronik" hidden>
+    <div class="nu-label" id="nu-label">NEXT UP</div>
+    <div class="nu-thumb"><img id="nu-img" alt="" hidden><span class="pill" id="nu-when"></span></div>
+    <div class="nu-title" id="nu-title"></div>
+  </a>
+  <a class="nextup prev" id="prevtop" href="https://www.youtube.com/@bosskronik" hidden>
+    <div class="nu-label" id="pv-label">PREVIOUSLY — TOP RACE</div>
+    <div class="nu-thumb"><img id="pv-img" alt="" hidden><span class="pill o" id="pv-tag">LAST WEEK</span></div>
+    <div class="nu-title" id="pv-title"></div>
+  </a>
+  </div>
+</div>
+</section>
+
+<section class="aff">
+<h2 data-i18n="h_support">Support the channel &amp; gear</h2>
+<div class="panel">
+<ul>
+  <li><a href="https://filmora.pxf.io/c/7279452/2787935/31971" data-i18n="a_filmora">Filmora — what I use to edit</a></li>
+  <li><a href="https://vidiq.com/bosskronik" data-i18n="a_vidiq">vidIQ — grow your channel faster</a></li>
+  <li><a href="https://wallet.rumble.com/tip/u/Bosskronik" data-i18n="a_rumble">Rumble tip jar — support the channel</a></li>
+</ul>
+<div class="gear"><span data-i18n="g_rig">ON THE RIG</span> — <b>DOF Reality H3</b> <span data-i18n="g_motion">motion rig</span> • <b>MOZA R21 Ultra</b> <span data-i18n="g_base">wheelbase</span></div>
+<div class="ftc" data-i18n="ftc">Some links above are affiliate links — if you buy through them I earn a commission at no extra cost to you.</div>
+</div>
+</section>
+
+<footer>
+  <div class="mark">BOSSKRONIK</div>
+  <div data-i18n="footer">© 2026 Bosskronik — raw &amp; honest sim racing. Site auto-updated by the cross-post watcher.</div>
+</footer>
+</div>
+
+<script>
+const I18N={
+en:{tag:"Raw & Honest Sim Racing • iRacing",sub:"Military vet & ex-pro biathlete. Full-race POVs — the wins, the crashes, and everything I got wrong.",s_subs:"subs",s_videos:"videos",s_views:"views",h_find:"Find me everywhere",h_latest:"Latest drops",h_coming:"Coming up",h_watch:"Latest race — watch here",h_support:"Support the channel & gear",full:"FULL RACE",short:"SHORT",nextup:"NEXT UP",prev:"PREVIOUSLY — TOP RACE",lastweek:"LAST WEEK",views:"VIEWS",a_filmora:"Filmora — what I use to edit",a_vidiq:"vidIQ — grow your channel faster",a_rumble:"Rumble tip jar — support the channel",g_rig:"ON THE RIG",g_motion:"motion rig",g_base:"wheelbase",ftc:"Some links above are affiliate links — if you buy through them I earn a commission at no extra cost to you.",footer:"© 2026 Bosskronik — raw & honest sim racing. Site auto-updated by the cross-post watcher.",loading:"Loading…",fb_latest:"See the channel for the latest →",fb_up:"New races every week 🏁"},
+fr:{tag:"Sim racing brut & honnête • iRacing",sub:"Vétéran militaire et ex-biathlète pro. Courses complètes en POV — les victoires, les crashs, et tout ce que j'ai raté.",s_subs:"abonnés",s_videos:"vidéos",s_views:"vues",h_find:"Retrouvez-moi partout",h_latest:"Dernières sorties",h_coming:"À venir",h_watch:"Dernière course — à regarder ici",h_support:"Soutenez la chaîne & équipement",full:"COURSE COMPLÈTE",short:"SHORT",nextup:"À SUIVRE",prev:"PRÉCÉDEMMENT — TOP COURSE",lastweek:"SEMAINE DERNIÈRE",views:"VUES",a_filmora:"Filmora — ce que j'utilise pour le montage",a_vidiq:"vidIQ — développez votre chaîne plus rapidement",a_rumble:"Pourboire Rumble — soutenez la chaîne",g_rig:"SUR LE RIG",g_motion:"simulateur dynamique",g_base:"base de volant",ftc:"Certains liens ci-dessus sont des liens affiliés — si vous achetez via ces liens, je touche une commission sans coût supplémentaire pour vous.",footer:"© 2026 Bosskronik — sim racing brut et honnête. Site mis à jour automatiquement.",loading:"Chargement…",fb_latest:"Voir la chaîne pour les nouveautés →",fb_up:"Nouvelles courses chaque semaine 🏁"},
+pt:{tag:"Sim racing cru & honesto • iRacing",sub:"Veterano militar e ex-biatleta profissional. Corridas completas em POV — as vitórias, as batidas e tudo que eu errei.",s_subs:"inscritos",s_videos:"vídeos",s_views:"views",h_find:"Me encontre em todo lugar",h_latest:"Últimos lançamentos",h_coming:"Em breve",h_watch:"Última corrida — assista aqui",h_support:"Apoie o canal & equipamentos",full:"CORRIDA COMPLETA",short:"SHORT",nextup:"A SEGUIR",prev:"ANTERIORMENTE — MELHOR CORRIDA",lastweek:"SEMANA PASSADA",views:"VIEWS",a_filmora:"Filmora — o que eu uso para editar",a_vidiq:"vidIQ — cresça seu canal mais rápido",a_rumble:"Gorjeta no Rumble — apoie o canal",g_rig:"NO RIG",g_motion:"rig de movimento",g_base:"base do volante",ftc:"Alguns links acima são de afiliados — comprando por eles eu ganho uma comissão sem custo extra para você.",footer:"© 2026 Bosskronik — sim racing cru e honesto. Site atualizado automaticamente.",loading:"Carregando…",fb_latest:"Veja o canal para as novidades →",fb_up:"Corridas novas toda semana 🏁"},
+id:{tag:"Sim racing apa adanya & jujur • iRacing",sub:"Veteran militer & mantan atlet biathlon pro. POV balapan penuh — kemenangan, tabrakan, dan semua kesalahan saya.",s_subs:"subscriber",s_videos:"video",s_views:"views",h_find:"Temukan saya di mana saja",h_latest:"Rilisan terbaru",h_coming:"Segera hadir",h_watch:"Balapan terbaru — tonton di sini",h_support:"Dukung channel & gear",full:"BALAPAN PENUH",short:"SHORT",nextup:"SELANJUTNYA",prev:"SEBELUMNYA — BALAPAN TERBAIK",lastweek:"MINGGU LALU",views:"VIEWS",a_filmora:"Filmora — yang saya pakai untuk editing",a_vidiq:"vidIQ — kembangkan channel lebih cepat",a_rumble:"Tip jar Rumble — dukung channel",g_rig:"DI RIG",g_motion:"rig gerak",g_base:"wheelbase",ftc:"Beberapa tautan di atas adalah tautan afiliasi — pembelian melalui tautan itu memberi saya komisi tanpa biaya tambahan bagi Anda.",footer:"© 2026 Bosskronik — sim racing apa adanya dan jujur. Situs diperbarui otomatis.",loading:"Memuat…",fb_latest:"Lihat channel untuk yang terbaru →",fb_up:"Balapan baru setiap minggu 🏁"},
+ar:{tag:"سباقات محاكاة صريحة وصادقة • iRacing",sub:"محارب قديم ورياضي بياثلون محترف سابق. سباقات كاملة بمنظور السائق — الانتصارات والحوادث وكل أخطائي.",s_subs:"مشترك",s_videos:"فيديو",s_views:"مشاهدة",h_find:"تابعني في كل مكان",h_latest:"أحدث الإصدارات",h_coming:"قادم قريبًا",h_watch:"أحدث سباق — شاهده هنا",h_support:"ادعم القناة والمعدات",full:"سباق كامل",short:"مقطع قصير",nextup:"التالي",prev:"سابقًا — أفضل سباق",lastweek:"الأسبوع الماضي",views:"مشاهدة",a_filmora:"Filmora — ما أستخدمه للمونتاج",a_vidiq:"vidIQ — نمِّ قناتك أسرع",a_rumble:"دعم القناة عبر Rumble",g_rig:"على المنصة",g_motion:"منصة حركة",g_base:"قاعدة المقود",ftc:"بعض الروابط أعلاه روابط تابعة — الشراء عبرها يمنحني عمولة دون أي تكلفة إضافية عليك.",footer:"© 2026 Bosskronik — سباقات محاكاة صريحة وصادقة. يُحدَّث الموقع تلقائيًا.",loading:"جارٍ التحميل…",fb_latest:"زر القناة لأحدث الفيديوهات ←",fb_up:"سباقات جديدة كل أسبوع 🏁"},
+ja:{tag:"リアルで正直なシムレーシング • iRacing",sub:"元軍人・元プロバイアスロン選手。フルレースPOV — 勝利もクラッシュも、失敗も全部。",s_subs:"登録者",s_videos:"本",s_views:"回視聴",h_find:"各プラットフォームで",h_latest:"最新の投稿",h_coming:"公開予定",h_watch:"最新レース — ここで視聴",h_support:"チャンネル支援 & 機材",full:"フルレース",short:"ショート",nextup:"次の動画",prev:"先週のトップレース",lastweek:"先週",views:"回視聴",a_filmora:"Filmora — 編集に使用",a_vidiq:"vidIQ — チャンネル成長ツール",a_rumble:"Rumbleでチップを送る",g_rig:"使用リグ",g_motion:"モーションリグ",g_base:"ホイールベース",ftc:"上記の一部はアフィリエイトリンクです。ご購入いただくと、追加費用なしで手数料を受け取ります。",footer:"© 2026 Bosskronik — リアルで正直なシムレーシング。サイトは自動更新されます。",loading:"読み込み中…",fb_latest:"最新はチャンネルで →",fb_up:"毎週新しいレースを公開 🏁"},
+es:{tag:"Sim racing crudo y honesto • iRacing",sub:"Veterano militar y ex biatleta profesional. Carreras completas en POV — las victorias, los choques y todo lo que hice mal.",s_subs:"subs",s_videos:"vídeos",s_views:"vistas",h_find:"Encuéntrame en todas partes",h_latest:"Últimos lanzamientos",h_coming:"Próximamente",h_watch:"Última carrera — mírala aquí",h_support:"Apoya el canal y equipo",full:"CARRERA COMPLETA",short:"SHORT",nextup:"A CONTINUACIÓN",prev:"ANTERIORMENTE — MEJOR CARRERA",lastweek:"SEMANA PASADA",views:"VISTAS",a_filmora:"Filmora — lo que uso para editar",a_vidiq:"vidIQ — haz crecer tu canal más rápido",a_rumble:"Propinas en Rumble — apoya el canal",g_rig:"EN EL RIG",g_motion:"rig de movimiento",g_base:"base del volante",ftc:"Algunos enlaces son de afiliados — si compras a través de ellos gano una comisión sin costo extra para ti.",footer:"© 2026 Bosskronik — sim racing crudo y honesto. Sitio actualizado automáticamente.",loading:"Cargando…",fb_latest:"Mira el canal para lo último →",fb_up:"Carreras nuevas cada semana 🏁"},
+de:{tag:"Ehrliches Sim-Racing ohne Filter • iRacing",sub:"Militärveteran & Ex-Profi-Biathlet. Komplette Rennen in POV — die Siege, die Crashes und alles, was ich falsch gemacht habe.",s_subs:"Abos",s_videos:"Videos",s_views:"Aufrufe",h_find:"Überall zu finden",h_latest:"Neueste Uploads",h_coming:"Demnächst",h_watch:"Neuestes Rennen — hier ansehen",h_support:"Kanal unterstützen & Ausrüstung",full:"GANZES RENNEN",short:"SHORT",nextup:"ALS NÄCHSTES",prev:"ZULETZT — TOP-RENNEN",lastweek:"LETZTE WOCHE",views:"AUFRUFE",a_filmora:"Filmora — womit ich schneide",a_vidiq:"vidIQ — lass deinen Kanal schneller wachsen",a_rumble:"Rumble-Trinkgeld — unterstütze den Kanal",g_rig:"AM RIG",g_motion:"Motion-Rig",g_base:"Wheelbase",ftc:"Einige Links oben sind Affiliate-Links — bei einem Kauf erhalte ich eine Provision ohne Mehrkosten für dich.",footer:"© 2026 Bosskronik — ehrliches Sim-Racing ohne Filter. Website wird automatisch aktualisiert.",loading:"Lädt…",fb_latest:"Das Neueste auf dem Kanal →",fb_up:"Jede Woche neue Rennen 🏁"}
+};
+const LANGS=[["en","EN"],["fr","FR"],["pt","PT"],["id","ID"],["ar","AR"],["ja","日本語"],["es","ES"],["de","DE"]];
+let LANG='en';
+try{LANG=localStorage.getItem('bk-lang')||((navigator.language||'en').slice(0,2));}catch(e){}
+if(!I18N[LANG])LANG='en';
+let DATA=null;
+const t=k=>(I18N[LANG]&&I18N[LANG][k])||I18N.en[k]||k;
+const langsEl=document.getElementById('langs');
+langsEl.innerHTML=LANGS.map(l=>`<button data-lang="${l[0]}">${l[1]}</button>`).join('');
+langsEl.addEventListener('click',e=>{const b=e.target.closest('button');if(b)setLang(b.dataset.lang);});
+function applyStatic(){
+  document.documentElement.lang=LANG;
+  document.documentElement.dir=(LANG==='ar')?'rtl':'ltr';
+  document.querySelectorAll('[data-i18n]').forEach(el=>{el.textContent=t(el.dataset.i18n);});
+  document.querySelectorAll('#langs button').forEach(b=>b.classList.toggle('on',b.dataset.lang===LANG));
+}
+function setLang(l){LANG=I18N[l]?l:'en';try{localStorage.setItem('bk-lang',LANG);}catch(e){}applyStatic();render();}
+const fmt=i=>i.format==='long'?`<span class="fmt L">${t('full')}</span>`:(i.format==='short'?`<span class="fmt S">${t('short')}</span>`:'');
+function thumbInto(imId,src){const im=document.getElementById(imId);im.hidden=false;im.src=src;
+  im.onerror=()=>{if(im.src.includes('maxresdefault')){im.src=src.replace('maxresdefault','hqdefault');}else{im.hidden=true;}};}
+function render(){
+  if(!DATA)return;const c=DATA;
+  document.getElementById('latest').innerHTML=c.latest.map(i=>`<li><span class="pill o">${i.platform}</span>${fmt(i)}<a href="${i.url}">${i.title}</a></li>`).join('');
+  document.getElementById('upcoming').innerHTML=c.upcoming.map(i=>`<li><span class="pill">${i.when}</span>${fmt(i)}<span>${i.what}</span></li>`).join('');
+  if(c.featured&&c.featured.id){const p=document.getElementById('player'),src='https://www.youtube.com/embed/'+c.featured.id;if(p.src!==src)p.src=src;}
+  const n=c.next_up||(c.upcoming&&c.upcoming[0]);
+  if(n){
+    const card=document.getElementById('nextup');card.hidden=false;
+    if(n.url)card.href=n.url;
+    document.getElementById('nu-label').textContent=t('nextup')+(n.format?' — '+(n.format==='long'?t('full'):t('short')):'');
+    document.getElementById('nu-when').textContent=n.when||'';
+    document.getElementById('nu-title').textContent=n.what||n.title||'';
+    if(n.thumb)thumbInto('nu-img',n.thumb);
+  }
+  const p=c.previously;
+  if(p){
+    const pc=document.getElementById('prevtop');pc.hidden=false;
+    if(p.url)pc.href=p.url;
+    document.getElementById('pv-label').textContent=t('prev');
+    document.getElementById('pv-tag').textContent=t('lastweek')+(p.views?' · '+p.views+' '+t('views'):'');
+    document.getElementById('pv-title').textContent=p.title||'';
+    if(p.thumb)thumbInto('pv-img',p.thumb);
+  }
+}
+applyStatic();
+fetch('content.json?t='+Date.now()).then(r=>r.json()).then(c=>{DATA=c;render();}).catch(()=>{
+  document.getElementById('latest').innerHTML=`<li><a href="https://www.youtube.com/@bosskronik/videos">${t('fb_latest')}</a></li>`;
+  document.getElementById('upcoming').innerHTML=`<li>${t('fb_up')}</li>`;
+});
+</script>
+</body>
+</html>
