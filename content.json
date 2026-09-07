@@ -1,53 +1,53 @@
 {
-  "updated": "2026-08-26T15:20:36.457819+00:00",
+  "updated": "2026-09-07T15:12:00.329056+00:00",
   "featured": {
-    "id": "Smq2-K0u-L0",
-    "title": "Ferrari 296 Challenge: Close Wheel-to-Wheel Battle Every Lap"
+    "id": "9j0S4EM1tzM",
+    "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down"
   },
   "previously": {
-    "id": "kwD2OEhSxHc",
-    "title": "My Formula 3 Crash and Recovery: From Chaos to Finish Line",
-    "url": "https://youtu.be/kwD2OEhSxHc",
-    "thumb": "https://i.ytimg.com/vi/kwD2OEhSxHc/maxresdefault.jpg",
-    "views": 5,
+    "id": "Jn7YT9HCqHY",
+    "title": "That Escalated Fast | iRacing SF23 Toyota",
+    "url": "https://youtu.be/Jn7YT9HCqHY",
+    "thumb": "https://i.ytimg.com/vi/Jn7YT9HCqHY/maxresdefault.jpg",
+    "views": 80,
     "format": "long"
   },
   "latest": [
     {
       "platform": "youtube",
+      "format": "short",
+      "title": "POV: That One Lap Got Rough in Formula Ray F1600",
+      "url": "https://www.youtube.com/shorts/dkbjCR-Y9zA"
+    },
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "Heat Them Apples - Formula Ray F1600 Incident",
+      "url": "https://www.youtube.com/shorts/U_idpXDypB8"
+    },
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "Didn't Expect That In Formula Ray F1600",
+      "url": "https://www.youtube.com/shorts/6WuE8PQlfk0"
+    },
+    {
+      "platform": "youtube",
       "format": "long",
-      "title": "Ferrari 296 Challenge: Close Wheel-to-Wheel Battle Every Lap",
-      "url": "https://youtu.be/Smq2-K0u-L0"
-    },
-    {
-      "platform": "youtube",
-      "format": "short",
-      "title": "POV: My Formula 3 Crash - Let's See This",
-      "url": "https://www.youtube.com/shorts/cpVm6o7ukI0"
-    },
-    {
-      "platform": "youtube",
-      "format": "short",
-      "title": "Crash! Unfortunate Moment in Formula 3",
-      "url": "https://www.youtube.com/shorts/8Z5_NvNcAv4"
+      "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down",
+      "url": "https://youtu.be/9j0S4EM1tzM"
     },
     {
       "platform": "youtube",
       "format": "long",
-      "title": "My Formula 3 Crash and Recovery: From Chaos to Finish Line",
-      "url": "https://youtu.be/kwD2OEhSxHc"
+      "title": "That Escalated Fast | iRacing SF23 Toyota",
+      "url": "https://youtu.be/Jn7YT9HCqHY"
     },
     {
       "platform": "youtube",
       "format": "short",
-      "title": "Unexpected Race Start in Super Formula SF23 | iRacing Class A",
-      "url": "https://www.youtube.com/shorts/C7dHznRiqOg"
-    },
-    {
-      "platform": "youtube",
-      "format": "short",
-      "title": "Near Miss in the Super Formula SF23 Toyota | iRacing Class A",
-      "url": "https://www.youtube.com/shorts/QvTqbiIN6gc"
+      "title": "POV: Unexpected Contact In The Ferrari 296 | iRacing Ferrari 296",
+      "url": "https://www.youtube.com/shorts/W5J7LV2LixE"
     }
   ],
   "upcoming": []
