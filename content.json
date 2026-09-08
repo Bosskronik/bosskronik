@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T18:00:04.980394+00:00",
+  "updated": "2026-09-08T21:00:04.706424+00:00",
   "featured": {
     "id": "9j0S4EM1tzM",
     "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down"
@@ -58,6 +58,16 @@
     {
       "platform": "rumble",
       "format": "short",
+      "title": "That Escalated Fast | iRacing MX-5 Cup",
+      "url": "https://rumble.com/v7f7axw-that-escalated-fast-iracing-mx-5-cup.html",
+      "thumb": null,
+      "when": "2026-09-08T17:00:00-04:00",
+      "series": "MX-5 Cup",
+      "access": "free"
+    },
+    {
+      "platform": "rumble",
+      "format": "short",
       "title": "Unexpected Bang On The Track | iRacing Toyota GR86",
       "url": "https://rumble.com/v7f7awa-unexpected-bang-on-the-track-iracing-toyota-gr86.html",
       "thumb": null,
@@ -108,11 +118,6 @@
   ],
   "upcoming": [
     {
-      "when": "Tue Sep 08 · 5:00 PM",
-      "format": "short",
-      "what": "That Escalated Fast | iRacing MX-5 Cup"
-    },
-    {
       "when": "Tue Sep 08 · 6:00 PM",
       "format": "long",
       "what": "POV Recovering From a Crash — MX-5 Global Cup"
@@ -146,6 +151,11 @@
       "when": "Wed Sep 09 · 8:00 PM",
       "format": "short",
       "what": "The High Moment At 717 | iRacing Formula Ray 1600"
+    },
+    {
+      "when": "Thu Sep 10 · 5:00 PM",
+      "format": "short",
+      "what": "That Escalated Fast | iRacing Formula Ray 1600"
     }
   ],
   "stats": {
@@ -576,6 +586,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "That Escalated Fast | iRacing MX-5 Cup",
+        "url": "https://www.patreon.com/posts/168966017",
+        "at": "2026-09-08T17:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "Unexpected Bang On The Track | iRacing Toyota GR86",
         "url": "https://www.patreon.com/posts/168969580",
         "at": "2026-09-07T20:00:00-04:00",
@@ -586,12 +602,6 @@
         "url": "https://www.patreon.com/posts/168969518",
         "at": "2026-09-07T18:30:00-04:00",
         "access": "free"
-      },
-      {
-        "title": "POV Crashed Out Fought Back in the GR86 Race",
-        "url": "https://www.patreon.com/posts/168969270",
-        "at": "2026-09-07T18:00:00-04:00",
-        "access": "paid"
       },
       {
         "title": "POV Recovering From a Crash — MX-5 Global Cup",
