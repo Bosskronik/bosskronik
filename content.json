@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T22:00:04.665470+00:00",
+  "updated": "2026-09-08T23:00:04.421465+00:00",
   "featured": {
     "id": "9j0S4EM1tzM",
     "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down"
@@ -57,6 +57,16 @@
     },
     {
       "platform": "rumble",
+      "format": "short",
+      "title": "The High Moment At 103 | iRacing MX-5 Cup",
+      "url": "https://rumble.com/v7f7ay2-the-high-moment-at-103-iracing-mx-5-cup.html",
+      "thumb": null,
+      "when": "2026-09-08T18:30:00-04:00",
+      "series": "MX-5 Cup",
+      "access": "free"
+    },
+    {
+      "platform": "rumble",
       "format": "long",
       "title": "POV Recovering From a Crash — MX-5 Global Cup | iRacing",
       "url": "https://rumble.com/v7f7axk-pov-recovering-from-a-crash-mx-5-global-cup-iracing.html",
@@ -104,24 +114,9 @@
       "when": "2026-09-07T18:30:00-04:00",
       "series": "Toyota GR86",
       "access": "free"
-    },
-    {
-      "platform": "rumble",
-      "format": "long",
-      "title": "POV Crashed Out Fought Back in the GR86 Race | iRacing Toyota GR86",
-      "url": "https://rumble.com/v7f7api-pov-crashed-out-fought-back-in-the-gr86-race-iracing-toyota-gr86.html",
-      "thumb": "https://i.ytimg.com/vi/gpNRmCFWS5c/hqdefault.jpg",
-      "when": "2026-09-07T18:00:00-04:00",
-      "series": "Toyota GR86",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Tue Sep 08 · 6:30 PM",
-      "format": "short",
-      "what": "The High Moment At 103 | iRacing MX-5 Cup"
-    },
     {
       "when": "Tue Sep 08 · 8:00 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Thu Sep 10 · 6:00 PM",
       "format": "long",
       "what": "POV Formula Ray 1600 Crash and Comeback Battle"
+    },
+    {
+      "when": "Thu Sep 10 · 6:30 PM",
+      "format": "short",
+      "what": "The High Moment At 708 | iRacing Formula Ray 1600"
     }
   ],
   "stats": {
@@ -586,6 +586,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "The High Moment At 103 | iRacing MX-5 Cup",
+        "url": "https://www.patreon.com/posts/168966079",
+        "at": "2026-09-08T18:30:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "POV Recovering From a Crash — MX-5 Global Cup",
         "url": "https://www.patreon.com/posts/168969624",
         "at": "2026-09-08T18:00:00-04:00",
@@ -595,12 +601,6 @@
         "title": "That Escalated Fast | iRacing MX-5 Cup",
         "url": "https://www.patreon.com/posts/168966017",
         "at": "2026-09-08T17:00:00-04:00",
-        "access": "free"
-      },
-      {
-        "title": "Unexpected Bang On The Track | iRacing Toyota GR86",
-        "url": "https://www.patreon.com/posts/168969580",
-        "at": "2026-09-07T20:00:00-04:00",
         "access": "free"
       },
       {
