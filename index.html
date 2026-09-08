@@ -17,6 +17,8 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:'Rajdhani',sans-serif;color:var(--white);background:var(--navy) url('wallpaper.jpg') center top/cover fixed no-repeat;min-height:100vh}
+/* tone the wallpaper down so its baked-in lettering reads as texture, not as text */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,#0a0e1a99 0,#0a0e1ae6 80px,#0a0e1ae6 340px,#0a0e1a99 470px,#0a0e1a99 100%)}
 a{color:inherit}
 .wrap{max-width:1100px;margin:0 auto;padding:28px 20px 40px}
 h1,h2,h3,.hd{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;letter-spacing:.5px;text-transform:uppercase}
