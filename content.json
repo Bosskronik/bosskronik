@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T21:00:04.706424+00:00",
+  "updated": "2026-09-08T22:00:04.665470+00:00",
   "featured": {
     "id": "9j0S4EM1tzM",
     "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down"
@@ -57,6 +57,26 @@
     },
     {
       "platform": "rumble",
+      "format": "long",
+      "title": "POV Recovering From a Crash — MX-5 Global Cup | iRacing",
+      "url": "https://rumble.com/v7f7axk-pov-recovering-from-a-crash-mx-5-global-cup-iracing.html",
+      "thumb": "https://i.ytimg.com/vi/WX1e19egNa0/hqdefault.jpg",
+      "when": "2026-09-08T18:00:00-04:00",
+      "series": "MX-5 Cup",
+      "access": "free"
+    },
+    {
+      "platform": "patreon",
+      "format": "long",
+      "title": "POV Recovering From a Crash — MX-5 Global Cup | iRacing",
+      "url": "https://www.patreon.com/posts/168969624",
+      "thumb": "https://i.ytimg.com/vi/WX1e19egNa0/hqdefault.jpg",
+      "when": "2026-09-08T18:00:00-04:00",
+      "series": "MX-5 Cup",
+      "access": "paid"
+    },
+    {
+      "platform": "rumble",
       "format": "short",
       "title": "That Escalated Fast | iRacing MX-5 Cup",
       "url": "https://rumble.com/v7f7axw-that-escalated-fast-iracing-mx-5-cup.html",
@@ -94,34 +114,9 @@
       "when": "2026-09-07T18:00:00-04:00",
       "series": "Toyota GR86",
       "access": "free"
-    },
-    {
-      "platform": "patreon",
-      "format": "long",
-      "title": "POV Crashed Out Fought Back in the GR86 Race | iRacing Toyota GR86",
-      "url": "https://www.patreon.com/posts/168969270",
-      "thumb": "https://i.ytimg.com/vi/gpNRmCFWS5c/hqdefault.jpg",
-      "when": "2026-09-07T18:00:00-04:00",
-      "series": "Toyota GR86",
-      "access": "paid"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "That Escalated Fast | iRacing Toyota GR86",
-      "url": "https://rumble.com/v7f7ave-that-escalated-fast-iracing-toyota-gr86.html",
-      "thumb": null,
-      "when": "2026-09-07T17:00:00-04:00",
-      "series": "Toyota GR86",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Tue Sep 08 · 6:00 PM",
-      "format": "long",
-      "what": "POV Recovering From a Crash — MX-5 Global Cup"
-    },
     {
       "when": "Tue Sep 08 · 6:30 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Thu Sep 10 · 5:00 PM",
       "format": "short",
       "what": "That Escalated Fast | iRacing Formula Ray 1600"
+    },
+    {
+      "when": "Thu Sep 10 · 6:00 PM",
+      "format": "long",
+      "what": "POV Formula Ray 1600 Crash and Comeback Battle"
     }
   ],
   "stats": {
@@ -586,6 +586,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "POV Recovering From a Crash — MX-5 Global Cup",
+        "url": "https://www.patreon.com/posts/168969624",
+        "at": "2026-09-08T18:00:00-04:00",
+        "access": "paid"
+      },
+      {
         "title": "That Escalated Fast | iRacing MX-5 Cup",
         "url": "https://www.patreon.com/posts/168966017",
         "at": "2026-09-08T17:00:00-04:00",
@@ -598,25 +604,19 @@
         "access": "free"
       },
       {
-        "title": "The High Moment At 021 | iRacing Toyota GR86",
-        "url": "https://www.patreon.com/posts/168969518",
-        "at": "2026-09-07T18:30:00-04:00",
-        "access": "free"
-      },
-      {
-        "title": "POV Recovering From a Crash — MX-5 Global Cup",
-        "url": "https://www.patreon.com/posts/168969624",
-        "at": "2026-09-08T18:00:00-04:00",
+        "title": "POV Crash and Comeback in Formula Ray 1600 Chaos",
+        "url": "https://www.patreon.com/posts/168969713",
+        "at": "2026-09-09T18:00:00-04:00",
         "access": "paid"
       }
     ]
   },
   "next_up": {
-    "when": "Tue Sep 08 · 6:00 PM ET",
-    "what": "POV Recovering From a Crash — MX-5 Global Cup",
+    "when": "Wed Sep 09 · 6:00 PM ET",
+    "what": "POV Crash and Comeback in Formula Ray 1600 Chaos",
     "format": "long",
-    "url": "https://rumble.com/v7f7axk-pov-recovering-from-a-crash-mx-5-global-cup-iracing.html",
-    "thumb": "https://i.ytimg.com/vi/WX1e19egNa0/hqdefault.jpg"
+    "url": "https://rumble.com/v7f7b1a-pov-crash-and-comeback-in-formula-ray-1600-chaos-iracing.html",
+    "thumb": "https://i.ytimg.com/vi/xrKNUimJLms/hqdefault.jpg"
   },
   "site_version": 6
 }
