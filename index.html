@@ -2,73 +2,143 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<!-- This site is hosted on Netlify. Anyone can build and deploy a site
-     like this one for free: https://netlify.new/?utm_campaign=ai-legible&utm_source=comment&utm_medium=referral&utm_id=54d78c16-acaf-48c8-b74a-8cb86896c1b5
-     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
-<meta name="hosting-provider" content="Netlify">
-<meta name="netlify-deploy" content="https://netlify.new/?utm_campaign=ai-legible&amp;utm_source=meta&amp;utm_medium=referral&amp;utm_id=54d78c16-acaf-48c8-b74a-8cb86896c1b5">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BOSSKRONIK — Raw & Honest Sim Racing</title>
-<meta name="description" content="iRacing full-race POVs, crashes, comebacks and Class A grind. Military vet & ex-pro biathlete. YouTube, Rumble, TikTok, Instagram, X.">
+<meta name="description" content="iRacing full-race POVs, crashes, comebacks and the Class A grind. Watch on YouTube, Rumble, TikTok, Instagram, Facebook and X — full races for members on Patreon.">
+<meta property="og:title" content="BOSSKRONIK — Raw & Honest Sim Racing">
+<meta property="og:description" content="Full-race iRacing POVs — the wins, the crashes, and everything I got wrong. New races every week on every platform.">
+<meta property="og:image" content="wallpaper.jpg">
+<meta property="og:type" content="website">
 <link rel="icon" href="avatar.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,800;1,900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,800;1,900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#0e1120;--panel:#141828e6;--orange:#ff8a2a;--blue:#3a7dff;--magenta:#e23a9c;--cream:#fff6c8;--white:#f5f7fc;--grey:#969eb2}
+:root{--navy:#0e1120;--panel:#141828e6;--panel2:#1a2036;--orange:#ff8a2a;--blue:#3a7dff;--magenta:#e23a9c;--patreon:#ff5c5c;--green:#85c742;--cream:#fff6c8;--white:#f5f7fc;--grey:#969eb2;--line:#ffffff14}
 *{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{font-family:'Rajdhani',sans-serif;color:var(--white);background:var(--navy) url('wallpaper.jpg') center top/cover fixed no-repeat;min-height:100vh}
-.wrap{max-width:1060px;margin:0 auto;padding:48px 20px 40px}
-h1,h2,.hd{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;letter-spacing:.5px;text-transform:uppercase}
-.langs{display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap;margin-bottom:18px}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 20px 40px}
+h1,h2,h3,.hd{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;letter-spacing:.5px;text-transform:uppercase}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.live{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:700}
+.live i{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 #85c74299;animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 #85c74299}70%{box-shadow:0 0 0 8px #85c74200}100%{box-shadow:0 0 0 0 #85c74200}}
+.langs{display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap}
 .langs button{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:12px;letter-spacing:1px;padding:4px 10px;border-radius:20px;border:1px solid #ffffff22;background:var(--panel);color:var(--grey);cursor:pointer;transition:.15s}
 .langs button:hover{color:var(--white);border-color:var(--orange)}
 .langs button.on{background:var(--orange);color:var(--navy);border-color:var(--orange)}
-.hero{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
-.hero img{width:104px;height:104px;border-radius:50%;border:3px solid var(--orange);box-shadow:0 0 24px #ff8a2a55}
-.hero h1{font-size:56px;line-height:.95}
-.hero .tag{color:var(--blue);font-weight:700;letter-spacing:3px;text-transform:uppercase;font-size:15px;margin-top:6px}
-.hero .sub{color:var(--grey);margin-top:4px;font-size:15px}
-.stats{display:flex;gap:26px;margin:22px 0 6px;color:var(--cream);font-weight:700;font-size:15px;letter-spacing:1px}
-.stats b{color:var(--orange);font-size:19px;margin-right:5px}
+/* hero */
+.hero{display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px 28px;backdrop-filter:blur(8px);box-shadow:0 10px 40px #0006}
+.hero img{width:118px;height:118px;border-radius:50%;border:3px solid var(--orange);box-shadow:0 0 28px #ff8a2a66}
+.hero h1{font-size:64px;line-height:.92}
+.hero .tag{color:var(--blue);font-weight:700;letter-spacing:3px;text-transform:uppercase;font-size:15px;margin-top:8px}
+.hero .sub{color:var(--grey);margin-top:6px;font-size:15.5px;max-width:640px}
+.stats{display:flex;gap:26px;margin:18px 0 0;color:var(--cream);font-weight:700;font-size:15px;letter-spacing:1px;flex-wrap:wrap}
+.stats b{color:var(--orange);font-size:20px;margin-right:5px}
 [dir="rtl"] .stats b{margin-right:0;margin-left:5px}
-section{margin-top:42px}
-h2{font-size:27px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;text-transform:uppercase;letter-spacing:1.5px;font-size:16px;padding:11px 20px;border-radius:8px;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:.15s;border:1px solid transparent;transform:skewX(-6deg)}
+.btn>*{transform:skewX(6deg)}
+.btn.p{background:var(--orange);color:var(--navy)}
+.btn.p:hover{background:#ffa458;box-shadow:0 6px 22px #ff8a2a55}
+.btn.m{background:var(--patreon);color:#fff}
+.btn.m:hover{background:#ff7a7a;box-shadow:0 6px 22px #ff5c5c55}
+.btn.g{background:var(--panel);color:var(--white);border-color:#ffffff22}
+.btn.g:hover{border-color:var(--orange)}
+@media(max-width:760px){.hero{grid-template-columns:1fr;text-align:center;justify-items:center;padding:20px 16px}.hero h1{font-size:44px}.stats,.ctas{justify-content:center}h2 small{flex-basis:100%;margin-left:19px}}
+section{margin-top:46px}
+h2{font-size:28px;margin-bottom:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 h2::before{content:"";display:inline-block;width:9px;height:24px;background:var(--orange);transform:skewX(-18deg)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
-.card{background:var(--panel);border:1px solid #ffffff14;border-radius:12px;padding:18px 14px;text-align:center;text-decoration:none;color:var(--white);transition:.15s;backdrop-filter:blur(3px)}
-.card:hover{transform:translateY(-3px);border-color:var(--orange);box-shadow:0 6px 22px #0008}
-.card svg{width:38px;height:38px;margin-bottom:8px}
-.card .n{font-weight:700;font-size:16px;letter-spacing:1px}
-.card .h{color:var(--grey);font-size:12.5px;margin-top:2px}
-.card .c{margin-top:8px;font-weight:700;font-size:14px;color:var(--orange)}
-.card .c small{display:block;font-weight:400;font-size:10.5px;color:var(--grey);letter-spacing:.5px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media(max-width:760px){.two{grid-template-columns:1fr}.hero h1{font-size:42px}}
-.panel{background:var(--panel);border:1px solid #ffffff14;border-radius:12px;padding:18px;backdrop-filter:blur(3px)}
-.panel ul{list-style:none}
-.panel li{padding:9px 2px;border-bottom:1px solid #ffffff0e;font-size:15px;display:flex;gap:10px;align-items:baseline}
-.panel li:last-child{border-bottom:0}
-.pill{font-size:11px;font-weight:700;letter-spacing:1px;padding:2px 8px;border-radius:20px;background:#3a7dff26;color:var(--blue);white-space:nowrap}
-.pill.o{background:#ff8a2a26;color:var(--orange)}
-.fmt{font-size:10px;font-weight:700;letter-spacing:1px;padding:2px 7px;border-radius:4px;white-space:nowrap;transform:skewX(-8deg);display:inline-block}
-.fmt.L{background:var(--orange);color:var(--navy)}
-.fmt.S{background:#3a7dff2e;color:#8ab0ff;border:1px solid #3a7dff66}
-.panel a{color:var(--white);text-decoration:none}
-.panel a:hover{color:var(--orange)}
+h2 small{font-family:'Rajdhani',sans-serif;font-style:normal;font-weight:700;font-size:12px;letter-spacing:1.5px;color:var(--grey);margin-left:8px;text-transform:uppercase;transform:none}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;backdrop-filter:blur(3px)}
+/* watch */
 .watch{display:grid;grid-template-columns:2fr 1fr;gap:16px;align-items:start}
 @media(max-width:760px){.watch{grid-template-columns:1fr}}
-.embed{position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;border:1px solid #ffffff14;background:#000}
+.embed{position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#000}
 .embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.nextup{display:block;background:var(--panel);border:1px solid #ffffff14;border-radius:12px;overflow:hidden;text-decoration:none;color:var(--white);transition:.15s;backdrop-filter:blur(3px)}
+.side{display:flex;flex-direction:column;gap:16px}
+.nextup{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--white);transition:.15s;backdrop-filter:blur(3px)}
 .nextup:hover{transform:translateY(-3px);border-color:var(--orange);box-shadow:0 6px 22px #0008}
 .nu-label{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;letter-spacing:2px;font-size:15px;color:var(--orange);padding:10px 14px 6px}
 .nu-thumb{position:relative;padding-top:56.25%;background:linear-gradient(135deg,#171c2e,#0e1120)}
 .nu-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pill{font-size:11px;font-weight:700;letter-spacing:1px;padding:2px 8px;border-radius:20px;background:#3a7dff26;color:var(--blue);white-space:nowrap}
+.pill.o{background:#ff8a2a26;color:var(--orange)}
 .nu-thumb .pill{position:absolute;left:10px;bottom:10px;background:#0e1120d9;color:var(--cream);border:1px solid #ffffff22}
 [dir="rtl"] .nu-thumb .pill{left:auto;right:10px}
 .nu-title{padding:10px 14px 14px;font-weight:700;font-size:15.5px;line-height:1.25}
-.side{display:flex;flex-direction:column;gap:16px}
 .nextup.prev .nu-label{color:var(--blue)}
+.fmt{font-size:10px;font-weight:700;letter-spacing:1px;padding:2px 7px;border-radius:4px;white-space:nowrap;transform:skewX(-8deg);display:inline-block}
+.fmt.L{background:var(--orange);color:var(--navy)}
+.fmt.S{background:#3a7dff2e;color:#8ab0ff;border:1px solid #3a7dff66}
+.fmt.M{background:#ff5c5c2e;color:#ff9a9a;border:1px solid #ff5c5c66}
+/* week */
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}
+@media(max-width:1000px){.week{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:640px){.week{grid-template-columns:repeat(2,1fr)}}
+.day{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 12px 10px;backdrop-filter:blur(3px);position:relative;overflow:hidden;min-height:150px;display:flex;flex-direction:column;gap:8px}
+.day.today{border-color:var(--orange);box-shadow:0 0 0 1px #ff8a2a55 inset}
+.day.past{opacity:.55}
+.day .d{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;font-size:17px;letter-spacing:1px;text-transform:uppercase;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:2px 8px;line-height:1}
+.day .d span{font-family:'Rajdhani',sans-serif;font-style:normal;font-size:9.5px;letter-spacing:1.5px;color:var(--navy);background:var(--orange);padding:2px 6px;border-radius:10px;font-weight:700}
+.day .ev{font-size:12.5px;line-height:1.25}
+.day .ev b{display:block;font-weight:700;color:var(--white)}
+.day .ev .t{color:var(--grey);font-size:11px;letter-spacing:.5px}
+.day .ev .t em{font-style:normal;color:var(--cream)}
+.icons{display:flex;gap:5px;flex-wrap:wrap;margin-top:4px}
+.icons a,.icons span{width:20px;height:20px;border-radius:5px;background:#ffffff10;display:inline-flex;align-items:center;justify-content:center}
+.icons a:hover{background:#ffffff28}
+.icons svg{width:13px;height:13px}
+.day .rest{margin-top:auto;font-size:11px;color:var(--grey);letter-spacing:.5px}
+/* members */
+.members{display:grid;grid-template-columns:1.15fr .85fr;gap:16px;align-items:stretch}
+@media(max-width:760px){.members{grid-template-columns:1fr}}
+.mcard{border-radius:12px;padding:22px;border:1px solid var(--line);position:relative;overflow:hidden;backdrop-filter:blur(3px)}
+.mcard.paid{background:linear-gradient(135deg,#2a1420e6,#141828e6);border-color:#ff5c5c55}
+.mcard.free{background:var(--panel)}
+.mcard h3{font-size:24px;display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.mcard p{color:var(--grey);font-size:15px;line-height:1.4;max-width:520px}
+.mcard ul{list-style:none;margin-top:12px;display:grid;gap:6px}
+.mcard li{font-size:14px;display:flex;gap:8px;align-items:baseline}
+.mcard li::before{content:"✓";color:var(--green);font-weight:700}
+.mcard.free li::before{color:var(--blue)}
+.mcard .btn{margin-top:16px}
+.mlatest{margin-top:16px;border-top:1px solid var(--line);padding-top:12px}
+.mlatest .lbl{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:700;margin-bottom:6px}
+.mlatest ul{display:grid;gap:4px;margin:0}
+.mlatest li{font-size:13.5px}
+.mlatest li::before{content:"▸";color:var(--patreon)}
+.mlatest .t{color:var(--grey);font-size:11px;margin-left:6px}
+/* platforms */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 12px;text-align:center;text-decoration:none;color:var(--white);transition:.15s;backdrop-filter:blur(3px)}
+.card:hover{transform:translateY(-3px);border-color:var(--orange);box-shadow:0 6px 22px #0008}
+.card svg{width:36px;height:36px;margin-bottom:8px}
+.card .n{font-weight:700;font-size:16px;letter-spacing:1px}
+.card .h{color:var(--grey);font-size:12.5px;margin-top:2px}
+.card .c{margin-top:8px;font-weight:700;font-size:14px;color:var(--orange)}
+.card .c small{display:block;font-weight:400;font-size:10.5px;color:var(--grey);letter-spacing:.5px}
+.card.pt .c{color:var(--patreon)}
+/* latest grid */
+.drops{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.drop{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--white);transition:.15s;backdrop-filter:blur(3px);display:flex;flex-direction:column}
+.drop:hover{transform:translateY(-3px);border-color:var(--orange);box-shadow:0 6px 22px #0008}
+.drop .th{position:relative;padding-top:56.25%;background:linear-gradient(135deg,#1c2340,#0e1120)}
+.drop .th img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.drop .th .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;font-size:26px;letter-spacing:1px;color:#ffffff30;text-transform:uppercase;padding:10px;text-align:center}
+.drop .th .badges{position:absolute;left:8px;top:8px;display:flex;gap:5px}
+[dir="rtl"] .drop .th .badges{left:auto;right:8px}
+.drop .th .pf{position:absolute;right:8px;bottom:8px;width:26px;height:26px;border-radius:6px;background:#0e1120d9;display:flex;align-items:center;justify-content:center;border:1px solid #ffffff22}
+[dir="rtl"] .drop .th .pf{right:auto;left:8px}
+.drop .th .pf svg{width:15px;height:15px}
+.drop .b{padding:10px 12px 12px}
+.drop .ti{font-weight:700;font-size:14px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.drop .mt{color:var(--grey);font-size:11px;letter-spacing:.5px;margin-top:6px;text-transform:uppercase}
+/* support */
+.aff ul{list-style:none}
+.aff li{padding:9px 2px;border-bottom:1px solid #ffffff0e;font-size:15px}
+.aff li:last-child{border-bottom:0}
 .aff a{color:var(--cream);text-decoration:none;font-weight:700}
 .aff a:hover{color:var(--orange)}
 .gear{color:var(--grey);font-size:14px;margin-top:14px;letter-spacing:1px}
@@ -76,12 +146,19 @@ h2::before{content:"";display:inline-block;width:9px;height:24px;background:var(
 .ftc{color:#6c7488;font-size:12px;margin-top:10px}
 footer{margin-top:52px;text-align:center;color:#6c7488;font-size:13px;padding-bottom:8px}
 footer .mark{font-family:'Barlow Condensed';font-style:italic;font-weight:900;color:#ffffff2e;font-size:30px;letter-spacing:2px}
+footer .plat{display:flex;gap:14px;justify-content:center;margin:10px 0 8px;flex-wrap:wrap}
+footer .plat a{color:#8a93a8;text-decoration:none;font-size:12px;letter-spacing:1px;text-transform:uppercase;font-weight:700}
+footer .plat a:hover{color:var(--orange)}
+.empty{color:var(--grey);font-size:14px}
 </style>
 </head>
 <body>
 <div class="wrap">
 
-<div class="langs" id="langs"></div>
+<div class="top">
+  <div class="live"><i></i><span id="updated" data-i18n="live">Auto-updated</span></div>
+  <div class="langs" id="langs"></div>
+</div>
 
 <div class="hero">
   <a href="https://www.youtube.com/@bosskronik?sub_confirmation=1"><img src="avatar.jpg" alt="Bosskronik"></a>
@@ -89,49 +166,19 @@ footer .mark{font-family:'Barlow Condensed';font-style:italic;font-weight:900;co
     <h1>Bosskronik</h1>
     <div class="tag" data-i18n="tag">Raw &amp; Honest Sim Racing • iRacing</div>
     <div class="sub" data-i18n="sub">Military vet &amp; ex-pro biathlete. Full-race POVs — the wins, the crashes, and everything I got wrong.</div>
-    <div class="stats"><span><b id="stat-subs">7,340</b><span data-i18n="s_subs">subs</span></span><span><b id="stat-videos">548</b><span data-i18n="s_videos">videos</span></span><span><b id="stat-views">249K</b><span data-i18n="s_views">views</span></span><span><b>Class A</b>iRacing</span></div>
+    <div class="stats"><span><b id="stat-subs">7,340</b><span data-i18n="s_subs">subs</span></span><span><b id="stat-videos">548</b><span data-i18n="s_videos">videos</span></span><span><b id="stat-views">249K</b><span data-i18n="s_views">views</span></span><span><b id="stat-class">Class A</b>iRacing</span></div>
+    <div class="ctas">
+      <a class="btn p" href="#watch"><span>▶</span><span data-i18n="cta_watch">Watch the latest race</span></a>
+      <a class="btn m" href="https://www.patreon.com/Bosskronik" id="cta-patreon"><span>★</span><span data-i18n="cta_member">Full races for members</span></a>
+      <a class="btn g" href="https://www.youtube.com/@bosskronik?sub_confirmation=1"><span data-i18n="cta_sub">Subscribe on YouTube</span></a>
+    </div>
   </div>
 </div>
 
-<section>
-<h2 data-i18n="h_find">Find me everywhere</h2>
-<div class="grid">
-  <a class="card" href="https://www.youtube.com/@bosskronik?sub_confirmation=1">
-    <svg viewBox="0 0 24 24" fill="#FF0000"><rect x="1" y="4.5" width="22" height="15" rx="4"/><path d="M10 9l6 3-6 3z" fill="#fff"/></svg>
-    <div class="n">YouTube</div><div class="h">@bosskronik</div><div class="c" data-stat="youtube">7,340<small>subscribers</small></div></a>
-  <a class="card" href="https://rumble.com/user/Bosskronik">
-    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="#85c742"/><path d="M9.5 7.5l7 4.5-7 4.5z" fill="#0e1120"/></svg>
-    <div class="n">Rumble</div><div class="h">Bosskronik</div><div class="c" data-stat="rumble">20<small>followers</small></div></a>
-  <a class="card" href="https://x.com/Bosskronik">
-    <svg viewBox="0 0 24 24" fill="#f5f7fc"><path d="M3 2h5.6l4.9 6.9L19.4 2H22l-7.3 8.7L22.5 22h-5.6l-5.3-7.4L5 22H2.3l8-9.5z"/></svg>
-    <div class="n">X</div><div class="h">@Bosskronik</div><div class="c" data-stat="x">16<small>followers</small></div></a>
-  <a class="card" href="https://www.tiktok.com/@bosskronik">
-    <svg viewBox="0 0 24 24"><path d="M15 3c.4 2.3 1.9 3.8 4.3 4v3.2c-1.6 0-3-.5-4.3-1.4v6.5c0 4-2.7 6.2-5.9 6.2A5.5 5.5 0 0 1 3.6 16c0-3.4 2.9-5.8 6.3-5.4v3.3c-1.6-.4-3.1.6-3.1 2.1 0 1.4 1.1 2.4 2.4 2.4 1.5 0 2.6-1.1 2.6-3V3z" fill="#f5f7fc"/><path d="M15 3c.4 2.3 1.9 3.8 4.3 4v2.1C16.6 8.9 15.2 7 15 5z" fill="#ff0050"/></svg>
-    <div class="n">TikTok</div><div class="h">@bosskronik</div><div class="c" data-stat="tiktok">4,854<small>followers</small></div></a>
-  <a class="card" href="https://www.instagram.com/bosskronik/">
-    <svg viewBox="0 0 24 24" fill="none" stroke="#e23a9c" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.6" cy="6.4" r="1.3" fill="#e23a9c" stroke="none"/></svg>
-    <div class="n">Instagram</div><div class="h">@bosskronik</div><div class="c" data-stat="instagram">95<small>followers</small></div></a>
-  <a class="card" href="https://www.facebook.com/968005913043248">
-    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="#1877f2"/><path d="M13.3 21v-7h2.3l.4-2.8h-2.7v-1.8c0-.8.3-1.4 1.5-1.4h1.3V5.5c-.3 0-1.1-.1-2-.1-2 0-3.4 1.2-3.4 3.5v2.3H8.5V14h2.2v7z" fill="#fff"/></svg>
-    <div class="n">Facebook</div><div class="h">BossKronik</div><div class="c" data-stat="facebook">41<small>followers</small></div></a>
-</div>
-</section>
-
-<section class="two">
-  <div>
-    <h2 data-i18n="h_latest">Latest drops</h2>
-    <div class="panel"><ul id="latest"><li data-i18n="loading">Loading…</li></ul></div>
-  </div>
-  <div>
-    <h2 data-i18n="h_coming">Coming up</h2>
-    <div class="panel"><ul id="upcoming"><li data-i18n="loading">Loading…</li></ul></div>
-  </div>
-</section>
-
-<section>
+<section id="watch">
 <h2 data-i18n="h_watch">Latest race — watch here</h2>
 <div class="watch">
-  <div class="embed"><iframe id="player" src="https://www.youtube.com/embed/5h3JP1-KE_Q" title="Latest Bosskronik race" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+  <div class="embed"><iframe id="player" src="https://www.youtube.com/embed/9j0S4EM1tzM" title="Latest Bosskronik race" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
   <div class="side">
   <a class="nextup" id="nextup" href="https://www.youtube.com/@bosskronik" hidden>
     <div class="nu-label" id="nu-label">NEXT UP</div>
@@ -147,10 +194,53 @@ footer .mark{font-family:'Barlow Condensed';font-style:italic;font-weight:900;co
 </div>
 </section>
 
+<section id="week-sec" hidden>
+<h2><span data-i18n="h_week">This week</span><small data-i18n="h_week_sub">One full race + 3 shorts every day — on every platform</small></h2>
+<div class="week" id="week"></div>
+</section>
+
+<section id="members">
+<h2 data-i18n="h_members">Members &amp; free</h2>
+<div class="members">
+  <div class="mcard paid">
+    <h3><span class="fmt M" data-i18n="m_badge">MEMBERS</span><span data-i18n="m_paid_title">Every full race, for members</span></h3>
+    <p data-i18n="m_paid_text">Join on Patreon and get every full-race POV the day it drops — the whole race, start to flag, uncut. Your support keeps the rig running and the races coming.</p>
+    <ul>
+      <li data-i18n="m_b1">Full races the day they release</li>
+      <li data-i18n="m_b2">Uncut — start to checkered flag</li>
+      <li data-i18n="m_b3">Direct support for the channel</li>
+    </ul>
+    <a class="btn m" href="https://www.patreon.com/Bosskronik" id="m-cta"><span>★</span><span data-i18n="m_cta">Join on Patreon</span></a>
+    <div class="mlatest" id="mlatest" hidden><div class="lbl" data-i18n="m_latest">Latest for members</div><ul id="mlatest-list"></ul></div>
+  </div>
+  <div class="mcard free">
+    <h3><span class="fmt S" data-i18n="short">SHORT</span><span data-i18n="m_free_title">Shorts stay free for everyone</span></h3>
+    <p data-i18n="m_free_text">The best moments of every race — crashes, saves, overtakes — go out free on every platform, every day.</p>
+    <ul>
+      <li data-i18n="f_b1">3 new shorts per race</li>
+      <li data-i18n="f_b2">YouTube, TikTok, Instagram, Facebook, Rumble, X, Patreon</li>
+      <li data-i18n="f_b3">Same-day, same schedule everywhere</li>
+    </ul>
+    <a class="btn g" href="https://www.youtube.com/@bosskronik/shorts"><span data-i18n="f_cta">Watch the shorts</span></a>
+  </div>
+</div>
+</section>
+
+<section>
+<h2 data-i18n="h_find">Find me everywhere</h2>
+<div class="grid" id="platforms"></div>
+</section>
+
+<section>
+<h2 data-i18n="h_latest">Latest drops</h2>
+<div class="drops" id="latest"><div class="empty" data-i18n="loading">Loading…</div></div>
+</section>
+
 <section class="aff">
 <h2 data-i18n="h_support">Support the channel &amp; gear</h2>
 <div class="panel">
 <ul>
+  <li><a href="https://www.patreon.com/Bosskronik" data-i18n="a_patreon">Patreon — full races for members</a></li>
   <li><a href="https://filmora.pxf.io/c/7279452/2787935/31971" data-i18n="a_filmora">Filmora — what I use to edit</a></li>
   <li><a href="https://vidiq.com/bosskronik" data-i18n="a_vidiq">vidIQ — grow your channel faster</a></li>
   <li><a href="https://wallet.rumble.com/tip/u/Bosskronik" data-i18n="a_rumble">Rumble tip jar — support the channel</a></li>
@@ -162,27 +252,47 @@ footer .mark{font-family:'Barlow Condensed';font-style:italic;font-weight:900;co
 
 <footer>
   <div class="mark">BOSSKRONIK</div>
-  <div data-i18n="footer">© 2026 Bosskronik — raw &amp; honest sim racing. Site auto-updated by the cross-post watcher.</div>
+  <div class="plat" id="footplat"></div>
+  <div data-i18n="footer">© 2026 Bosskronik — raw &amp; honest sim racing. This page updates itself from the publishing pipeline.</div>
 </footer>
 </div>
 
 <script>
 const I18N={
-en:{tag:"Raw & Honest Sim Racing • iRacing",sub:"Military vet & ex-pro biathlete. Full-race POVs — the wins, the crashes, and everything I got wrong.",s_subs:"subs",s_videos:"videos",s_views:"views",h_find:"Find me everywhere",h_latest:"Latest drops",h_coming:"Coming up",h_watch:"Latest race — watch here",h_support:"Support the channel & gear",full:"FULL RACE",short:"SHORT",nextup:"NEXT UP",prev:"PREVIOUSLY — TOP RACE",lastweek:"LAST WEEK",views:"VIEWS",a_filmora:"Filmora — what I use to edit",a_vidiq:"vidIQ — grow your channel faster",a_rumble:"Rumble tip jar — support the channel",g_rig:"ON THE RIG",g_motion:"motion rig",g_base:"wheelbase",ftc:"Some links above are affiliate links — if you buy through them I earn a commission at no extra cost to you.",footer:"© 2026 Bosskronik — raw & honest sim racing. Site auto-updated by the cross-post watcher.",loading:"Loading…",fb_latest:"See the channel for the latest →",fb_up:"New races every week 🏁"},
-fr:{tag:"Sim racing brut & honnête • iRacing",sub:"Vétéran militaire et ex-biathlète pro. Courses complètes en POV — les victoires, les crashs, et tout ce que j'ai raté.",s_subs:"abonnés",s_videos:"vidéos",s_views:"vues",h_find:"Retrouvez-moi partout",h_latest:"Dernières sorties",h_coming:"À venir",h_watch:"Dernière course — à regarder ici",h_support:"Soutenez la chaîne & équipement",full:"COURSE COMPLÈTE",short:"SHORT",nextup:"À SUIVRE",prev:"PRÉCÉDEMMENT — TOP COURSE",lastweek:"SEMAINE DERNIÈRE",views:"VUES",a_filmora:"Filmora — ce que j'utilise pour le montage",a_vidiq:"vidIQ — développez votre chaîne plus rapidement",a_rumble:"Pourboire Rumble — soutenez la chaîne",g_rig:"SUR LE RIG",g_motion:"simulateur dynamique",g_base:"base de volant",ftc:"Certains liens ci-dessus sont des liens affiliés — si vous achetez via ces liens, je touche une commission sans coût supplémentaire pour vous.",footer:"© 2026 Bosskronik — sim racing brut et honnête. Site mis à jour automatiquement.",loading:"Chargement…",fb_latest:"Voir la chaîne pour les nouveautés →",fb_up:"Nouvelles courses chaque semaine 🏁"},
-pt:{tag:"Sim racing cru & honesto • iRacing",sub:"Veterano militar e ex-biatleta profissional. Corridas completas em POV — as vitórias, as batidas e tudo que eu errei.",s_subs:"inscritos",s_videos:"vídeos",s_views:"views",h_find:"Me encontre em todo lugar",h_latest:"Últimos lançamentos",h_coming:"Em breve",h_watch:"Última corrida — assista aqui",h_support:"Apoie o canal & equipamentos",full:"CORRIDA COMPLETA",short:"SHORT",nextup:"A SEGUIR",prev:"ANTERIORMENTE — MELHOR CORRIDA",lastweek:"SEMANA PASSADA",views:"VIEWS",a_filmora:"Filmora — o que eu uso para editar",a_vidiq:"vidIQ — cresça seu canal mais rápido",a_rumble:"Gorjeta no Rumble — apoie o canal",g_rig:"NO RIG",g_motion:"rig de movimento",g_base:"base do volante",ftc:"Alguns links acima são de afiliados — comprando por eles eu ganho uma comissão sem custo extra para você.",footer:"© 2026 Bosskronik — sim racing cru e honesto. Site atualizado automaticamente.",loading:"Carregando…",fb_latest:"Veja o canal para as novidades →",fb_up:"Corridas novas toda semana 🏁"},
-id:{tag:"Sim racing apa adanya & jujur • iRacing",sub:"Veteran militer & mantan atlet biathlon pro. POV balapan penuh — kemenangan, tabrakan, dan semua kesalahan saya.",s_subs:"subscriber",s_videos:"video",s_views:"views",h_find:"Temukan saya di mana saja",h_latest:"Rilisan terbaru",h_coming:"Segera hadir",h_watch:"Balapan terbaru — tonton di sini",h_support:"Dukung channel & gear",full:"BALAPAN PENUH",short:"SHORT",nextup:"SELANJUTNYA",prev:"SEBELUMNYA — BALAPAN TERBAIK",lastweek:"MINGGU LALU",views:"VIEWS",a_filmora:"Filmora — yang saya pakai untuk editing",a_vidiq:"vidIQ — kembangkan channel lebih cepat",a_rumble:"Tip jar Rumble — dukung channel",g_rig:"DI RIG",g_motion:"rig gerak",g_base:"wheelbase",ftc:"Beberapa tautan di atas adalah tautan afiliasi — pembelian melalui tautan itu memberi saya komisi tanpa biaya tambahan bagi Anda.",footer:"© 2026 Bosskronik — sim racing apa adanya dan jujur. Situs diperbarui otomatis.",loading:"Memuat…",fb_latest:"Lihat channel untuk yang terbaru →",fb_up:"Balapan baru setiap minggu 🏁"},
-ar:{tag:"سباقات محاكاة صريحة وصادقة • iRacing",sub:"محارب قديم ورياضي بياثلون محترف سابق. سباقات كاملة بمنظور السائق — الانتصارات والحوادث وكل أخطائي.",s_subs:"مشترك",s_videos:"فيديو",s_views:"مشاهدة",h_find:"تابعني في كل مكان",h_latest:"أحدث الإصدارات",h_coming:"قادم قريبًا",h_watch:"أحدث سباق — شاهده هنا",h_support:"ادعم القناة والمعدات",full:"سباق كامل",short:"مقطع قصير",nextup:"التالي",prev:"سابقًا — أفضل سباق",lastweek:"الأسبوع الماضي",views:"مشاهدة",a_filmora:"Filmora — ما أستخدمه للمونتاج",a_vidiq:"vidIQ — نمِّ قناتك أسرع",a_rumble:"دعم القناة عبر Rumble",g_rig:"على المنصة",g_motion:"منصة حركة",g_base:"قاعدة المقود",ftc:"بعض الروابط أعلاه روابط تابعة — الشراء عبرها يمنحني عمولة دون أي تكلفة إضافية عليك.",footer:"© 2026 Bosskronik — سباقات محاكاة صريحة وصادقة. يُحدَّث الموقع تلقائيًا.",loading:"جارٍ التحميل…",fb_latest:"زر القناة لأحدث الفيديوهات ←",fb_up:"سباقات جديدة كل أسبوع 🏁"},
-ja:{tag:"リアルで正直なシムレーシング • iRacing",sub:"元軍人・元プロバイアスロン選手。フルレースPOV — 勝利もクラッシュも、失敗も全部。",s_subs:"登録者",s_videos:"本",s_views:"回視聴",h_find:"各プラットフォームで",h_latest:"最新の投稿",h_coming:"公開予定",h_watch:"最新レース — ここで視聴",h_support:"チャンネル支援 & 機材",full:"フルレース",short:"ショート",nextup:"次の動画",prev:"先週のトップレース",lastweek:"先週",views:"回視聴",a_filmora:"Filmora — 編集に使用",a_vidiq:"vidIQ — チャンネル成長ツール",a_rumble:"Rumbleでチップを送る",g_rig:"使用リグ",g_motion:"モーションリグ",g_base:"ホイールベース",ftc:"上記の一部はアフィリエイトリンクです。ご購入いただくと、追加費用なしで手数料を受け取ります。",footer:"© 2026 Bosskronik — リアルで正直なシムレーシング。サイトは自動更新されます。",loading:"読み込み中…",fb_latest:"最新はチャンネルで →",fb_up:"毎週新しいレースを公開 🏁"},
-es:{tag:"Sim racing crudo y honesto • iRacing",sub:"Veterano militar y ex biatleta profesional. Carreras completas en POV — las victorias, los choques y todo lo que hice mal.",s_subs:"subs",s_videos:"vídeos",s_views:"vistas",h_find:"Encuéntrame en todas partes",h_latest:"Últimos lanzamientos",h_coming:"Próximamente",h_watch:"Última carrera — mírala aquí",h_support:"Apoya el canal y equipo",full:"CARRERA COMPLETA",short:"SHORT",nextup:"A CONTINUACIÓN",prev:"ANTERIORMENTE — MEJOR CARRERA",lastweek:"SEMANA PASADA",views:"VISTAS",a_filmora:"Filmora — lo que uso para editar",a_vidiq:"vidIQ — haz crecer tu canal más rápido",a_rumble:"Propinas en Rumble — apoya el canal",g_rig:"EN EL RIG",g_motion:"rig de movimiento",g_base:"base del volante",ftc:"Algunos enlaces son de afiliados — si compras a través de ellos gano una comisión sin costo extra para ti.",footer:"© 2026 Bosskronik — sim racing crudo y honesto. Sitio actualizado automáticamente.",loading:"Cargando…",fb_latest:"Mira el canal para lo último →",fb_up:"Carreras nuevas cada semana 🏁"},
-de:{tag:"Ehrliches Sim-Racing ohne Filter • iRacing",sub:"Militärveteran & Ex-Profi-Biathlet. Komplette Rennen in POV — die Siege, die Crashes und alles, was ich falsch gemacht habe.",s_subs:"Abos",s_videos:"Videos",s_views:"Aufrufe",h_find:"Überall zu finden",h_latest:"Neueste Uploads",h_coming:"Demnächst",h_watch:"Neuestes Rennen — hier ansehen",h_support:"Kanal unterstützen & Ausrüstung",full:"GANZES RENNEN",short:"SHORT",nextup:"ALS NÄCHSTES",prev:"ZULETZT — TOP-RENNEN",lastweek:"LETZTE WOCHE",views:"AUFRUFE",a_filmora:"Filmora — womit ich schneide",a_vidiq:"vidIQ — lass deinen Kanal schneller wachsen",a_rumble:"Rumble-Trinkgeld — unterstütze den Kanal",g_rig:"AM RIG",g_motion:"Motion-Rig",g_base:"Wheelbase",ftc:"Einige Links oben sind Affiliate-Links — bei einem Kauf erhalte ich eine Provision ohne Mehrkosten für dich.",footer:"© 2026 Bosskronik — ehrliches Sim-Racing ohne Filter. Website wird automatisch aktualisiert.",loading:"Lädt…",fb_latest:"Das Neueste auf dem Kanal →",fb_up:"Jede Woche neue Rennen 🏁"}
+en:{tag:"Raw & Honest Sim Racing • iRacing",sub:"Military vet & ex-pro biathlete. Full-race POVs — the wins, the crashes, and everything I got wrong.",s_subs:"subs",s_videos:"videos",s_views:"views",live:"Auto-updated",updated:"Updated",cta_watch:"Watch the latest race",cta_member:"Full races for members",cta_sub:"Subscribe on YouTube",h_find:"Find me everywhere",h_latest:"Latest drops",h_watch:"Latest race — watch here",h_week:"This week",h_week_sub:"One full race + 3 shorts every day — on every platform",h_members:"Members & free",h_support:"Support the channel & gear",m_badge:"MEMBERS",m_paid_title:"Every full race, for members",m_paid_text:"Join on Patreon and get every full-race POV the day it drops — the whole race, start to flag, uncut. Your support keeps the rig running and the races coming.",m_b1:"Full races the day they release",m_b2:"Uncut — start to checkered flag",m_b3:"Direct support for the channel",m_cta:"Join on Patreon",m_latest:"Latest for members",m_free_title:"Shorts stay free for everyone",m_free_text:"The best moments of every race — crashes, saves, overtakes — go out free on every platform, every day.",f_b1:"3 new shorts per race",f_b2:"YouTube, TikTok, Instagram, Facebook, Rumble, X, Patreon",f_b3:"Same-day, same schedule everywhere",f_cta:"Watch the shorts",full:"FULL RACE",short:"SHORT",member:"MEMBERS",nextup:"NEXT UP",prev:"PREVIOUSLY — TOP RACE",lastweek:"LAST WEEK",views:"VIEWS",today:"TODAY",tomorrow:"TOMORROW",shorts_n:"shorts",at:"at",watch_on:"Watch on",a_patreon:"Patreon — full races for members",a_filmora:"Filmora — what I use to edit",a_vidiq:"vidIQ — grow your channel faster",a_rumble:"Rumble tip jar — support the channel",g_rig:"ON THE RIG",g_motion:"motion rig",g_base:"wheelbase",ftc:"Some links above are affiliate links — if you buy through them I earn a commission at no extra cost to you.",footer:"© 2026 Bosskronik — raw & honest sim racing. This page updates itself from the publishing pipeline.",loading:"Loading…",fb_latest:"See the channel for the latest →",subscribers:"subscribers",followers:"followers",members:"members",m_free_tag:"FREE"},
+fr:{tag:"Sim racing brut & honnête • iRacing",sub:"Vétéran militaire et ex-biathlète pro. Courses complètes en POV — les victoires, les crashs, et tout ce que j'ai raté.",s_subs:"abonnés",s_videos:"vidéos",s_views:"vues",live:"Mise à jour auto",updated:"Mis à jour",cta_watch:"Voir la dernière course",cta_member:"Courses complètes pour les membres",cta_sub:"S'abonner sur YouTube",h_find:"Retrouvez-moi partout",h_latest:"Dernières sorties",h_watch:"Dernière course — à regarder ici",h_week:"Cette semaine",h_week_sub:"Une course complète + 3 shorts par jour — sur toutes les plateformes",h_members:"Membres & gratuit",h_support:"Soutenez la chaîne & équipement",m_badge:"MEMBRES",m_paid_title:"Chaque course complète, pour les membres",m_paid_text:"Rejoignez le Patreon et recevez chaque course complète en POV le jour de sa sortie — la course entière, du départ au drapeau, sans coupure. Votre soutien fait tourner le rig et les courses.",m_b1:"Les courses complètes le jour de leur sortie",m_b2:"Sans coupure — du départ au drapeau à damier",m_b3:"Un soutien direct à la chaîne",m_cta:"Rejoindre sur Patreon",m_latest:"Dernières pour les membres",m_free_title:"Les shorts restent gratuits pour tous",m_free_text:"Les meilleurs moments de chaque course — crashs, sauvetages, dépassements — sortent gratuitement sur toutes les plateformes, chaque jour.",f_b1:"3 nouveaux shorts par course",f_b2:"YouTube, TikTok, Instagram, Facebook, Rumble, X, Patreon",f_b3:"Même jour, même horaire partout",f_cta:"Voir les shorts",full:"COURSE COMPLÈTE",short:"SHORT",member:"MEMBRES",nextup:"À SUIVRE",prev:"PRÉCÉDEMMENT — TOP COURSE",lastweek:"SEMAINE DERNIÈRE",views:"VUES",today:"AUJOURD'HUI",tomorrow:"DEMAIN",shorts_n:"shorts",at:"à",watch_on:"Voir sur",a_patreon:"Patreon — courses complètes pour les membres",a_filmora:"Filmora — ce que j'utilise pour le montage",a_vidiq:"vidIQ — développez votre chaîne plus rapidement",a_rumble:"Pourboire Rumble — soutenez la chaîne",g_rig:"SUR LE RIG",g_motion:"simulateur dynamique",g_base:"base de volant",ftc:"Certains liens ci-dessus sont des liens affiliés — si vous achetez via ces liens, je touche une commission sans coût supplémentaire pour vous.",footer:"© 2026 Bosskronik — sim racing brut et honnête. Cette page se met à jour toute seule depuis le pipeline de publication.",loading:"Chargement…",fb_latest:"Voir la chaîne pour les nouveautés →",subscribers:"abonnés",followers:"abonnés",members:"membres",m_free_tag:"GRATUIT"},
+pt:{tag:"Sim racing cru & honesto • iRacing",sub:"Veterano militar e ex-biatleta profissional. Corridas completas em POV — as vitórias, as batidas e tudo que eu errei.",s_subs:"inscritos",s_videos:"vídeos",s_views:"views",live:"Atualização automática",updated:"Atualizado",cta_watch:"Assistir à última corrida",cta_member:"Corridas completas para membros",cta_sub:"Inscreva-se no YouTube",h_find:"Me encontre em todo lugar",h_latest:"Últimos lançamentos",h_watch:"Última corrida — assista aqui",h_week:"Esta semana",h_week_sub:"Uma corrida completa + 3 shorts por dia — em todas as plataformas",h_members:"Membros & grátis",h_support:"Apoie o canal & equipamentos",m_badge:"MEMBROS",m_paid_title:"Toda corrida completa, para membros",m_paid_text:"Entre no Patreon e receba toda corrida completa em POV no dia do lançamento — a corrida inteira, da largada à bandeirada, sem cortes. Seu apoio mantém o rig e as corridas rodando.",m_b1:"Corridas completas no dia do lançamento",m_b2:"Sem cortes — da largada à bandeira quadriculada",m_b3:"Apoio direto ao canal",m_cta:"Entrar no Patreon",m_latest:"Mais recentes para membros",m_free_title:"Os shorts continuam grátis para todos",m_free_text:"Os melhores momentos de cada corrida — batidas, salvadas, ultrapassagens — saem de graça em todas as plataformas, todo dia.",f_b1:"3 shorts novos por corrida",f_b2:"YouTube, TikTok, Instagram, Facebook, Rumble, X, Patreon",f_b3:"Mesmo dia, mesmo horário em todo lugar",f_cta:"Ver os shorts",full:"CORRIDA COMPLETA",short:"SHORT",member:"MEMBROS",nextup:"A SEGUIR",prev:"ANTERIORMENTE — MELHOR CORRIDA",lastweek:"SEMANA PASSADA",views:"VIEWS",today:"HOJE",tomorrow:"AMANHÃ",shorts_n:"shorts",at:"às",watch_on:"Assistir no",a_patreon:"Patreon — corridas completas para membros",a_filmora:"Filmora — o que eu uso para editar",a_vidiq:"vidIQ — cresça seu canal mais rápido",a_rumble:"Gorjeta no Rumble — apoie o canal",g_rig:"NO RIG",g_motion:"rig de movimento",g_base:"base do volante",ftc:"Alguns links acima são de afiliados — comprando por eles eu ganho uma comissão sem custo extra para você.",footer:"© 2026 Bosskronik — sim racing cru e honesto. Esta página se atualiza sozinha a partir do pipeline de publicação.",loading:"Carregando…",fb_latest:"Veja o canal para as novidades →",subscribers:"inscritos",followers:"seguidores",members:"membros",m_free_tag:"GRÁTIS"},
+id:{tag:"Sim racing apa adanya & jujur • iRacing",sub:"Veteran militer & mantan atlet biathlon pro. POV balapan penuh — kemenangan, tabrakan, dan semua kesalahan saya.",s_subs:"subscriber",s_videos:"video",s_views:"views",live:"Diperbarui otomatis",updated:"Diperbarui",cta_watch:"Tonton balapan terbaru",cta_member:"Balapan penuh untuk member",cta_sub:"Subscribe di YouTube",h_find:"Temukan saya di mana saja",h_latest:"Rilisan terbaru",h_watch:"Balapan terbaru — tonton di sini",h_week:"Minggu ini",h_week_sub:"Satu balapan penuh + 3 shorts setiap hari — di semua platform",h_members:"Member & gratis",h_support:"Dukung channel & gear",m_badge:"MEMBER",m_paid_title:"Setiap balapan penuh, untuk member",m_paid_text:"Gabung di Patreon dan dapatkan setiap POV balapan penuh di hari rilisnya — seluruh balapan, dari start sampai bendera, tanpa potongan. Dukunganmu menjaga rig dan balapan tetap jalan.",m_b1:"Balapan penuh di hari rilis",m_b2:"Tanpa potongan — start sampai bendera finis",m_b3:"Dukungan langsung untuk channel",m_cta:"Gabung di Patreon",m_latest:"Terbaru untuk member",m_free_title:"Shorts tetap gratis untuk semua",m_free_text:"Momen terbaik tiap balapan — tabrakan, penyelamatan, salip-menyalip — tayang gratis di semua platform, setiap hari.",f_b1:"3 shorts baru per balapan",f_b2:"YouTube, TikTok, Instagram, Facebook, Rumble, X, Patreon",f_b3:"Hari yang sama, jadwal yang sama di mana-mana",f_cta:"Tonton shorts",full:"BALAPAN PENUH",short:"SHORT",member:"MEMBER",nextup:"SELANJUTNYA",prev:"SEBELUMNYA — BALAPAN TERBAIK",lastweek:"MINGGU LALU",views:"VIEWS",today:"HARI INI",tomorrow:"BESOK",shorts_n:"shorts",at:"pukul",watch_on:"Tonton di",a_patreon:"Patreon — balapan penuh untuk member",a_filmora:"Filmora — yang saya pakai untuk editing",a_vidiq:"vidIQ — kembangkan channel lebih cepat",a_rumble:"Tip jar Rumble — dukung channel",g_rig:"DI RIG",g_motion:"rig gerak",g_base:"wheelbase",ftc:"Beberapa tautan di atas adalah tautan afiliasi — pembelian melalui tautan itu memberi saya komisi tanpa biaya tambahan bagi Anda.",footer:"© 2026 Bosskronik — sim racing apa adanya dan jujur. Halaman ini memperbarui dirinya dari pipeline publikasi.",loading:"Memuat…",fb_latest:"Lihat channel untuk yang terbaru →",subscribers:"subscriber",followers:"pengikut",members:"member",m_free_tag:"GRATIS"},
+ar:{tag:"سباقات محاكاة صريحة وصادقة • iRacing",sub:"محارب قديم ورياضي بياثلون محترف سابق. سباقات كاملة بمنظور السائق — الانتصارات والحوادث وكل أخطائي.",s_subs:"مشترك",s_videos:"فيديو",s_views:"مشاهدة",live:"تحديث تلقائي",updated:"آخر تحديث",cta_watch:"شاهد أحدث سباق",cta_member:"سباقات كاملة للأعضاء",cta_sub:"اشترك على YouTube",h_find:"تابعني في كل مكان",h_latest:"أحدث الإصدارات",h_watch:"أحدث سباق — شاهده هنا",h_week:"هذا الأسبوع",h_week_sub:"سباق كامل + 3 مقاطع قصيرة كل يوم — على كل المنصات",h_members:"الأعضاء والمجاني",h_support:"ادعم القناة والمعدات",m_badge:"الأعضاء",m_paid_title:"كل سباق كامل، للأعضاء",m_paid_text:"انضم على Patreon واحصل على كل سباق كامل بمنظور السائق يوم صدوره — السباق بأكمله من الانطلاقة حتى الراية، بلا قص. دعمك يبقي المنصة تعمل والسباقات مستمرة.",m_b1:"السباقات الكاملة يوم صدورها",m_b2:"بلا قص — من الانطلاقة حتى الراية المرقطة",m_b3:"دعم مباشر للقناة",m_cta:"انضم على Patreon",m_latest:"الأحدث للأعضاء",m_free_title:"المقاطع القصيرة تبقى مجانية للجميع",m_free_text:"أفضل لحظات كل سباق — الحوادث والإنقاذات والتجاوزات — تصدر مجانًا على كل المنصات، كل يوم.",f_b1:"3 مقاطع قصيرة جديدة لكل سباق",f_b2:"YouTube، TikTok، Instagram، Facebook، Rumble، X، Patreon",f_b3:"نفس اليوم ونفس الجدول في كل مكان",f_cta:"شاهد المقاطع القصيرة",full:"سباق كامل",short:"مقطع قصير",member:"الأعضاء",nextup:"التالي",prev:"سابقًا — أفضل سباق",lastweek:"الأسبوع الماضي",views:"مشاهدة",today:"اليوم",tomorrow:"غدًا",shorts_n:"مقاطع",at:"الساعة",watch_on:"شاهد على",a_patreon:"Patreon — سباقات كاملة للأعضاء",a_filmora:"Filmora — ما أستخدمه للمونتاج",a_vidiq:"vidIQ — نمِّ قناتك أسرع",a_rumble:"دعم القناة عبر Rumble",g_rig:"على المنصة",g_motion:"منصة حركة",g_base:"قاعدة المقود",ftc:"بعض الروابط أعلاه روابط تابعة — الشراء عبرها يمنحني عمولة دون أي تكلفة إضافية عليك.",footer:"© 2026 Bosskronik — سباقات محاكاة صريحة وصادقة. تُحدَّث هذه الصفحة تلقائيًا من خط النشر.",loading:"جارٍ التحميل…",fb_latest:"زر القناة لأحدث الفيديوهات ←",subscribers:"مشترك",followers:"متابع",members:"عضو",m_free_tag:"مجاني"},
+ja:{tag:"リアルで正直なシムレーシング • iRacing",sub:"元軍人・元プロバイアスロン選手。フルレースPOV — 勝利もクラッシュも、失敗も全部。",s_subs:"登録者",s_videos:"本",s_views:"回視聴",live:"自動更新",updated:"更新",cta_watch:"最新レースを見る",cta_member:"メンバー向けフルレース",cta_sub:"YouTubeで登録",h_find:"各プラットフォームで",h_latest:"最新の投稿",h_watch:"最新レース — ここで視聴",h_week:"今週",h_week_sub:"毎日フルレース1本+ショート3本 — 全プラットフォームで",h_members:"メンバー & 無料",h_support:"チャンネル支援 & 機材",m_badge:"メンバー",m_paid_title:"すべてのフルレースをメンバーに",m_paid_text:"Patreonに参加すると、公開当日にすべてのフルレースPOVが見られます — スタートからチェッカーまでノーカット。あなたの支援でリグとレースが続きます。",m_b1:"公開当日にフルレース",m_b2:"ノーカット — スタートからチェッカーまで",m_b3:"チャンネルへの直接支援",m_cta:"Patreonで参加",m_latest:"メンバー向け最新",m_free_title:"ショートは誰でも無料",m_free_text:"各レースのベストシーン — クラッシュ、リカバリー、オーバーテイク — を毎日全プラットフォームで無料公開。",f_b1:"レースごとに新作ショート3本",f_b2:"YouTube、TikTok、Instagram、Facebook、Rumble、X、Patreon",f_b3:"同じ日、同じ時間にどこでも",f_cta:"ショートを見る",full:"フルレース",short:"ショート",member:"メンバー",nextup:"次の動画",prev:"先週のトップレース",lastweek:"先週",views:"回視聴",today:"今日",tomorrow:"明日",shorts_n:"ショート",at:"",watch_on:"視聴:",a_patreon:"Patreon — メンバー向けフルレース",a_filmora:"Filmora — 編集に使用",a_vidiq:"vidIQ — チャンネル成長ツール",a_rumble:"Rumbleでチップを送る",g_rig:"使用リグ",g_motion:"モーションリグ",g_base:"ホイールベース",ftc:"上記の一部はアフィリエイトリンクです。ご購入いただくと、追加費用なしで手数料を受け取ります。",footer:"© 2026 Bosskronik — リアルで正直なシムレーシング。このページは公開パイプラインから自動更新されます。",loading:"読み込み中…",fb_latest:"最新はチャンネルで →",subscribers:"登録者",followers:"フォロワー",members:"メンバー",m_free_tag:"無料"},
+es:{tag:"Sim racing crudo y honesto • iRacing",sub:"Veterano militar y ex biatleta profesional. Carreras completas en POV — las victorias, los choques y todo lo que hice mal.",s_subs:"subs",s_videos:"vídeos",s_views:"vistas",live:"Actualización automática",updated:"Actualizado",cta_watch:"Ver la última carrera",cta_member:"Carreras completas para miembros",cta_sub:"Suscríbete en YouTube",h_find:"Encuéntrame en todas partes",h_latest:"Últimos lanzamientos",h_watch:"Última carrera — mírala aquí",h_week:"Esta semana",h_week_sub:"Una carrera completa + 3 shorts cada día — en todas las plataformas",h_members:"Miembros & gratis",h_support:"Apoya el canal y equipo",m_badge:"MIEMBROS",m_paid_title:"Cada carrera completa, para miembros",m_paid_text:"Únete en Patreon y recibe cada carrera completa en POV el día que sale — la carrera entera, de la salida a la bandera, sin cortes. Tu apoyo mantiene el rig y las carreras en marcha.",m_b1:"Carreras completas el día de su estreno",m_b2:"Sin cortes — de la salida a la bandera a cuadros",m_b3:"Apoyo directo al canal",m_cta:"Unirse en Patreon",m_latest:"Lo último para miembros",m_free_title:"Los shorts siguen gratis para todos",m_free_text:"Los mejores momentos de cada carrera — choques, salvadas, adelantamientos — salen gratis en todas las plataformas, cada día.",f_b1:"3 shorts nuevos por carrera",f_b2:"YouTube, TikTok, Instagram, Facebook, Rumble, X, Patreon",f_b3:"Mismo día, mismo horario en todas partes",f_cta:"Ver los shorts",full:"CARRERA COMPLETA",short:"SHORT",member:"MIEMBROS",nextup:"A CONTINUACIÓN",prev:"ANTERIORMENTE — MEJOR CARRERA",lastweek:"SEMANA PASADA",views:"VISTAS",today:"HOY",tomorrow:"MAÑANA",shorts_n:"shorts",at:"a las",watch_on:"Ver en",a_patreon:"Patreon — carreras completas para miembros",a_filmora:"Filmora — lo que uso para editar",a_vidiq:"vidIQ — haz crecer tu canal más rápido",a_rumble:"Propinas en Rumble — apoya el canal",g_rig:"EN EL RIG",g_motion:"rig de movimiento",g_base:"base del volante",ftc:"Algunos enlaces son de afiliados — si compras a través de ellos gano una comisión sin costo extra para ti.",footer:"© 2026 Bosskronik — sim racing crudo y honesto. Esta página se actualiza sola desde el pipeline de publicación.",loading:"Cargando…",fb_latest:"Mira el canal para lo último →",subscribers:"suscriptores",followers:"seguidores",members:"miembros",m_free_tag:"GRATIS"},
+de:{tag:"Ehrliches Sim-Racing ohne Filter • iRacing",sub:"Militärveteran & Ex-Profi-Biathlet. Komplette Rennen in POV — die Siege, die Crashes und alles, was ich falsch gemacht habe.",s_subs:"Abos",s_videos:"Videos",s_views:"Aufrufe",live:"Automatisch aktualisiert",updated:"Aktualisiert",cta_watch:"Neuestes Rennen ansehen",cta_member:"Ganze Rennen für Mitglieder",cta_sub:"Auf YouTube abonnieren",h_find:"Überall zu finden",h_latest:"Neueste Uploads",h_watch:"Neuestes Rennen — hier ansehen",h_week:"Diese Woche",h_week_sub:"Jeden Tag ein ganzes Rennen + 3 Shorts — auf jeder Plattform",h_members:"Mitglieder & kostenlos",h_support:"Kanal unterstützen & Ausrüstung",m_badge:"MITGLIEDER",m_paid_title:"Jedes ganze Rennen, für Mitglieder",m_paid_text:"Tritt auf Patreon bei und bekomme jedes komplette Rennen in POV am Tag der Veröffentlichung — das ganze Rennen, vom Start bis zur Flagge, ungeschnitten. Deine Unterstützung hält das Rig und die Rennen am Laufen.",m_b1:"Ganze Rennen am Erscheinungstag",m_b2:"Ungeschnitten — vom Start bis zur Zielflagge",m_b3:"Direkte Unterstützung für den Kanal",m_cta:"Auf Patreon beitreten",m_latest:"Neu für Mitglieder",m_free_title:"Shorts bleiben für alle kostenlos",m_free_text:"Die besten Momente jedes Rennens — Crashes, Rettungen, Überholmanöver — erscheinen jeden Tag kostenlos auf jeder Plattform.",f_b1:"3 neue Shorts pro Rennen",f_b2:"YouTube, TikTok, Instagram, Facebook, Rumble, X, Patreon",f_b3:"Gleicher Tag, gleicher Zeitplan überall",f_cta:"Shorts ansehen",full:"GANZES RENNEN",short:"SHORT",member:"MITGLIEDER",nextup:"ALS NÄCHSTES",prev:"ZULETZT — TOP-RENNEN",lastweek:"LETZTE WOCHE",views:"AUFRUFE",today:"HEUTE",tomorrow:"MORGEN",shorts_n:"Shorts",at:"um",watch_on:"Ansehen auf",a_patreon:"Patreon — ganze Rennen für Mitglieder",a_filmora:"Filmora — womit ich schneide",a_vidiq:"vidIQ — lass deinen Kanal schneller wachsen",a_rumble:"Rumble-Trinkgeld — unterstütze den Kanal",g_rig:"AM RIG",g_motion:"Motion-Rig",g_base:"Wheelbase",ftc:"Einige Links oben sind Affiliate-Links — bei einem Kauf erhalte ich eine Provision ohne Mehrkosten für dich.",footer:"© 2026 Bosskronik — ehrliches Sim-Racing ohne Filter. Diese Seite aktualisiert sich selbst aus der Veröffentlichungs-Pipeline.",loading:"Lädt…",fb_latest:"Das Neueste auf dem Kanal →",subscribers:"Abonnenten",followers:"Follower",members:"Mitglieder",m_free_tag:"KOSTENLOS"}
 };
 const LANGS=[["en","EN"],["fr","FR"],["pt","PT"],["id","ID"],["ar","AR"],["ja","日本語"],["es","ES"],["de","DE"]];
+const ICONS={
+youtube:'<svg viewBox="0 0 24 24" fill="#FF0000"><rect x="1" y="4.5" width="22" height="15" rx="4"/><path d="M10 9l6 3-6 3z" fill="#fff"/></svg>',
+rumble:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="#85c742"/><path d="M9.5 7.5l7 4.5-7 4.5z" fill="#0e1120"/></svg>',
+x:'<svg viewBox="0 0 24 24" fill="#f5f7fc"><path d="M3 2h5.6l4.9 6.9L19.4 2H22l-7.3 8.7L22.5 22h-5.6l-5.3-7.4L5 22H2.3l8-9.5z"/></svg>',
+tiktok:'<svg viewBox="0 0 24 24"><path d="M15 3c.4 2.3 1.9 3.8 4.3 4v3.2c-1.6 0-3-.5-4.3-1.4v6.5c0 4-2.7 6.2-5.9 6.2A5.5 5.5 0 0 1 3.6 16c0-3.4 2.9-5.8 6.3-5.4v3.3c-1.6-.4-3.1.6-3.1 2.1 0 1.4 1.1 2.4 2.4 2.4 1.5 0 2.6-1.1 2.6-3V3z" fill="#f5f7fc"/><path d="M15 3c.4 2.3 1.9 3.8 4.3 4v2.1C16.6 8.9 15.2 7 15 5z" fill="#ff0050"/></svg>',
+instagram:'<svg viewBox="0 0 24 24" fill="none" stroke="#e23a9c" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.6" cy="6.4" r="1.3" fill="#e23a9c" stroke="none"/></svg>',
+facebook:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="#1877f2"/><path d="M13.3 21v-7h2.3l.4-2.8h-2.7v-1.8c0-.8.3-1.4 1.5-1.4h1.3V5.5c-.3 0-1.1-.1-2-.1-2 0-3.4 1.2-3.4 3.5v2.3H8.5V14h2.2v7z" fill="#fff"/></svg>',
+patreon:'<svg viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="4" height="19" rx="1" fill="#f5f7fc"/><circle cx="15" cy="9.5" r="7" fill="#ff5c5c"/></svg>'
+};
+const PLATFORMS=[
+ {k:"youtube",n:"YouTube",h:"@bosskronik",url:"https://www.youtube.com/@bosskronik?sub_confirmation=1",cl:"subscribers"},
+ {k:"patreon",n:"Patreon",h:"Bosskronik",url:"https://www.patreon.com/Bosskronik",cl:"members"},
+ {k:"rumble",n:"Rumble",h:"Bosskronik",url:"https://rumble.com/user/Bosskronik",cl:"followers"},
+ {k:"tiktok",n:"TikTok",h:"@bosskronik",url:"https://www.tiktok.com/@bosskronik",cl:"followers"},
+ {k:"instagram",n:"Instagram",h:"@bosskronik",url:"https://www.instagram.com/bosskronik/",cl:"followers"},
+ {k:"facebook",n:"Facebook",h:"BossKronik",url:"https://www.facebook.com/968005913043248",cl:"followers"},
+ {k:"x",n:"X",h:"@Bosskronik",url:"https://x.com/Bosskronik",cl:"followers"}
+];
 let LANG='en';
 try{LANG=localStorage.getItem('bk-lang')||((navigator.language||'en').slice(0,2));}catch(e){}
 if(!I18N[LANG])LANG='en';
 let DATA=null;
 const t=k=>(I18N[LANG]&&I18N[LANG][k])||I18N.en[k]||k;
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const langsEl=document.getElementById('langs');
 langsEl.innerHTML=LANGS.map(l=>`<button data-lang="${l[0]}">${l[1]}</button>`).join('');
 langsEl.addEventListener('click',e=>{const b=e.target.closest('button');if(b)setLang(b.dataset.lang);});
@@ -193,13 +303,73 @@ function applyStatic(){
   document.querySelectorAll('#langs button').forEach(b=>b.classList.toggle('on',b.dataset.lang===LANG));
 }
 function setLang(l){LANG=I18N[l]?l:'en';try{localStorage.setItem('bk-lang',LANG);}catch(e){}applyStatic();render();}
-const fmt=i=>i.format==='long'?`<span class="fmt L">${t('full')}</span>`:(i.format==='short'?`<span class="fmt S">${t('short')}</span>`:'');
+const fmt=f=>f==='long'?`<span class="fmt L">${t('full')}</span>`:(f==='short'?`<span class="fmt S">${t('short')}</span>`:'');
+const LOCALE={en:'en-US',fr:'fr-FR',pt:'pt-BR',id:'id-ID',ar:'ar',ja:'ja-JP',es:'es-ES',de:'de-DE'};
+function dtime(iso){try{return new Date(iso).toLocaleTimeString(LOCALE[LANG]||'en-US',{hour:'numeric',minute:'2-digit'});}catch(e){return '';}}
+function dday(iso){try{return new Date(iso).toLocaleDateString(LOCALE[LANG]||'en-US',{weekday:'short',month:'short',day:'numeric'});}catch(e){return iso;}}
+function sameDay(a,b){return a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()&&a.getDate()===b.getDate();}
 function thumbInto(imId,src){const im=document.getElementById(imId);im.hidden=false;im.src=src;
   im.onerror=()=>{if(im.src.includes('maxresdefault')){im.src=src.replace('maxresdefault','hqdefault');}else{im.hidden=true;}};}
+function ytThumb(id){return id?`https://i.ytimg.com/vi/${id}/hqdefault.jpg`:null;}
+function fmtCount(n){if(n==null||n==='')return null;if(typeof n==='string')return n;if(n>=1e6)return (n/1e6).toFixed(1).replace(/\.0$/,'')+'M';if(n>=1e3)return (n/1e3).toFixed(n>=1e4?0:1).replace(/\.0$/,'')+'K';return String(n);}
+function iconLinks(links){if(!links||!links.length)return '';return `<div class="icons">${links.map(l=>l.url?`<a href="${esc(l.url)}" title="${esc(l.name)}" target="_blank" rel="noopener">${ICONS[l.name]||''}</a>`:`<span title="${esc(l.name)}">${ICONS[l.name]||''}</span>`).join('')}</div>`;}
+
+function renderPlatforms(){
+  const st=(DATA&&DATA.stats&&DATA.stats.platforms)||{};
+  document.getElementById('platforms').innerHTML=PLATFORMS.map(p=>{
+    const s=st[p.k]||{};const cnt=fmtCount(s.count);
+    return `<a class="card ${p.k==='patreon'?'pt':''}" href="${p.url}" target="_blank" rel="noopener">${ICONS[p.k]}<div class="n">${p.n}</div><div class="h">${p.h}</div>${cnt?`<div class="c">${cnt}<small>${t(s.label||p.cl)}</small></div>`:`<div class="c" style="opacity:.6">→<small>${t(p.k==='patreon'?'members':'followers')}</small></div>`}</a>`;
+  }).join('');
+  document.getElementById('footplat').innerHTML=PLATFORMS.map(p=>`<a href="${p.url}" target="_blank" rel="noopener">${p.n}</a>`).join('');
+}
+function renderStats(){
+  const s=(DATA&&DATA.stats)||{};
+  if(s.subs!=null)document.getElementById('stat-subs').textContent=fmtCount(s.subs);
+  if(s.videos!=null)document.getElementById('stat-videos').textContent=fmtCount(s.videos);
+  if(s.views!=null)document.getElementById('stat-views').textContent=fmtCount(s.views);
+  if(s.iracing_class)document.getElementById('stat-class').textContent=s.iracing_class;
+}
+function renderWeek(){
+  const w=(DATA&&DATA.week)||[];const sec=document.getElementById('week-sec');
+  if(!w.length){sec.hidden=true;return;}
+  sec.hidden=false;const now=new Date();const tom=new Date(now.getTime()+864e5);
+  document.getElementById('week').innerHTML=w.slice(0,7).map(d=>{
+    const day=new Date(d.date+'T12:00:00');const isToday=sameDay(day,now),isTom=sameDay(day,tom);
+    const past=!isToday&&day<now;
+    const long=d.long?`<div class="ev"><b>${fmt('long')} ${esc(d.long.title)}</b><div class="t">${dtime(d.long.at)}${d.long.access==='paid'?` · <em>${t('member')}</em>`:''}</div>${iconLinks(d.long.links)}</div>`:'';
+    const sh=(d.shorts||[]);
+    const shorts=sh.length?`<div class="ev"><b>${fmt('short')} ${sh.length} ${t('shorts_n')}</b><div class="t">${sh.map(s=>dtime(s.at)).join(' · ')}</div>${iconLinks(d.shorts_links)}</div>`:'';
+    return `<div class="day ${isToday?'today':''} ${past?'past':''}"><div class="d">${esc(dday(d.date+'T12:00:00'))}${isToday?`<span>${t('today')}</span>`:(isTom?`<span>${t('tomorrow')}</span>`:'')}</div>${long}${shorts}</div>`;
+  }).join('');
+}
+function renderMembers(){
+  const p=(DATA&&DATA.patreon)||{};
+  if(p.url){document.getElementById('cta-patreon').href=p.url;document.getElementById('m-cta').href=p.url;}
+  const list=(p.latest||[]).slice(0,4);const box=document.getElementById('mlatest');
+  if(!list.length){box.hidden=true;return;}
+  box.hidden=false;
+  document.getElementById('mlatest-list').innerHTML=list.map(i=>`<li><a href="${esc(i.url||p.url||'#')}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="t">${i.access==='paid'?t('member'):t('m_free_tag')} · ${esc(dday(i.at))} ${dtime(i.at)}</span></li>`).join('');
+}
+function renderLatest(){
+  const c=DATA;const el=document.getElementById('latest');
+  const items=(c.latest||[]).slice(0,12);
+  if(!items.length){el.innerHTML=`<div class="empty"><a href="https://www.youtube.com/@bosskronik/videos">${t('fb_latest')}</a></div>`;return;}
+  el.innerHTML=items.map(i=>{
+    let th=i.thumb;const m=!th&&i.url&&i.url.match(/(?:youtu\.be\/|shorts\/|v=)([\w-]{11})/);if(m)th=ytThumb(m[1]);
+    const badges=`${fmt(i.format)}${i.access==='paid'?`<span class="fmt M">${t('member')}</span>`:''}`;
+    return `<a class="drop" href="${esc(i.url)}" target="_blank" rel="noopener">
+      <div class="th">${th?`<img src="${esc(th)}" alt="" loading="lazy" onerror="this.remove()">`:''}<div class="ph">${esc(i.series||i.platform||'')}</div><div class="badges">${badges}</div><div class="pf">${ICONS[i.platform]||''}</div></div>
+      <div class="b"><div class="ti">${esc(i.title)}</div><div class="mt">${t('watch_on')} ${esc(i.platform)}${i.when?` · ${esc(dday(i.when))}`:''}</div></div></a>`;
+  }).join('');
+}
+function renderUpdated(){
+  const u=DATA&&DATA.updated;const el=document.getElementById('updated');
+  if(!u){el.textContent=t('live');return;}
+  try{el.textContent=t('updated')+' '+new Date(u).toLocaleString(LOCALE[LANG]||'en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});}catch(e){el.textContent=t('live');}
+}
 function render(){
   if(!DATA)return;const c=DATA;
-  document.getElementById('latest').innerHTML=c.latest.map(i=>`<li><span class="pill o">${i.platform}</span>${fmt(i)}<a href="${i.url}">${i.title}</a></li>`).join('');
-  document.getElementById('upcoming').innerHTML=c.upcoming.map(i=>`<li><span class="pill">${i.when}</span>${fmt(i)}<span>${i.what}</span></li>`).join('');
+  renderUpdated();renderStats();renderPlatforms();renderWeek();renderMembers();renderLatest();
   if(c.featured&&c.featured.id){const p=document.getElementById('player'),src='https://www.youtube.com/embed/'+c.featured.id;if(p.src!==src)p.src=src;}
   const n=c.next_up||(c.upcoming&&c.upcoming[0]);
   if(n){
@@ -220,10 +390,9 @@ function render(){
     if(p.thumb)thumbInto('pv-img',p.thumb);
   }
 }
-applyStatic();
+applyStatic();renderPlatforms();
 fetch('content.json?t='+Date.now()).then(r=>r.json()).then(c=>{DATA=c;render();}).catch(()=>{
-  document.getElementById('latest').innerHTML=`<li><a href="https://www.youtube.com/@bosskronik/videos">${t('fb_latest')}</a></li>`;
-  document.getElementById('upcoming').innerHTML=`<li>${t('fb_up')}</li>`;
+  document.getElementById('latest').innerHTML=`<div class="empty"><a href="https://www.youtube.com/@bosskronik/videos">${t('fb_latest')}</a></div>`;
 });
 </script>
 </body>
