@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T21:00:05.650239+00:00",
+  "updated": "2026-09-09T22:00:05.154194+00:00",
   "featured": {
     "id": "9j0S4EM1tzM",
     "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down"
@@ -57,6 +57,26 @@
     },
     {
       "platform": "rumble",
+      "format": "long",
+      "title": "POV Crash and Comeback in Formula Ray 1600 Chaos | iRacing",
+      "url": "https://rumble.com/v7f7b1a-pov-crash-and-comeback-in-formula-ray-1600-chaos-iracing.html",
+      "thumb": "https://i.ytimg.com/vi/xrKNUimJLms/hqdefault.jpg",
+      "when": "2026-09-09T18:00:00-04:00",
+      "series": "Formula Ray 1600",
+      "access": "free"
+    },
+    {
+      "platform": "patreon",
+      "format": "long",
+      "title": "POV Crash and Comeback in Formula Ray 1600 Chaos | iRacing",
+      "url": "https://www.patreon.com/posts/168969713",
+      "thumb": "https://i.ytimg.com/vi/xrKNUimJLms/hqdefault.jpg",
+      "when": "2026-09-09T18:00:00-04:00",
+      "series": "Formula Ray 1600",
+      "access": "paid"
+    },
+    {
+      "platform": "rumble",
       "format": "short",
       "title": "That Escalated Fast | iRacing Formula Ray 1600",
       "url": "https://rumble.com/v7f7b20-that-escalated-fast-iracing-formula-ray-1600.html",
@@ -94,34 +114,9 @@
       "when": "2026-09-08T18:00:00-04:00",
       "series": "MX-5 Cup",
       "access": "free"
-    },
-    {
-      "platform": "patreon",
-      "format": "long",
-      "title": "POV Recovering From a Crash — MX-5 Global Cup | iRacing",
-      "url": "https://www.patreon.com/posts/168969624",
-      "thumb": "https://i.ytimg.com/vi/WX1e19egNa0/hqdefault.jpg",
-      "when": "2026-09-08T18:00:00-04:00",
-      "series": "MX-5 Cup",
-      "access": "paid"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "That Escalated Fast | iRacing MX-5 Cup",
-      "url": "https://rumble.com/v7f7axw-that-escalated-fast-iracing-mx-5-cup.html",
-      "thumb": null,
-      "when": "2026-09-08T17:00:00-04:00",
-      "series": "MX-5 Cup",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Wed Sep 09 · 6:00 PM",
-      "format": "long",
-      "what": "POV Crash and Comeback in Formula Ray 1600 Chaos"
-    },
     {
       "when": "Wed Sep 09 · 6:30 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Fri Sep 11 · 5:00 PM",
       "format": "short",
       "what": "That Escalated Fast | iRacing Toyota GR86"
+    },
+    {
+      "when": "Fri Sep 11 · 6:00 PM",
+      "format": "long",
+      "what": "POV Recovered from Crash in GR86 Race"
     }
   ],
   "stats": {
@@ -586,6 +586,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "POV Crash and Comeback in Formula Ray 1600 Chaos",
+        "url": "https://www.patreon.com/posts/168969713",
+        "at": "2026-09-09T18:00:00-04:00",
+        "access": "paid"
+      },
+      {
         "title": "That Escalated Fast | iRacing Formula Ray 1600",
         "url": "https://www.patreon.com/posts/168966238",
         "at": "2026-09-09T17:00:00-04:00",
@@ -598,25 +604,19 @@
         "access": "free"
       },
       {
-        "title": "The High Moment At 103 | iRacing MX-5 Cup",
-        "url": "https://www.patreon.com/posts/168966079",
-        "at": "2026-09-08T18:30:00-04:00",
-        "access": "free"
-      },
-      {
-        "title": "POV Crash and Comeback in Formula Ray 1600 Chaos",
-        "url": "https://www.patreon.com/posts/168969713",
-        "at": "2026-09-09T18:00:00-04:00",
+        "title": "POV Formula Ray 1600 Crash and Comeback Battle",
+        "url": "https://www.patreon.com/posts/168969848",
+        "at": "2026-09-10T18:00:00-04:00",
         "access": "paid"
       }
     ]
   },
   "next_up": {
-    "when": "Wed Sep 09 · 6:00 PM ET",
-    "what": "POV Crash and Comeback in Formula Ray 1600 Chaos",
+    "when": "Thu Sep 10 · 6:00 PM ET",
+    "what": "POV Formula Ray 1600 Crash and Comeback Battle",
     "format": "long",
-    "url": "https://rumble.com/v7f7b1a-pov-crash-and-comeback-in-formula-ray-1600-chaos-iracing.html",
-    "thumb": "https://i.ytimg.com/vi/xrKNUimJLms/hqdefault.jpg"
+    "url": "https://rumble.com/v7f7b52-pov-formula-ray-1600-crash-and-comeback-battle-iracing.html",
+    "thumb": "https://i.ytimg.com/vi/NegkMDxw-F8/hqdefault.jpg"
   },
   "site_version": 6
 }
