@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T23:00:04.421465+00:00",
+  "updated": "2026-09-09T00:00:04.237496+00:00",
   "featured": {
     "id": "9j0S4EM1tzM",
     "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down"
@@ -9,7 +9,7 @@
     "title": "That Escalated Fast | iRacing SF23 Toyota",
     "url": "https://youtu.be/Jn7YT9HCqHY",
     "thumb": "https://i.ytimg.com/vi/Jn7YT9HCqHY/maxresdefault.jpg",
-    "views": 96,
+    "views": 101,
     "format": "long"
   },
   "latest": [
@@ -53,6 +53,16 @@
       "format": "short",
       "title": "POV: Unexpected Contact In The Ferrari 296 | iRacing Ferrari 296",
       "url": "https://www.youtube.com/shorts/W5J7LV2LixE",
+      "access": "free"
+    },
+    {
+      "platform": "rumble",
+      "format": "short",
+      "title": "The High Moment At 558 | iRacing MX-5 Cup",
+      "url": "https://rumble.com/v7f7ayc-the-high-moment-at-558-iracing-mx-5-cup.html",
+      "thumb": null,
+      "when": "2026-09-08T20:00:00-04:00",
+      "series": "MX-5 Cup",
       "access": "free"
     },
     {
@@ -104,24 +114,9 @@
       "when": "2026-09-07T20:00:00-04:00",
       "series": "Toyota GR86",
       "access": "free"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "The High Moment At 021 | iRacing Toyota GR86",
-      "url": "https://rumble.com/v7f7avq-the-high-moment-at-021-iracing-toyota-gr86.html",
-      "thumb": null,
-      "when": "2026-09-07T18:30:00-04:00",
-      "series": "Toyota GR86",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Tue Sep 08 · 8:00 PM",
-      "format": "short",
-      "what": "The High Moment At 558 | iRacing MX-5 Cup"
-    },
     {
       "when": "Wed Sep 09 · 5:00 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Thu Sep 10 · 6:30 PM",
       "format": "short",
       "what": "The High Moment At 708 | iRacing Formula Ray 1600"
+    },
+    {
+      "when": "Thu Sep 10 · 8:00 PM",
+      "format": "short",
+      "what": "Unexpected Bang On The Start | iRacing Formula Ray 1600"
     }
   ],
   "stats": {
@@ -586,6 +586,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "The High Moment At 558 | iRacing MX-5 Cup",
+        "url": "https://www.patreon.com/posts/168966156",
+        "at": "2026-09-08T20:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 103 | iRacing MX-5 Cup",
         "url": "https://www.patreon.com/posts/168966079",
         "at": "2026-09-08T18:30:00-04:00",
@@ -596,12 +602,6 @@
         "url": "https://www.patreon.com/posts/168969624",
         "at": "2026-09-08T18:00:00-04:00",
         "access": "paid"
-      },
-      {
-        "title": "That Escalated Fast | iRacing MX-5 Cup",
-        "url": "https://www.patreon.com/posts/168966017",
-        "at": "2026-09-08T17:00:00-04:00",
-        "access": "free"
       },
       {
         "title": "POV Crash and Comeback in Formula Ray 1600 Chaos",
