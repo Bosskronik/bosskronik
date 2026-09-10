@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-10T22:00:04.806157+00:00",
+  "updated": "2026-09-10T23:00:05.402451+00:00",
   "featured": {
-    "id": "2hEpnshYHSs",
-    "title": "POV Crash and Comeback in Formula Ray 1600 Chaos | iRacing"
+    "id": "uhq-KzYnegc",
+    "title": "POV Formula Ray 1600 Crash and Comeback Battle | iRacing"
   },
   "previously": {
     "id": "Jn7YT9HCqHY",
@@ -13,6 +13,13 @@
     "format": "long"
   },
   "latest": [
+    {
+      "platform": "youtube",
+      "format": "long",
+      "title": "POV Formula Ray 1600 Crash and Comeback Battle | iRacing",
+      "url": "https://youtu.be/uhq-KzYnegc",
+      "access": "free"
+    },
     {
       "platform": "youtube",
       "format": "short",
@@ -49,10 +56,13 @@
       "access": "free"
     },
     {
-      "platform": "youtube",
+      "platform": "rumble",
       "format": "short",
-      "title": "Heat Them Apples - Formula Ray F1600 Incident",
-      "url": "https://www.youtube.com/shorts/U_idpXDypB8",
+      "title": "The High Moment At 708 | iRacing Formula Ray 1600",
+      "url": "https://rumble.com/v7f7b5m-the-high-moment-at-708-iracing-formula-ray-1600.html",
+      "thumb": null,
+      "when": "2026-09-10T18:30:00-04:00",
+      "series": "Formula Ray 1600",
       "access": "free"
     },
     {
@@ -104,24 +114,9 @@
       "when": "2026-09-09T18:30:00-04:00",
       "series": "Formula Ray 1600",
       "access": "free"
-    },
-    {
-      "platform": "rumble",
-      "format": "long",
-      "title": "POV Crash and Comeback in Formula Ray 1600 Chaos | iRacing",
-      "url": "https://rumble.com/v7f7b1a-pov-crash-and-comeback-in-formula-ray-1600-chaos-iracing.html",
-      "thumb": "https://i.ytimg.com/vi/xrKNUimJLms/hqdefault.jpg",
-      "when": "2026-09-09T18:00:00-04:00",
-      "series": "Formula Ray 1600",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Thu Sep 10 · 6:30 PM",
-      "format": "short",
-      "what": "The High Moment At 708 | iRacing Formula Ray 1600"
-    },
     {
       "when": "Thu Sep 10 · 8:00 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Sat Sep 12 · 6:00 PM",
       "format": "long",
       "what": "POV Ferrari 296 Crash and Comeback Battle"
+    },
+    {
+      "when": "Sat Sep 12 · 6:30 PM",
+      "format": "short",
+      "what": "The High Moment At 844 | iRacing Ferrari 296 Challenge"
     }
   ],
   "stats": {
@@ -586,6 +586,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "The High Moment At 708 | iRacing Formula Ray 1600",
+        "url": "https://www.patreon.com/posts/168966540",
+        "at": "2026-09-10T18:30:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "POV Formula Ray 1600 Crash and Comeback Battle",
         "url": "https://www.patreon.com/posts/168969848",
         "at": "2026-09-10T18:00:00-04:00",
@@ -595,12 +601,6 @@
         "title": "That Escalated Fast | iRacing Formula Ray 1600",
         "url": "https://www.patreon.com/posts/168966475",
         "at": "2026-09-10T17:00:00-04:00",
-        "access": "free"
-      },
-      {
-        "title": "The High Moment At 717 | iRacing Formula Ray 1600",
-        "url": "https://www.patreon.com/posts/168966381",
-        "at": "2026-09-09T20:00:00-04:00",
         "access": "free"
       },
       {
