@@ -1,18 +1,46 @@
 {
-  "updated": "2026-09-10T00:00:05.465513+00:00",
+  "updated": "2026-09-10T21:00:04.827298+00:00",
   "featured": {
-    "id": "9j0S4EM1tzM",
-    "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down"
+    "id": "2hEpnshYHSs",
+    "title": "POV Crash and Comeback in Formula Ray 1600 Chaos | iRacing"
   },
   "previously": {
     "id": "Jn7YT9HCqHY",
     "title": "That Escalated Fast | iRacing SF23 Toyota",
     "url": "https://youtu.be/Jn7YT9HCqHY",
     "thumb": "https://i.ytimg.com/vi/Jn7YT9HCqHY/maxresdefault.jpg",
-    "views": 110,
+    "views": 112,
     "format": "long"
   },
   "latest": [
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "The High Moment At 717 | iRacing Formula Ray 1600 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/XTsxn5wRWjo",
+      "access": "free"
+    },
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "The High Moment At 1008 | iRacing Formula Ray 1600 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/QFtYc8BJ_MU",
+      "access": "free"
+    },
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "That Escalated Fast | iRacing Formula Ray 1600 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/8yfRWIDGdVg",
+      "access": "free"
+    },
+    {
+      "platform": "youtube",
+      "format": "long",
+      "title": "POV Crash and Comeback in Formula Ray 1600 Chaos | iRacing",
+      "url": "https://youtu.be/2hEpnshYHSs",
+      "access": "free"
+    },
     {
       "platform": "youtube",
       "format": "short",
@@ -28,31 +56,13 @@
       "access": "free"
     },
     {
-      "platform": "youtube",
+      "platform": "rumble",
       "format": "short",
-      "title": "Didn't Expect That In Formula Ray F1600",
-      "url": "https://www.youtube.com/shorts/6WuE8PQlfk0",
-      "access": "free"
-    },
-    {
-      "platform": "youtube",
-      "format": "long",
-      "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down",
-      "url": "https://youtu.be/9j0S4EM1tzM",
-      "access": "free"
-    },
-    {
-      "platform": "youtube",
-      "format": "long",
-      "title": "That Escalated Fast | iRacing SF23 Toyota",
-      "url": "https://youtu.be/Jn7YT9HCqHY",
-      "access": "free"
-    },
-    {
-      "platform": "youtube",
-      "format": "short",
-      "title": "POV: Unexpected Contact In The Ferrari 296 | iRacing Ferrari 296",
-      "url": "https://www.youtube.com/shorts/W5J7LV2LixE",
+      "title": "That Escalated Fast | iRacing Formula Ray 1600",
+      "url": "https://rumble.com/v7f7b5e-that-escalated-fast-iracing-formula-ray-1600.html",
+      "thumb": null,
+      "when": "2026-09-10T17:00:00-04:00",
+      "series": "Formula Ray 1600",
       "access": "free"
     },
     {
@@ -104,24 +114,9 @@
       "when": "2026-09-09T17:00:00-04:00",
       "series": "Formula Ray 1600",
       "access": "free"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "The High Moment At 558 | iRacing MX-5 Cup",
-      "url": "https://rumble.com/v7f7ayc-the-high-moment-at-558-iracing-mx-5-cup.html",
-      "thumb": null,
-      "when": "2026-09-08T20:00:00-04:00",
-      "series": "MX-5 Cup",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Thu Sep 10 · 5:00 PM",
-      "format": "short",
-      "what": "That Escalated Fast | iRacing Formula Ray 1600"
-    },
     {
       "when": "Thu Sep 10 · 6:00 PM",
       "format": "long",
@@ -156,6 +151,11 @@
       "when": "Fri Sep 11 · 8:00 PM",
       "format": "short",
       "what": "The High Moment At 248 | iRacing Toyota GR86"
+    },
+    {
+      "when": "Sat Sep 12 · 5:00 PM",
+      "format": "short",
+      "what": "That Escalated Fast | iRacing Ferrari 296 Challenge"
     }
   ],
   "stats": {
@@ -586,6 +586,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "That Escalated Fast | iRacing Formula Ray 1600",
+        "url": "https://www.patreon.com/posts/168966475",
+        "at": "2026-09-10T17:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 717 | iRacing Formula Ray 1600",
         "url": "https://www.patreon.com/posts/168966381",
         "at": "2026-09-09T20:00:00-04:00",
@@ -596,12 +602,6 @@
         "url": "https://www.patreon.com/posts/168966291",
         "at": "2026-09-09T18:30:00-04:00",
         "access": "free"
-      },
-      {
-        "title": "POV Crash and Comeback in Formula Ray 1600 Chaos",
-        "url": "https://www.patreon.com/posts/168969713",
-        "at": "2026-09-09T18:00:00-04:00",
-        "access": "paid"
       },
       {
         "title": "POV Formula Ray 1600 Crash and Comeback Battle",
