@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T23:00:05.402451+00:00",
+  "updated": "2026-09-11T00:00:06.322171+00:00",
   "featured": {
     "id": "uhq-KzYnegc",
     "title": "POV Formula Ray 1600 Crash and Comeback Battle | iRacing"
@@ -13,6 +13,20 @@
     "format": "long"
   },
   "latest": [
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "The High Moment At 708 | iRacing Formula Ray 1600 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/1MtXeMfEZ9c",
+      "access": "free"
+    },
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "That Escalated Fast | iRacing Formula Ray 1600 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/18STB4dcC7Q",
+      "access": "free"
+    },
     {
       "platform": "youtube",
       "format": "long",
@@ -42,17 +56,13 @@
       "access": "free"
     },
     {
-      "platform": "youtube",
-      "format": "long",
-      "title": "POV Crash and Comeback in Formula Ray 1600 Chaos | iRacing",
-      "url": "https://youtu.be/2hEpnshYHSs",
-      "access": "free"
-    },
-    {
-      "platform": "youtube",
+      "platform": "rumble",
       "format": "short",
-      "title": "POV: That One Lap Got Rough in Formula Ray F1600",
-      "url": "https://www.youtube.com/shorts/dkbjCR-Y9zA",
+      "title": "Unexpected Bang On The Start | iRacing Formula Ray 1600",
+      "url": "https://rumble.com/v7f7b5y-unexpected-bang-on-the-start-iracing-formula-ray-1600.html",
+      "thumb": null,
+      "when": "2026-09-10T20:00:00-04:00",
+      "series": "Formula Ray 1600",
       "access": "free"
     },
     {
@@ -104,24 +114,9 @@
       "when": "2026-09-09T20:00:00-04:00",
       "series": "Formula Ray 1600",
       "access": "free"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "The High Moment At 1008 | iRacing Formula Ray 1600",
-      "url": "https://rumble.com/v7f7b2q-the-high-moment-at-1008-iracing-formula-ray-1600.html",
-      "thumb": null,
-      "when": "2026-09-09T18:30:00-04:00",
-      "series": "Formula Ray 1600",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Thu Sep 10 · 8:00 PM",
-      "format": "short",
-      "what": "Unexpected Bang On The Start | iRacing Formula Ray 1600"
-    },
     {
       "when": "Fri Sep 11 · 5:00 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Sat Sep 12 · 6:30 PM",
       "format": "short",
       "what": "The High Moment At 844 | iRacing Ferrari 296 Challenge"
+    },
+    {
+      "when": "Sat Sep 12 · 8:00 PM",
+      "format": "short",
+      "what": "Unexpected Bang On The Track | iRacing Ferrari 296 Challenge"
     }
   ],
   "stats": {
@@ -586,6 +586,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "Unexpected Bang On The Start | iRacing Formula Ray 1600",
+        "url": "https://www.patreon.com/posts/168966606",
+        "at": "2026-09-10T20:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 708 | iRacing Formula Ray 1600",
         "url": "https://www.patreon.com/posts/168966540",
         "at": "2026-09-10T18:30:00-04:00",
@@ -596,12 +602,6 @@
         "url": "https://www.patreon.com/posts/168969848",
         "at": "2026-09-10T18:00:00-04:00",
         "access": "paid"
-      },
-      {
-        "title": "That Escalated Fast | iRacing Formula Ray 1600",
-        "url": "https://www.patreon.com/posts/168966475",
-        "at": "2026-09-10T17:00:00-04:00",
-        "access": "free"
       },
       {
         "title": "POV Recovered from Crash in GR86 Race",
