@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T00:00:06.322171+00:00",
+  "updated": "2026-09-11T21:00:04.500659+00:00",
   "featured": {
     "id": "uhq-KzYnegc",
     "title": "POV Formula Ray 1600 Crash and Comeback Battle | iRacing"
@@ -9,10 +9,17 @@
     "title": "That Escalated Fast | iRacing SF23 Toyota",
     "url": "https://youtu.be/Jn7YT9HCqHY",
     "thumb": "https://i.ytimg.com/vi/Jn7YT9HCqHY/maxresdefault.jpg",
-    "views": 113,
+    "views": 116,
     "format": "long"
   },
   "latest": [
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "Unexpected Bang On The Start | iRacing Formula Ray 1600 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/Kv3Z7-IrHAc",
+      "access": "free"
+    },
     {
       "platform": "youtube",
       "format": "short",
@@ -49,10 +56,13 @@
       "access": "free"
     },
     {
-      "platform": "youtube",
+      "platform": "rumble",
       "format": "short",
-      "title": "That Escalated Fast | iRacing Formula Ray 1600 #SimRacing #iRacing",
-      "url": "https://www.youtube.com/shorts/8yfRWIDGdVg",
+      "title": "That Escalated Fast | iRacing Toyota GR86",
+      "url": "https://rumble.com/v7f7b9u-that-escalated-fast-iracing-toyota-gr86.html",
+      "thumb": null,
+      "when": "2026-09-11T17:00:00-04:00",
+      "series": "Toyota GR86",
       "access": "free"
     },
     {
@@ -104,24 +114,9 @@
       "when": "2026-09-10T17:00:00-04:00",
       "series": "Formula Ray 1600",
       "access": "free"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "The High Moment At 717 | iRacing Formula Ray 1600",
-      "url": "https://rumble.com/v7f7b36-the-high-moment-at-717-iracing-formula-ray-1600.html",
-      "thumb": null,
-      "when": "2026-09-09T20:00:00-04:00",
-      "series": "Formula Ray 1600",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Fri Sep 11 · 5:00 PM",
-      "format": "short",
-      "what": "That Escalated Fast | iRacing Toyota GR86"
-    },
     {
       "when": "Fri Sep 11 · 6:00 PM",
       "format": "long",
@@ -156,6 +151,11 @@
       "when": "Sat Sep 12 · 8:00 PM",
       "format": "short",
       "what": "Unexpected Bang On The Track | iRacing Ferrari 296 Challenge"
+    },
+    {
+      "when": "Sun Sep 13 · 5:00 PM",
+      "format": "short",
+      "what": "That Escalated Fast | iRacing Formula Ray 1600"
     }
   ],
   "stats": {
@@ -580,11 +580,346 @@
           "url": "https://rumble.com/user/Bosskronik"
         }
       ]
+    },
+    {
+      "date": "2026-09-14",
+      "series": "Toyota GR86",
+      "long": {
+        "title": "POV GR86 Crash and Recovery Chaos",
+        "at": "2026-09-14T18:00:00-04:00",
+        "links": [
+          {
+            "name": "patreon",
+            "url": "https://www.patreon.com/Bosskronik"
+          },
+          {
+            "name": "x",
+            "url": "https://x.com/Bosskronik"
+          }
+        ],
+        "thumb": null
+      },
+      "shorts": [
+        {
+          "title": "That Escalated Fast  | iRacing Toyota GR86",
+          "at": "2026-09-14T17:00:00-04:00"
+        },
+        {
+          "title": "The High Moment At 950  | iRacing Toyota GR86",
+          "at": "2026-09-14T18:30:00-04:00"
+        }
+      ],
+      "shorts_links": [
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "rumble",
+          "url": "https://rumble.com/user/Bosskronik"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "series": "Toyota GR86",
+      "long": {
+        "title": "POV Recovered from Crash in GR86 Race",
+        "at": "2026-09-15T18:00:00-04:00",
+        "links": [
+          {
+            "name": "patreon",
+            "url": "https://www.patreon.com/Bosskronik"
+          },
+          {
+            "name": "x",
+            "url": "https://x.com/Bosskronik"
+          }
+        ],
+        "thumb": null
+      },
+      "shorts": [
+        {
+          "title": "That Escalated Fast  | iRacing Toyota GR86",
+          "at": "2026-09-15T17:00:00-04:00"
+        },
+        {
+          "title": "The High Moment At 238  | iRacing Toyota GR86",
+          "at": "2026-09-15T18:30:00-04:00"
+        }
+      ],
+      "shorts_links": [
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "rumble",
+          "url": "https://rumble.com/user/Bosskronik"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "series": "Ferrari 296 Challenge",
+      "long": {
+        "title": "POV Crash and Comeback Battle in Chaos Race",
+        "at": "2026-09-16T18:00:00-04:00",
+        "links": [
+          {
+            "name": "patreon",
+            "url": "https://www.patreon.com/Bosskronik"
+          },
+          {
+            "name": "x",
+            "url": "https://x.com/Bosskronik"
+          }
+        ],
+        "thumb": null
+      },
+      "shorts": [
+        {
+          "title": "That Escalated Fast  | iRacing Ferrari 296 Challenge",
+          "at": "2026-09-16T17:00:00-04:00"
+        },
+        {
+          "title": "The High Moment At 232  | iRacing Ferrari 296 Challenge",
+          "at": "2026-09-16T18:30:00-04:00"
+        }
+      ],
+      "shorts_links": [
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "rumble",
+          "url": "https://rumble.com/user/Bosskronik"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "series": "MX-5 Cup",
+      "long": {
+        "title": "That Race Was Anything But Clean",
+        "at": "2026-09-17T18:00:00-04:00",
+        "links": [
+          {
+            "name": "patreon",
+            "url": "https://www.patreon.com/Bosskronik"
+          },
+          {
+            "name": "x",
+            "url": "https://x.com/Bosskronik"
+          }
+        ],
+        "thumb": null
+      },
+      "shorts": [
+        {
+          "title": "That Escalated Fast  | iRacing MX-5 Cup",
+          "at": "2026-09-17T17:00:00-04:00"
+        },
+        {
+          "title": "The High Moment At 255  | iRacing MX-5 Cup",
+          "at": "2026-09-17T18:30:00-04:00"
+        }
+      ],
+      "shorts_links": [
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "rumble",
+          "url": "https://rumble.com/user/Bosskronik"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "series": "Formula 3",
+      "long": {
+        "title": "POV Recovering from a Crash in Formula 3",
+        "at": "2026-09-18T18:00:00-04:00",
+        "links": [
+          {
+            "name": "patreon",
+            "url": "https://www.patreon.com/Bosskronik"
+          },
+          {
+            "name": "x",
+            "url": "https://x.com/Bosskronik"
+          }
+        ],
+        "thumb": null
+      },
+      "shorts": [
+        {
+          "title": "That Escalated Fast  | iRacing Formula 3",
+          "at": "2026-09-18T17:00:00-04:00"
+        },
+        {
+          "title": "The High Moment At 514  | iRacing Formula 3",
+          "at": "2026-09-18T18:30:00-04:00"
+        }
+      ],
+      "shorts_links": [
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "rumble",
+          "url": "https://rumble.com/user/Bosskronik"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "series": "Toyota GR86",
+      "long": {
+        "title": "That Race Was Anything But Clean",
+        "at": "2026-09-19T18:00:00-04:00",
+        "links": [
+          {
+            "name": "patreon",
+            "url": "https://www.patreon.com/Bosskronik"
+          },
+          {
+            "name": "x",
+            "url": "https://x.com/Bosskronik"
+          }
+        ],
+        "thumb": null
+      },
+      "shorts": [
+        {
+          "title": "That Escalated Fast  | iRacing Toyota GR86",
+          "at": "2026-09-19T17:00:00-04:00"
+        },
+        {
+          "title": "The High Moment At 957  | iRacing Toyota GR86",
+          "at": "2026-09-19T18:30:00-04:00"
+        }
+      ],
+      "shorts_links": [
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "rumble",
+          "url": "https://rumble.com/user/Bosskronik"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "series": "Formula 3",
+      "long": {
+        "title": "POV Crashing and Recovering in F3 Catastrophe",
+        "at": "2026-09-20T18:00:00-04:00",
+        "links": [
+          {
+            "name": "patreon",
+            "url": "https://www.patreon.com/Bosskronik"
+          },
+          {
+            "name": "x",
+            "url": "https://x.com/Bosskronik"
+          }
+        ],
+        "thumb": null
+      },
+      "shorts": [
+        {
+          "title": "That Escalated Fast  | iRacing Formula 3",
+          "at": "2026-09-20T17:00:00-04:00"
+        },
+        {
+          "title": "The High Moment At 211  | iRacing Formula 3",
+          "at": "2026-09-20T18:30:00-04:00"
+        }
+      ],
+      "shorts_links": [
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "rumble",
+          "url": "https://rumble.com/user/Bosskronik"
+        }
+      ]
     }
   ],
   "patreon": {
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
+      {
+        "title": "That Escalated Fast | iRacing Toyota GR86",
+        "url": "https://www.patreon.com/posts/168970143",
+        "at": "2026-09-11T17:00:00-04:00",
+        "access": "free"
+      },
       {
         "title": "Unexpected Bang On The Start | iRacing Formula Ray 1600",
         "url": "https://www.patreon.com/posts/168966606",
@@ -596,12 +931,6 @@
         "url": "https://www.patreon.com/posts/168966540",
         "at": "2026-09-10T18:30:00-04:00",
         "access": "free"
-      },
-      {
-        "title": "POV Formula Ray 1600 Crash and Comeback Battle",
-        "url": "https://www.patreon.com/posts/168969848",
-        "at": "2026-09-10T18:00:00-04:00",
-        "access": "paid"
       },
       {
         "title": "POV Recovered from Crash in GR86 Race",
