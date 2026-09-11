@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T21:00:04.500659+00:00",
+  "updated": "2026-09-11T22:00:04.728309+00:00",
   "featured": {
     "id": "uhq-KzYnegc",
     "title": "POV Formula Ray 1600 Crash and Comeback Battle | iRacing"
@@ -57,6 +57,26 @@
     },
     {
       "platform": "rumble",
+      "format": "long",
+      "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
+      "url": "https://rumble.com/v7f7b9a-pov-recovered-from-crash-in-gr86-race-iracing-toyota-gr86.html",
+      "thumb": "https://i.ytimg.com/vi/h3d2kNMZIVs/hqdefault.jpg",
+      "when": "2026-09-11T18:00:00-04:00",
+      "series": "Toyota GR86",
+      "access": "free"
+    },
+    {
+      "platform": "patreon",
+      "format": "long",
+      "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
+      "url": "https://www.patreon.com/posts/168969976",
+      "thumb": "https://i.ytimg.com/vi/h3d2kNMZIVs/hqdefault.jpg",
+      "when": "2026-09-11T18:00:00-04:00",
+      "series": "Toyota GR86",
+      "access": "paid"
+    },
+    {
+      "platform": "rumble",
       "format": "short",
       "title": "That Escalated Fast | iRacing Toyota GR86",
       "url": "https://rumble.com/v7f7b9u-that-escalated-fast-iracing-toyota-gr86.html",
@@ -94,34 +114,9 @@
       "when": "2026-09-10T18:00:00-04:00",
       "series": "Formula Ray 1600",
       "access": "free"
-    },
-    {
-      "platform": "patreon",
-      "format": "long",
-      "title": "POV Formula Ray 1600 Crash and Comeback Battle | iRacing",
-      "url": "https://www.patreon.com/posts/168969848",
-      "thumb": "https://i.ytimg.com/vi/NegkMDxw-F8/hqdefault.jpg",
-      "when": "2026-09-10T18:00:00-04:00",
-      "series": "Formula Ray 1600",
-      "access": "paid"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "That Escalated Fast | iRacing Formula Ray 1600",
-      "url": "https://rumble.com/v7f7b5e-that-escalated-fast-iracing-formula-ray-1600.html",
-      "thumb": null,
-      "when": "2026-09-10T17:00:00-04:00",
-      "series": "Formula Ray 1600",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Fri Sep 11 · 6:00 PM",
-      "format": "long",
-      "what": "POV Recovered from Crash in GR86 Race"
-    },
     {
       "when": "Fri Sep 11 · 6:30 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Sun Sep 13 · 5:00 PM",
       "format": "short",
       "what": "That Escalated Fast | iRacing Formula Ray 1600"
+    },
+    {
+      "when": "Sun Sep 13 · 6:00 PM",
+      "format": "long",
+      "what": "POV Formula Race Crash and Comeback from Chaos"
     }
   ],
   "stats": {
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "POV Recovered from Crash in GR86 Race",
+        "url": "https://www.patreon.com/posts/168969976",
+        "at": "2026-09-11T18:00:00-04:00",
+        "access": "paid"
+      },
+      {
         "title": "That Escalated Fast | iRacing Toyota GR86",
         "url": "https://www.patreon.com/posts/168970143",
         "at": "2026-09-11T17:00:00-04:00",
@@ -927,25 +933,19 @@
         "access": "free"
       },
       {
-        "title": "The High Moment At 708 | iRacing Formula Ray 1600",
-        "url": "https://www.patreon.com/posts/168966540",
-        "at": "2026-09-10T18:30:00-04:00",
-        "access": "free"
-      },
-      {
-        "title": "POV Recovered from Crash in GR86 Race",
-        "url": "https://www.patreon.com/posts/168969976",
-        "at": "2026-09-11T18:00:00-04:00",
+        "title": "POV Ferrari 296 Crash and Comeback Battle",
+        "url": "https://www.patreon.com/posts/168970407",
+        "at": "2026-09-12T18:00:00-04:00",
         "access": "paid"
       }
     ]
   },
   "next_up": {
-    "when": "Fri Sep 11 · 6:00 PM ET",
-    "what": "POV Recovered from Crash in GR86 Race",
+    "when": "Sat Sep 12 · 6:00 PM ET",
+    "what": "POV Ferrari 296 Crash and Comeback Battle",
     "format": "long",
-    "url": "https://rumble.com/v7f7b9a-pov-recovered-from-crash-in-gr86-race-iracing-toyota-gr86.html",
-    "thumb": "https://i.ytimg.com/vi/h3d2kNMZIVs/hqdefault.jpg"
+    "url": "https://rumble.com/v7f7bem-pov-ferrari-296-crash-and-comeback-battle-iracing.html",
+    "thumb": "https://i.ytimg.com/vi/34YiGW-tTxA/hqdefault.jpg"
   },
   "site_version": 6
 }
