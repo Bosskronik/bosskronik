@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T21:00:03.921282+00:00",
+  "updated": "2026-09-12T22:00:02.138321+00:00",
   "featured": {
     "id": "XcMPdDM6gzI",
     "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86"
@@ -57,6 +57,26 @@
     },
     {
       "platform": "rumble",
+      "format": "long",
+      "title": "POV Ferrari 296 Crash and Comeback Battle | iRacing",
+      "url": "https://rumble.com/v7f7bem-pov-ferrari-296-crash-and-comeback-battle-iracing.html",
+      "thumb": "https://i.ytimg.com/vi/34YiGW-tTxA/hqdefault.jpg",
+      "when": "2026-09-12T18:00:00-04:00",
+      "series": "Ferrari 296 Challenge",
+      "access": "free"
+    },
+    {
+      "platform": "patreon",
+      "format": "long",
+      "title": "POV Ferrari 296 Crash and Comeback Battle | iRacing",
+      "url": "https://www.patreon.com/posts/168970407",
+      "thumb": "https://i.ytimg.com/vi/34YiGW-tTxA/hqdefault.jpg",
+      "when": "2026-09-12T18:00:00-04:00",
+      "series": "Ferrari 296 Challenge",
+      "access": "paid"
+    },
+    {
+      "platform": "rumble",
       "format": "short",
       "title": "That Escalated Fast | iRacing Ferrari 296 Challenge",
       "url": "https://rumble.com/v7f7beu-that-escalated-fast-iracing-ferrari-296-challenge.html",
@@ -94,34 +114,9 @@
       "when": "2026-09-11T18:00:00-04:00",
       "series": "Toyota GR86",
       "access": "free"
-    },
-    {
-      "platform": "patreon",
-      "format": "long",
-      "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
-      "url": "https://www.patreon.com/posts/168969976",
-      "thumb": "https://i.ytimg.com/vi/h3d2kNMZIVs/hqdefault.jpg",
-      "when": "2026-09-11T18:00:00-04:00",
-      "series": "Toyota GR86",
-      "access": "paid"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "That Escalated Fast | iRacing Toyota GR86",
-      "url": "https://rumble.com/v7f7b9u-that-escalated-fast-iracing-toyota-gr86.html",
-      "thumb": null,
-      "when": "2026-09-11T17:00:00-04:00",
-      "series": "Toyota GR86",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Sat Sep 12 · 6:00 PM",
-      "format": "long",
-      "what": "POV Ferrari 296 Crash and Comeback Battle"
-    },
     {
       "when": "Sat Sep 12 · 6:30 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Mon Sep 14 · 5:00 PM",
       "format": "short",
       "what": "That Escalated Fast  | iRacing Toyota GR86"
+    },
+    {
+      "when": "Mon Sep 14 · 6:00 PM",
+      "format": "long",
+      "what": "POV GR86 Crash and Recovery Chaos"
     }
   ],
   "stats": {
@@ -590,7 +590,7 @@
         "links": [
           {
             "name": "patreon",
-            "url": "https://www.patreon.com/Bosskronik"
+            "url": "https://www.patreon.com/posts/169367188"
           },
           {
             "name": "x",
@@ -637,7 +637,7 @@
         "links": [
           {
             "name": "patreon",
-            "url": "https://www.patreon.com/Bosskronik"
+            "url": "https://www.patreon.com/posts/169367410"
           },
           {
             "name": "x",
@@ -684,7 +684,7 @@
         "links": [
           {
             "name": "patreon",
-            "url": "https://www.patreon.com/Bosskronik"
+            "url": "https://www.patreon.com/posts/169367607"
           },
           {
             "name": "x",
@@ -731,7 +731,7 @@
         "links": [
           {
             "name": "patreon",
-            "url": "https://www.patreon.com/Bosskronik"
+            "url": "https://www.patreon.com/posts/169367685"
           },
           {
             "name": "x",
@@ -778,7 +778,7 @@
         "links": [
           {
             "name": "patreon",
-            "url": "https://www.patreon.com/Bosskronik"
+            "url": "https://www.patreon.com/posts/169367838"
           },
           {
             "name": "x",
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "POV Ferrari 296 Crash and Comeback Battle",
+        "url": "https://www.patreon.com/posts/168970407",
+        "at": "2026-09-12T18:00:00-04:00",
+        "access": "paid"
+      },
+      {
         "title": "That Escalated Fast | iRacing Ferrari 296 Challenge",
         "url": "https://www.patreon.com/posts/168970554",
         "at": "2026-09-12T17:00:00-04:00",
@@ -927,25 +933,19 @@
         "access": "free"
       },
       {
-        "title": "The High Moment At 126 | iRacing Toyota GR86",
-        "url": "https://www.patreon.com/posts/168970216",
-        "at": "2026-09-11T18:30:00-04:00",
-        "access": "free"
-      },
-      {
-        "title": "POV Ferrari 296 Crash and Comeback Battle",
-        "url": "https://www.patreon.com/posts/168970407",
-        "at": "2026-09-12T18:00:00-04:00",
+        "title": "POV Formula Race Crash and Comeback from Chaos",
+        "url": "https://www.patreon.com/posts/168970756",
+        "at": "2026-09-13T18:00:00-04:00",
         "access": "paid"
       }
     ]
   },
   "next_up": {
-    "when": "Sat Sep 12 · 6:00 PM ET",
-    "what": "POV Ferrari 296 Crash and Comeback Battle",
+    "when": "Sun Sep 13 · 6:00 PM ET",
+    "what": "POV Formula Race Crash and Comeback from Chaos",
     "format": "long",
-    "url": "https://rumble.com/v7f7bem-pov-ferrari-296-crash-and-comeback-battle-iracing.html",
-    "thumb": "https://i.ytimg.com/vi/34YiGW-tTxA/hqdefault.jpg"
+    "url": "https://rumble.com/v7f7bkm-pov-formula-race-crash-and-comeback-from-chaos-iracing.html",
+    "thumb": "https://i.ytimg.com/vi/Qd7u4t0MhRc/hqdefault.jpg"
   },
   "site_version": 6
 }
