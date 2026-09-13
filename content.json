@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T21:00:02.938046+00:00",
+  "updated": "2026-09-13T22:00:02.498100+00:00",
   "featured": {
     "id": "Me8R7cbe5mo",
     "title": "POV Ferrari 296 Crash and Comeback Battle | iRacing"
@@ -9,7 +9,7 @@
     "title": "Formula Ray F1600: The Rival Who Wouldn't Back Down",
     "url": "https://youtu.be/9j0S4EM1tzM",
     "thumb": "https://i.ytimg.com/vi/9j0S4EM1tzM/maxresdefault.jpg",
-    "views": 48,
+    "views": 49,
     "format": "long"
   },
   "latest": [
@@ -57,6 +57,26 @@
     },
     {
       "platform": "rumble",
+      "format": "long",
+      "title": "POV Formula Race Crash and Comeback from Chaos | iRacing",
+      "url": "https://rumble.com/v7f7bkm-pov-formula-race-crash-and-comeback-from-chaos-iracing.html",
+      "thumb": "https://i.ytimg.com/vi/Qd7u4t0MhRc/hqdefault.jpg",
+      "when": "2026-09-13T18:00:00-04:00",
+      "series": "Formula Ray 1600",
+      "access": "free"
+    },
+    {
+      "platform": "patreon",
+      "format": "long",
+      "title": "POV Formula Race Crash and Comeback from Chaos | iRacing",
+      "url": "https://www.patreon.com/posts/168970756",
+      "thumb": "https://i.ytimg.com/vi/Qd7u4t0MhRc/hqdefault.jpg",
+      "when": "2026-09-13T18:00:00-04:00",
+      "series": "Formula Ray 1600",
+      "access": "paid"
+    },
+    {
+      "platform": "rumble",
       "format": "short",
       "title": "That Escalated Fast | iRacing Formula Ray 1600",
       "url": "https://rumble.com/v7f7bl4-that-escalated-fast-iracing-formula-ray-1600.html",
@@ -94,34 +114,9 @@
       "when": "2026-09-12T18:00:00-04:00",
       "series": "Ferrari 296 Challenge",
       "access": "free"
-    },
-    {
-      "platform": "patreon",
-      "format": "long",
-      "title": "POV Ferrari 296 Crash and Comeback Battle | iRacing",
-      "url": "https://www.patreon.com/posts/168970407",
-      "thumb": "https://i.ytimg.com/vi/34YiGW-tTxA/hqdefault.jpg",
-      "when": "2026-09-12T18:00:00-04:00",
-      "series": "Ferrari 296 Challenge",
-      "access": "paid"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "That Escalated Fast | iRacing Ferrari 296 Challenge",
-      "url": "https://rumble.com/v7f7beu-that-escalated-fast-iracing-ferrari-296-challenge.html",
-      "thumb": null,
-      "when": "2026-09-12T17:00:00-04:00",
-      "series": "Ferrari 296 Challenge",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Sun Sep 13 · 6:00 PM",
-      "format": "long",
-      "what": "POV Formula Race Crash and Comeback from Chaos"
-    },
     {
       "when": "Sun Sep 13 · 6:30 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Tue Sep 15 · 6:00 PM",
       "format": "long",
       "what": "POV Recovered from Crash in GR86 Race"
+    },
+    {
+      "when": "Tue Sep 15 · 6:30 PM",
+      "format": "short",
+      "what": "The High Moment At 238  | iRacing Toyota GR86"
     }
   ],
   "stats": {
@@ -825,7 +825,7 @@
         "links": [
           {
             "name": "patreon",
-            "url": "https://www.patreon.com/Bosskronik"
+            "url": "https://www.patreon.com/posts/169454239"
           },
           {
             "name": "x",
@@ -872,7 +872,7 @@
         "links": [
           {
             "name": "patreon",
-            "url": "https://www.patreon.com/Bosskronik"
+            "url": "https://www.patreon.com/posts/169454390"
           },
           {
             "name": "x",
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "POV Formula Race Crash and Comeback from Chaos",
+        "url": "https://www.patreon.com/posts/168970756",
+        "at": "2026-09-13T18:00:00-04:00",
+        "access": "paid"
+      },
+      {
         "title": "That Escalated Fast | iRacing Formula Ray 1600",
         "url": "https://www.patreon.com/posts/168966734",
         "at": "2026-09-13T17:00:00-04:00",
@@ -927,25 +933,19 @@
         "access": "free"
       },
       {
-        "title": "The High Moment At 844 | iRacing Ferrari 296 Challenge",
-        "url": "https://www.patreon.com/posts/168970606",
-        "at": "2026-09-12T18:30:00-04:00",
-        "access": "free"
-      },
-      {
-        "title": "POV Formula Race Crash and Comeback from Chaos",
-        "url": "https://www.patreon.com/posts/168970756",
-        "at": "2026-09-13T18:00:00-04:00",
+        "title": "POV GR86 Crash and Recovery Chaos",
+        "url": "https://www.patreon.com/posts/169367188",
+        "at": "2026-09-14T18:00:00-04:00",
         "access": "paid"
       }
     ]
   },
   "next_up": {
-    "when": "Sun Sep 13 · 6:00 PM ET",
-    "what": "POV Formula Race Crash and Comeback from Chaos",
+    "when": "Mon Sep 14 · 6:00 PM ET",
+    "what": "POV GR86 Crash and Recovery Chaos",
     "format": "long",
-    "url": "https://rumble.com/v7f7bkm-pov-formula-race-crash-and-comeback-from-chaos-iracing.html",
-    "thumb": "https://i.ytimg.com/vi/Qd7u4t0MhRc/hqdefault.jpg"
+    "url": "https://www.patreon.com/posts/169367188",
+    "thumb": null
   },
   "site_version": 6
 }
