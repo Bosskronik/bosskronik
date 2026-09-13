@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T23:00:02.885014+00:00",
+  "updated": "2026-09-13T00:00:02.074991+00:00",
   "featured": {
     "id": "Me8R7cbe5mo",
     "title": "POV Ferrari 296 Crash and Comeback Battle | iRacing"
@@ -58,6 +58,16 @@
     {
       "platform": "rumble",
       "format": "short",
+      "title": "Unexpected Bang On The Track | iRacing Ferrari 296 Challenge",
+      "url": "https://rumble.com/v7f7bgg-unexpected-bang-on-the-track-iracing-ferrari-296-challenge.html",
+      "thumb": null,
+      "when": "2026-09-12T20:00:00-04:00",
+      "series": "Ferrari 296 Challenge",
+      "access": "free"
+    },
+    {
+      "platform": "rumble",
+      "format": "short",
       "title": "The High Moment At 844 | iRacing Ferrari 296 Challenge",
       "url": "https://rumble.com/v7f7bfe-the-high-moment-at-844-iracing-ferrari-296-challenge.html",
       "thumb": null,
@@ -104,24 +114,9 @@
       "when": "2026-09-11T20:00:00-04:00",
       "series": "Toyota GR86",
       "access": "free"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "The High Moment At 126 | iRacing Toyota GR86",
-      "url": "https://rumble.com/v7f7bag-the-high-moment-at-126-iracing-toyota-gr86.html",
-      "thumb": null,
-      "when": "2026-09-11T18:30:00-04:00",
-      "series": "Toyota GR86",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Sat Sep 12 · 8:00 PM",
-      "format": "short",
-      "what": "Unexpected Bang On The Track | iRacing Ferrari 296 Challenge"
-    },
     {
       "when": "Sun Sep 13 · 5:00 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Mon Sep 14 · 6:30 PM",
       "format": "short",
       "what": "The High Moment At 950  | iRacing Toyota GR86"
+    },
+    {
+      "when": "Tue Sep 15 · 5:00 PM",
+      "format": "short",
+      "what": "That Escalated Fast  | iRacing Toyota GR86"
     }
   ],
   "stats": {
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "Unexpected Bang On The Track | iRacing Ferrari 296 Challenge",
+        "url": "https://www.patreon.com/posts/168970675",
+        "at": "2026-09-12T20:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 844 | iRacing Ferrari 296 Challenge",
         "url": "https://www.patreon.com/posts/168970606",
         "at": "2026-09-12T18:30:00-04:00",
@@ -925,12 +931,6 @@
         "url": "https://www.patreon.com/posts/168970407",
         "at": "2026-09-12T18:00:00-04:00",
         "access": "paid"
-      },
-      {
-        "title": "That Escalated Fast | iRacing Ferrari 296 Challenge",
-        "url": "https://www.patreon.com/posts/168970554",
-        "at": "2026-09-12T17:00:00-04:00",
-        "access": "free"
       },
       {
         "title": "POV Formula Race Crash and Comeback from Chaos",
