@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T23:00:03.405388+00:00",
+  "updated": "2026-09-14T00:00:04.520930+00:00",
   "featured": {
     "id": "Cw-LE0saDBk",
     "title": "POV Formula Race Crash and Comeback from Chaos | iRacing"
@@ -13,6 +13,20 @@
     "format": "long"
   },
   "latest": [
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "The High Moment At 1012 | iRacing Formula Ray 1600 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/H8m3J_whRLs",
+      "access": "free"
+    },
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "That Escalated Fast | iRacing Formula Ray 1600 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/Mic3DaulMOw",
+      "access": "free"
+    },
     {
       "platform": "youtube",
       "format": "long",
@@ -42,17 +56,13 @@
       "access": "free"
     },
     {
-      "platform": "youtube",
+      "platform": "rumble",
       "format": "short",
-      "title": "That Escalated Fast | iRacing Toyota GR86 #SimRacing #iRacing",
-      "url": "https://www.youtube.com/shorts/xjYnQRNFShE",
-      "access": "free"
-    },
-    {
-      "platform": "youtube",
-      "format": "long",
-      "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
-      "url": "https://youtu.be/XcMPdDM6gzI",
+      "title": "The High Moment At 153 | iRacing Formula Ray 1600",
+      "url": "https://rumble.com/v7f7bma-the-high-moment-at-153-iracing-formula-ray-1600.html",
+      "thumb": null,
+      "when": "2026-09-13T20:00:00-04:00",
+      "series": "Formula Ray 1600",
       "access": "free"
     },
     {
@@ -104,24 +114,9 @@
       "when": "2026-09-12T20:00:00-04:00",
       "series": "Ferrari 296 Challenge",
       "access": "free"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "The High Moment At 844 | iRacing Ferrari 296 Challenge",
-      "url": "https://rumble.com/v7f7bfe-the-high-moment-at-844-iracing-ferrari-296-challenge.html",
-      "thumb": null,
-      "when": "2026-09-12T18:30:00-04:00",
-      "series": "Ferrari 296 Challenge",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Sun Sep 13 · 8:00 PM",
-      "format": "short",
-      "what": "The High Moment At 153 | iRacing Formula Ray 1600"
-    },
     {
       "when": "Mon Sep 14 · 5:00 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Wed Sep 16 · 5:00 PM",
       "format": "short",
       "what": "That Escalated Fast  | iRacing Ferrari 296 Challenge"
+    },
+    {
+      "when": "Wed Sep 16 · 6:00 PM",
+      "format": "long",
+      "what": "POV Crash and Comeback Battle in Chaos Race"
     }
   ],
   "stats": {
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "The High Moment At 153 | iRacing Formula Ray 1600",
+        "url": "https://www.patreon.com/posts/168970886",
+        "at": "2026-09-13T20:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 1012 | iRacing Formula Ray 1600",
         "url": "https://www.patreon.com/posts/168966824",
         "at": "2026-09-13T18:30:00-04:00",
@@ -925,12 +931,6 @@
         "url": "https://www.patreon.com/posts/168970756",
         "at": "2026-09-13T18:00:00-04:00",
         "access": "paid"
-      },
-      {
-        "title": "That Escalated Fast | iRacing Formula Ray 1600",
-        "url": "https://www.patreon.com/posts/168966734",
-        "at": "2026-09-13T17:00:00-04:00",
-        "access": "free"
       },
       {
         "title": "POV GR86 Crash and Recovery Chaos",
