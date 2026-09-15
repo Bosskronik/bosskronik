@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T21:00:05.397783+00:00",
+  "updated": "2026-09-15T22:00:05.800595+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -58,6 +58,16 @@
     {
       "platform": "patreon",
       "format": "long",
+      "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
+      "url": "https://www.patreon.com/posts/169367410",
+      "thumb": null,
+      "when": "2026-09-15T18:00:00-04:00",
+      "series": "Toyota GR86",
+      "access": "paid"
+    },
+    {
+      "platform": "patreon",
+      "format": "long",
       "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86",
       "url": "https://www.patreon.com/posts/169367188",
       "thumb": null,
@@ -104,24 +114,9 @@
       "when": "2026-09-13T18:00:00-04:00",
       "series": "Formula Ray 1600",
       "access": "paid"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "That Escalated Fast | iRacing Formula Ray 1600",
-      "url": "https://rumble.com/v7f7bl4-that-escalated-fast-iracing-formula-ray-1600.html",
-      "thumb": null,
-      "when": "2026-09-13T17:00:00-04:00",
-      "series": "Formula Ray 1600",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Tue Sep 15 · 6:00 PM",
-      "format": "long",
-      "what": "POV Recovered from Crash in GR86 Race"
-    },
     {
       "when": "Tue Sep 15 · 6:30 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Thu Sep 17 · 6:30 PM",
       "format": "short",
       "what": "The High Moment At 255  | iRacing MX-5 Cup"
+    },
+    {
+      "when": "Fri Sep 18 · 5:00 PM",
+      "format": "short",
+      "what": "That Escalated Fast  | iRacing Formula 3"
     }
   ],
   "stats": {
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "POV Recovered from Crash in GR86 Race",
+        "url": "https://www.patreon.com/posts/169367410",
+        "at": "2026-09-15T18:00:00-04:00",
+        "access": "paid"
+      },
+      {
         "title": "That Escalated Fast  | iRacing Toyota GR86",
         "url": "https://www.patreon.com/posts/169367497",
         "at": "2026-09-15T17:00:00-04:00",
@@ -927,24 +933,18 @@
         "access": "free"
       },
       {
-        "title": "POV GR86 Crash and Recovery Chaos",
-        "url": "https://www.patreon.com/posts/169367188",
-        "at": "2026-09-14T18:00:00-04:00",
-        "access": "paid"
-      },
-      {
-        "title": "POV Recovered from Crash in GR86 Race",
-        "url": "https://www.patreon.com/posts/169367410",
-        "at": "2026-09-15T18:00:00-04:00",
+        "title": "POV Crash and Comeback Battle in Chaos Race",
+        "url": "https://www.patreon.com/posts/169367607",
+        "at": "2026-09-16T18:00:00-04:00",
         "access": "paid"
       }
     ]
   },
   "next_up": {
-    "when": "Tue Sep 15 · 6:00 PM ET",
-    "what": "POV Recovered from Crash in GR86 Race",
+    "when": "Wed Sep 16 · 6:00 PM ET",
+    "what": "POV Crash and Comeback Battle in Chaos Race",
     "format": "long",
-    "url": "https://www.patreon.com/posts/169367410",
+    "url": "https://www.patreon.com/posts/169367607",
     "thumb": null
   },
   "site_version": 6
