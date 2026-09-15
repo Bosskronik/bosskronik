@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T23:00:05.665727+00:00",
+  "updated": "2026-09-15T21:00:05.397783+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -9,10 +9,24 @@
     "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
     "url": "https://youtu.be/XcMPdDM6gzI",
     "thumb": "https://i.ytimg.com/vi/XcMPdDM6gzI/maxresdefault.jpg",
-    "views": 14,
+    "views": 18,
     "format": "long"
   },
   "latest": [
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "The High Moment At 950 | iRacing Toyota GR86 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/FIOYWxCwphs",
+      "access": "free"
+    },
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "That Escalated Fast | iRacing Toyota GR86 #SimRacing #iRacing",
+      "url": "https://www.youtube.com/shorts/BQ9q22L82oc",
+      "access": "free"
+    },
     {
       "platform": "youtube",
       "format": "long",
@@ -39,20 +53,6 @@
       "format": "short",
       "title": "The High Moment At 248 | iRacing Toyota GR86 #SimRacing #iRacing",
       "url": "https://www.youtube.com/shorts/YGW0wvrm9S0",
-      "access": "free"
-    },
-    {
-      "platform": "youtube",
-      "format": "short",
-      "title": "The High Moment At 126 | iRacing Toyota GR86 #SimRacing #iRacing",
-      "url": "https://www.youtube.com/shorts/0ruDK-yVgX4",
-      "access": "free"
-    },
-    {
-      "platform": "youtube",
-      "format": "short",
-      "title": "That Escalated Fast | iRacing Toyota GR86 #SimRacing #iRacing",
-      "url": "https://www.youtube.com/shorts/xjYnQRNFShE",
       "access": "free"
     },
     {
@@ -118,11 +118,6 @@
   ],
   "upcoming": [
     {
-      "when": "Tue Sep 15 · 5:00 PM",
-      "format": "short",
-      "what": "That Escalated Fast  | iRacing Toyota GR86"
-    },
-    {
       "when": "Tue Sep 15 · 6:00 PM",
       "format": "long",
       "what": "POV Recovered from Crash in GR86 Race"
@@ -156,6 +151,11 @@
       "when": "Thu Sep 17 · 6:00 PM",
       "format": "long",
       "what": "That Race Was Anything But Clean"
+    },
+    {
+      "when": "Thu Sep 17 · 6:30 PM",
+      "format": "short",
+      "what": "The High Moment At 255  | iRacing MX-5 Cup"
     }
   ],
   "stats": {
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "That Escalated Fast  | iRacing Toyota GR86",
+        "url": "https://www.patreon.com/posts/169367497",
+        "at": "2026-09-15T17:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 950  | iRacing Toyota GR86",
         "url": "https://www.patreon.com/posts/169367358",
         "at": "2026-09-14T18:30:00-04:00",
@@ -925,12 +931,6 @@
         "url": "https://www.patreon.com/posts/169367188",
         "at": "2026-09-14T18:00:00-04:00",
         "access": "paid"
-      },
-      {
-        "title": "That Escalated Fast  | iRacing Toyota GR86",
-        "url": "https://www.patreon.com/posts/169367305",
-        "at": "2026-09-14T17:00:00-04:00",
-        "access": "free"
       },
       {
         "title": "POV Recovered from Crash in GR86 Race",
