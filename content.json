@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T23:00:07.297628+00:00",
+  "updated": "2026-09-16T21:00:05.215284+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -9,7 +9,7 @@
     "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
     "url": "https://youtu.be/XcMPdDM6gzI",
     "thumb": "https://i.ytimg.com/vi/XcMPdDM6gzI/maxresdefault.jpg",
-    "views": 18,
+    "views": 20,
     "format": "long"
   },
   "latest": [
@@ -118,11 +118,6 @@
   ],
   "upcoming": [
     {
-      "when": "Wed Sep 16 · 5:00 PM",
-      "format": "short",
-      "what": "That Escalated Fast  | iRacing Ferrari 296 Challenge"
-    },
-    {
       "when": "Wed Sep 16 · 6:00 PM",
       "format": "long",
       "what": "POV Crash and Comeback Battle in Chaos Race"
@@ -156,6 +151,11 @@
       "when": "Fri Sep 18 · 6:00 PM",
       "format": "long",
       "what": "POV Recovering from a Crash in Formula 3"
+    },
+    {
+      "when": "Fri Sep 18 · 6:30 PM",
+      "format": "short",
+      "what": "The High Moment At 514  | iRacing Formula 3"
     }
   ],
   "stats": {
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "That Escalated Fast  | iRacing Ferrari 296 Challenge",
+        "url": "https://www.patreon.com/posts/169367630",
+        "at": "2026-09-16T17:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 238  | iRacing Toyota GR86",
         "url": "https://www.patreon.com/posts/169367567",
         "at": "2026-09-15T18:30:00-04:00",
@@ -925,12 +931,6 @@
         "url": "https://www.patreon.com/posts/169367410",
         "at": "2026-09-15T18:00:00-04:00",
         "access": "paid"
-      },
-      {
-        "title": "That Escalated Fast  | iRacing Toyota GR86",
-        "url": "https://www.patreon.com/posts/169367497",
-        "at": "2026-09-15T17:00:00-04:00",
-        "access": "free"
       },
       {
         "title": "POV Crash and Comeback Battle in Chaos Race",
