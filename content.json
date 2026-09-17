@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T21:00:04.689670+00:00",
+  "updated": "2026-09-17T22:00:04.768945+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -58,6 +58,16 @@
     {
       "platform": "patreon",
       "format": "long",
+      "title": "That Race Was Anything But Clean | iRacing MX-5 Cup",
+      "url": "https://www.patreon.com/posts/169367685",
+      "thumb": null,
+      "when": "2026-09-17T18:00:00-04:00",
+      "series": "MX-5 Cup",
+      "access": "paid"
+    },
+    {
+      "platform": "patreon",
+      "format": "long",
       "title": "POV Crash and Comeback Battle in Chaos Race | iRacing Ferrari 296 Challenge",
       "url": "https://www.patreon.com/posts/169367607",
       "thumb": null,
@@ -104,24 +114,9 @@
       "when": "2026-09-13T18:30:00-04:00",
       "series": "Formula Ray 1600",
       "access": "free"
-    },
-    {
-      "platform": "rumble",
-      "format": "long",
-      "title": "POV Formula Race Crash and Comeback from Chaos | iRacing",
-      "url": "https://rumble.com/v7f7bkm-pov-formula-race-crash-and-comeback-from-chaos-iracing.html",
-      "thumb": "https://i.ytimg.com/vi/Qd7u4t0MhRc/hqdefault.jpg",
-      "when": "2026-09-13T18:00:00-04:00",
-      "series": "Formula Ray 1600",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Thu Sep 17 · 6:00 PM",
-      "format": "long",
-      "what": "That Race Was Anything But Clean"
-    },
     {
       "when": "Thu Sep 17 · 6:30 PM",
       "format": "short",
@@ -156,6 +151,11 @@
       "when": "Sat Sep 19 · 6:30 PM",
       "format": "short",
       "what": "The High Moment At 957  | iRacing Toyota GR86"
+    },
+    {
+      "when": "Sun Sep 20 · 5:00 PM",
+      "format": "short",
+      "what": "That Escalated Fast  | iRacing Formula 3"
     }
   ],
   "stats": {
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "That Race Was Anything But Clean",
+        "url": "https://www.patreon.com/posts/169367685",
+        "at": "2026-09-17T18:00:00-04:00",
+        "access": "paid"
+      },
+      {
         "title": "That Escalated Fast  | iRacing MX-5 Cup",
         "url": "https://www.patreon.com/posts/169367764",
         "at": "2026-09-17T17:00:00-04:00",
@@ -927,24 +933,18 @@
         "access": "free"
       },
       {
-        "title": "POV Crash and Comeback Battle in Chaos Race",
-        "url": "https://www.patreon.com/posts/169367607",
-        "at": "2026-09-16T18:00:00-04:00",
-        "access": "paid"
-      },
-      {
-        "title": "That Race Was Anything But Clean",
-        "url": "https://www.patreon.com/posts/169367685",
-        "at": "2026-09-17T18:00:00-04:00",
+        "title": "POV Recovering from a Crash in Formula 3",
+        "url": "https://www.patreon.com/posts/169367838",
+        "at": "2026-09-18T18:00:00-04:00",
         "access": "paid"
       }
     ]
   },
   "next_up": {
-    "when": "Thu Sep 17 · 6:00 PM ET",
-    "what": "That Race Was Anything But Clean",
+    "when": "Fri Sep 18 · 6:00 PM ET",
+    "what": "POV Recovering from a Crash in Formula 3",
     "format": "long",
-    "url": "https://www.patreon.com/posts/169367685",
+    "url": "https://www.patreon.com/posts/169367838",
     "thumb": null
   },
   "site_version": 6
