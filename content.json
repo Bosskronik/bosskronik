@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T23:00:02.410879+00:00",
+  "updated": "2026-09-17T21:00:04.689670+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -9,7 +9,7 @@
     "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
     "url": "https://youtu.be/XcMPdDM6gzI",
     "thumb": "https://i.ytimg.com/vi/XcMPdDM6gzI/maxresdefault.jpg",
-    "views": 20,
+    "views": 24,
     "format": "long"
   },
   "latest": [
@@ -118,11 +118,6 @@
   ],
   "upcoming": [
     {
-      "when": "Thu Sep 17 · 5:00 PM",
-      "format": "short",
-      "what": "That Escalated Fast  | iRacing MX-5 Cup"
-    },
-    {
       "when": "Thu Sep 17 · 6:00 PM",
       "format": "long",
       "what": "That Race Was Anything But Clean"
@@ -156,6 +151,11 @@
       "when": "Sat Sep 19 · 6:00 PM",
       "format": "long",
       "what": "That Race Was Anything But Clean"
+    },
+    {
+      "when": "Sat Sep 19 · 6:30 PM",
+      "format": "short",
+      "what": "The High Moment At 957  | iRacing Toyota GR86"
     }
   ],
   "stats": {
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "That Escalated Fast  | iRacing MX-5 Cup",
+        "url": "https://www.patreon.com/posts/169367764",
+        "at": "2026-09-17T17:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 232  | iRacing Ferrari 296 Challenge",
         "url": "https://www.patreon.com/posts/169367662",
         "at": "2026-09-16T18:30:00-04:00",
@@ -925,12 +931,6 @@
         "url": "https://www.patreon.com/posts/169367607",
         "at": "2026-09-16T18:00:00-04:00",
         "access": "paid"
-      },
-      {
-        "title": "That Escalated Fast  | iRacing Ferrari 296 Challenge",
-        "url": "https://www.patreon.com/posts/169367630",
-        "at": "2026-09-16T17:00:00-04:00",
-        "access": "free"
       },
       {
         "title": "That Race Was Anything But Clean",
