@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T23:00:04.892228+00:00",
+  "updated": "2026-09-18T21:00:05.326595+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -9,7 +9,7 @@
     "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
     "url": "https://youtu.be/XcMPdDM6gzI",
     "thumb": "https://i.ytimg.com/vi/XcMPdDM6gzI/maxresdefault.jpg",
-    "views": 24,
+    "views": 25,
     "format": "long"
   },
   "latest": [
@@ -118,11 +118,6 @@
   ],
   "upcoming": [
     {
-      "when": "Fri Sep 18 · 5:00 PM",
-      "format": "short",
-      "what": "That Escalated Fast  | iRacing Formula 3"
-    },
-    {
       "when": "Fri Sep 18 · 6:00 PM",
       "format": "long",
       "what": "POV Recovering from a Crash in Formula 3"
@@ -156,6 +151,11 @@
       "when": "Sun Sep 20 · 6:00 PM",
       "format": "long",
       "what": "POV Crashing and Recovering in F3 Catastrophe"
+    },
+    {
+      "when": "Sun Sep 20 · 6:30 PM",
+      "format": "short",
+      "what": "The High Moment At 211  | iRacing Formula 3"
     }
   ],
   "stats": {
@@ -915,6 +915,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "That Escalated Fast  | iRacing Formula 3",
+        "url": "https://www.patreon.com/posts/169367904",
+        "at": "2026-09-18T17:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 255  | iRacing MX-5 Cup",
         "url": "https://www.patreon.com/posts/169367793",
         "at": "2026-09-17T18:30:00-04:00",
@@ -925,12 +931,6 @@
         "url": "https://www.patreon.com/posts/169367685",
         "at": "2026-09-17T18:00:00-04:00",
         "access": "paid"
-      },
-      {
-        "title": "That Escalated Fast  | iRacing MX-5 Cup",
-        "url": "https://www.patreon.com/posts/169367764",
-        "at": "2026-09-17T17:00:00-04:00",
-        "access": "free"
       },
       {
         "title": "POV Recovering from a Crash in Formula 3",
