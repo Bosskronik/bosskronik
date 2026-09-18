@@ -1,15 +1,15 @@
 {
-  "updated": "2026-09-18T22:00:06.382398+00:00",
+  "updated": "2026-09-18T23:00:04.719101+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
   },
   "previously": {
-    "id": "XcMPdDM6gzI",
-    "title": "POV Recovered from Crash in GR86 Race | iRacing Toyota GR86",
-    "url": "https://youtu.be/XcMPdDM6gzI",
-    "thumb": "https://i.ytimg.com/vi/XcMPdDM6gzI/maxresdefault.jpg",
-    "views": 25,
+    "id": "Me8R7cbe5mo",
+    "title": "POV Ferrari 296 Crash and Comeback Battle | iRacing",
+    "url": "https://youtu.be/Me8R7cbe5mo",
+    "thumb": "https://i.ytimg.com/vi/Me8R7cbe5mo/maxresdefault.jpg",
+    "views": 16,
     "format": "long"
   },
   "latest": [
@@ -117,11 +117,6 @@
     }
   ],
   "upcoming": [
-    {
-      "when": "Fri Sep 18 · 6:30 PM",
-      "format": "short",
-      "what": "The High Moment At 514  | iRacing Formula 3"
-    },
     {
       "when": "Sat Sep 19 · 5:00 PM",
       "format": "short",
@@ -910,6 +905,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "The High Moment At 514  | iRacing Formula 3",
+        "url": "https://www.patreon.com/posts/169367955",
+        "at": "2026-09-18T18:30:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "POV Recovering from a Crash in Formula 3",
         "url": "https://www.patreon.com/posts/169367838",
         "at": "2026-09-18T18:00:00-04:00",
@@ -919,12 +920,6 @@
         "title": "That Escalated Fast  | iRacing Formula 3",
         "url": "https://www.patreon.com/posts/169367904",
         "at": "2026-09-18T17:00:00-04:00",
-        "access": "free"
-      },
-      {
-        "title": "The High Moment At 255  | iRacing MX-5 Cup",
-        "url": "https://www.patreon.com/posts/169367793",
-        "at": "2026-09-17T18:30:00-04:00",
         "access": "free"
       },
       {
