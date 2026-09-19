@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T21:00:04.732536+00:00",
+  "updated": "2026-09-19T22:00:09.140581+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -58,6 +58,16 @@
     {
       "platform": "patreon",
       "format": "long",
+      "title": "That Race Was Anything But Clean | iRacing Toyota GR86",
+      "url": "https://www.patreon.com/posts/169454239",
+      "thumb": null,
+      "when": "2026-09-19T18:00:00-04:00",
+      "series": "Toyota GR86",
+      "access": "paid"
+    },
+    {
+      "platform": "patreon",
+      "format": "long",
       "title": "POV Recovering from a Crash in Formula 3 | iRacing Formula 3",
       "url": "https://www.patreon.com/posts/169367838",
       "thumb": null,
@@ -104,24 +114,9 @@
       "when": "2026-09-14T18:00:00-04:00",
       "series": "Toyota GR86",
       "access": "paid"
-    },
-    {
-      "platform": "rumble",
-      "format": "short",
-      "title": "The High Moment At 153 | iRacing Formula Ray 1600",
-      "url": "https://rumble.com/v7f7bma-the-high-moment-at-153-iracing-formula-ray-1600.html",
-      "thumb": null,
-      "when": "2026-09-13T20:00:00-04:00",
-      "series": "Formula Ray 1600",
-      "access": "free"
     }
   ],
   "upcoming": [
-    {
-      "when": "Sat Sep 19 · 6:00 PM",
-      "format": "long",
-      "what": "That Race Was Anything But Clean"
-    },
     {
       "when": "Sat Sep 19 · 6:30 PM",
       "format": "short",
@@ -900,6 +895,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "That Race Was Anything But Clean",
+        "url": "https://www.patreon.com/posts/169454239",
+        "at": "2026-09-19T18:00:00-04:00",
+        "access": "paid"
+      },
+      {
         "title": "That Escalated Fast  | iRacing Toyota GR86",
         "url": "https://www.patreon.com/posts/169454324",
         "at": "2026-09-19T17:00:00-04:00",
@@ -912,24 +913,18 @@
         "access": "free"
       },
       {
-        "title": "POV Recovering from a Crash in Formula 3",
-        "url": "https://www.patreon.com/posts/169367838",
-        "at": "2026-09-18T18:00:00-04:00",
-        "access": "paid"
-      },
-      {
-        "title": "That Race Was Anything But Clean",
-        "url": "https://www.patreon.com/posts/169454239",
-        "at": "2026-09-19T18:00:00-04:00",
+        "title": "POV Crashing and Recovering in F3 Catastrophe",
+        "url": "https://www.patreon.com/posts/169454390",
+        "at": "2026-09-20T18:00:00-04:00",
         "access": "paid"
       }
     ]
   },
   "next_up": {
-    "when": "Sat Sep 19 · 6:00 PM ET",
-    "what": "That Race Was Anything But Clean",
+    "when": "Sun Sep 20 · 6:00 PM ET",
+    "what": "POV Crashing and Recovering in F3 Catastrophe",
     "format": "long",
-    "url": "https://www.patreon.com/posts/169454239",
+    "url": "https://www.patreon.com/posts/169454390",
     "thumb": null
   },
   "site_version": 6
