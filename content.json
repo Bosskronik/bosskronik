@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T22:00:04.895433+00:00",
+  "updated": "2026-09-20T23:00:05.706353+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -108,13 +108,7 @@
       "access": "paid"
     }
   ],
-  "upcoming": [
-    {
-      "when": "Sun Sep 20 · 6:30 PM",
-      "format": "short",
-      "what": "The High Moment At 211  | iRacing Formula 3"
-    }
-  ],
+  "upcoming": [],
   "stats": {
     "_note": "Edited by hand or refreshed by the weekly optimizer. Numbers show on the site hero + platform cards.",
     "subs": 7340,
@@ -872,6 +866,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "The High Moment At 211  | iRacing Formula 3",
+        "url": "https://www.patreon.com/posts/169454556",
+        "at": "2026-09-20T18:30:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "POV Crashing and Recovering in F3 Catastrophe",
         "url": "https://www.patreon.com/posts/169454390",
         "at": "2026-09-20T18:00:00-04:00",
@@ -882,21 +882,8 @@
         "url": "https://www.patreon.com/posts/169454501",
         "at": "2026-09-20T17:00:00-04:00",
         "access": "free"
-      },
-      {
-        "title": "The High Moment At 957  | iRacing Toyota GR86",
-        "url": "https://www.patreon.com/posts/169454351",
-        "at": "2026-09-19T18:30:00-04:00",
-        "access": "free"
       }
     ]
-  },
-  "next_up": {
-    "when": "Sun Sep 20 · 6:30 PM ET",
-    "what": "The High Moment At 211  | iRacing Formula 3",
-    "format": "short",
-    "url": "https://www.tiktok.com/@bosskronik",
-    "thumb": null
   },
   "site_version": 6
 }
