@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T23:00:05.208380+00:00",
+  "updated": "2026-09-20T21:00:04.939223+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -9,7 +9,7 @@
     "title": "POV Formula Race Crash and Comeback from Chaos | iRacing",
     "url": "https://youtu.be/Cw-LE0saDBk",
     "thumb": "https://i.ytimg.com/vi/Cw-LE0saDBk/maxresdefault.jpg",
-    "views": 12,
+    "views": 14,
     "format": "long"
   },
   "latest": [
@@ -117,11 +117,6 @@
     }
   ],
   "upcoming": [
-    {
-      "when": "Sun Sep 20 · 5:00 PM",
-      "format": "short",
-      "what": "That Escalated Fast  | iRacing Formula 3"
-    },
     {
       "when": "Sun Sep 20 · 6:00 PM",
       "format": "long",
@@ -890,6 +885,12 @@
     "url": "https://www.patreon.com/Bosskronik",
     "latest": [
       {
+        "title": "That Escalated Fast  | iRacing Formula 3",
+        "url": "https://www.patreon.com/posts/169454501",
+        "at": "2026-09-20T17:00:00-04:00",
+        "access": "free"
+      },
+      {
         "title": "The High Moment At 957  | iRacing Toyota GR86",
         "url": "https://www.patreon.com/posts/169454351",
         "at": "2026-09-19T18:30:00-04:00",
@@ -900,12 +901,6 @@
         "url": "https://www.patreon.com/posts/169454239",
         "at": "2026-09-19T18:00:00-04:00",
         "access": "paid"
-      },
-      {
-        "title": "That Escalated Fast  | iRacing Toyota GR86",
-        "url": "https://www.patreon.com/posts/169454324",
-        "at": "2026-09-19T17:00:00-04:00",
-        "access": "free"
       },
       {
         "title": "POV Crashing and Recovering in F3 Catastrophe",
