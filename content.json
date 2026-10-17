@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T15:15:31.260636+00:00",
+  "updated": "2026-10-17T15:21:18.197196+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -291,6 +291,14 @@
         {
           "title": "\"What about me?\" - Revive Payout +$1,200",
           "at": "2026-10-20T15:00:00-04:00"
+        },
+        {
+          "title": "\"Thank you for that now.\" - 58m Kill Confirmed +$4,875",
+          "at": "2026-10-20T20:00:00-04:00"
+        },
+        {
+          "title": "\"Soggy what? Spotted a kill assist, +800.\" - Spotted Kill Assist +$800",
+          "at": "2026-10-20T21:30:00-04:00"
         }
       ],
       "shorts_links": [
@@ -331,6 +339,46 @@
         "thumb": null,
         "desc": "Oh no, it's a supply\n\nWardogs match on BossKronik."
       }
+    },
+    {
+      "date": "2026-10-21",
+      "series": "Wardogs",
+      "shorts": [
+        {
+          "title": "\"What about me?\" - 19m Kill Confirmed",
+          "at": "2026-10-21T13:00:00-04:00"
+        },
+        {
+          "title": "\"Now that it's done, maybe someone's going to take his...\" - Spotted Kill Assist +$2,229",
+          "at": "2026-10-21T16:00:00-04:00"
+        },
+        {
+          "title": "\"I'm trying to keep the hot zone.\" - Spotted Kill Assist +$800",
+          "at": "2026-10-21T20:00:00-04:00"
+        }
+      ],
+      "shorts_links": [
+        {
+          "name": "youtube",
+          "url": "https://www.youtube.com/@bosskronik/shorts"
+        },
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "x",
+          "url": "https://x.com/Bosskronik"
+        }
+      ]
     },
     {
       "date": "2026-10-22",
