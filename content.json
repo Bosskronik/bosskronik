@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T21:33:17.270162+00:00",
+  "updated": "2026-10-17T22:02:19.674255+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -502,7 +502,19 @@
           "name": "x",
           "url": "https://x.com/Bosskronik"
         }
-      ]
+      ],
+      "long": {
+        "title": "His little head's been sticking out since earlier",
+        "at": "2026-10-24T18:00:00-04:00",
+        "links": [
+          {
+            "name": "youtube",
+            "url": "https://youtu.be/Gee9wQ9fg_4"
+          }
+        ],
+        "thumb": null,
+        "desc": "His little head's been sticking out since earlier\n\nWardogs match on BossKronik."
+      }
     }
   ],
   "patreon": {
