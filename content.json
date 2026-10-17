@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T15:21:18.197196+00:00",
+  "updated": "2026-10-17T15:25:30.592031+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -383,8 +383,25 @@
     {
       "date": "2026-10-22",
       "series": "Wardogs",
-      "shorts": [],
+      "shorts": [
+        {
+          "title": "\"Thank you for your attention.\" - Revive Payout +$1,200",
+          "at": "2026-10-22T15:00:00-04:00"
+        },
+        {
+          "title": "\"If it's him I pointed at, he's dead.\" - 279m Kill Confirmed",
+          "at": "2026-10-22T20:00:00-04:00"
+        },
+        {
+          "title": "\"I'll start closer.\" - Kill Confirmed +$1,500",
+          "at": "2026-10-22T21:30:00-04:00"
+        }
+      ],
       "shorts_links": [
+        {
+          "name": "youtube",
+          "url": "https://www.youtube.com/@bosskronik/shorts"
+        },
         {
           "name": "tiktok",
           "url": "https://www.tiktok.com/@bosskronik"
