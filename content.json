@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T14:17:27.702120+00:00",
+  "updated": "2026-10-17T14:20:12.842188+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -143,6 +143,11 @@
       "when": "Mon Oct 19 · 8:00 PM",
       "format": "short",
       "what": "\"You just move a bit.\" - Revive Payout +$1,200"
+    },
+    {
+      "when": "Tue Oct 20 · 6:00 PM",
+      "format": "long",
+      "what": "Oh no, it's a supply"
     }
   ],
   "stats": {
@@ -278,6 +283,41 @@
           "url": "https://x.com/Bosskronik"
         }
       ]
+    },
+    {
+      "date": "2026-10-20",
+      "series": "Wardogs",
+      "shorts": [],
+      "shorts_links": [
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "x",
+          "url": "https://x.com/Bosskronik"
+        }
+      ],
+      "long": {
+        "title": "Oh no, it's a supply",
+        "at": "2026-10-20T18:00:00-04:00",
+        "links": [
+          {
+            "name": "youtube",
+            "url": "https://youtu.be/5mpL8iwIJ58"
+          }
+        ],
+        "thumb": null,
+        "desc": "Oh no, it's a supply\n\nWardogs match on BossKronik."
+      }
     }
   ],
   "patreon": {
