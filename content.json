@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T14:53:05.080123+00:00",
+  "updated": "2026-10-17T15:15:31.260636+00:00",
   "featured": {
     "id": "5yMrlj0bUdg",
     "title": "POV GR86 Crash and Recovery Chaos | iRacing Toyota GR86"
@@ -145,9 +145,9 @@
       "what": "\"You just move a bit.\" - Revive Payout +$1,200"
     },
     {
-      "when": "Tue Oct 20 · 6:00 PM",
-      "format": "long",
-      "what": "Oh no, it's a supply"
+      "when": "Tue Oct 20 · 3:00 PM",
+      "format": "short",
+      "what": "\"What about me?\" - Revive Payout +$1,200"
     }
   ],
   "stats": {
@@ -287,8 +287,17 @@
     {
       "date": "2026-10-20",
       "series": "Wardogs",
-      "shorts": [],
+      "shorts": [
+        {
+          "title": "\"What about me?\" - Revive Payout +$1,200",
+          "at": "2026-10-20T15:00:00-04:00"
+        }
+      ],
       "shorts_links": [
+        {
+          "name": "youtube",
+          "url": "https://www.youtube.com/@bosskronik/shorts"
+        },
         {
           "name": "tiktok",
           "url": "https://www.tiktok.com/@bosskronik"
@@ -321,6 +330,41 @@
         ],
         "thumb": null,
         "desc": "Oh no, it's a supply\n\nWardogs match on BossKronik."
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "series": "Wardogs",
+      "shorts": [],
+      "shorts_links": [
+        {
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/@bosskronik"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/bosskronik/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/968005913043248"
+        },
+        {
+          "name": "x",
+          "url": "https://x.com/Bosskronik"
+        }
+      ],
+      "long": {
+        "title": "That's the only mercy you have - jump off the tower!",
+        "at": "2026-10-22T18:00:00-04:00",
+        "links": [
+          {
+            "name": "youtube",
+            "url": "https://youtu.be/wBMF4IVFWTM"
+          }
+        ],
+        "thumb": null,
+        "desc": "That's the only mercy you have - jump off the tower!"
       }
     }
   ],
