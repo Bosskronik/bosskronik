@@ -16,9 +16,9 @@
 :root{--navy:#0e1120;--panel:#141828e6;--panel2:#1a2036;--orange:#ff8a2a;--blue:#3a7dff;--magenta:#e23a9c;--patreon:#ff5c5c;--green:#85c742;--cream:#fff6c8;--white:#f5f7fc;--grey:#969eb2;--line:#ffffff14}
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Rajdhani',sans-serif;color:var(--white);background:var(--navy) url('wallpaper.jpg') center top/cover fixed no-repeat;min-height:100vh}
-/* tone the wallpaper down so its baked-in lettering reads as texture, not as text */
-body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,#0a0e1a99 0,#0a0e1ae6 80px,#0a0e1ae6 340px,#0a0e1a99 470px,#0a0e1a99 100%)}
+body{font-family:'Rajdhani',sans-serif;color:var(--white);background:#0a0e1a url('wallpaper.jpg?v=2') center center/cover fixed no-repeat;min-height:100vh}
+/* keep the photo readable: dark enough for text, light enough to see the banner */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,#0a0e1a8c 0,#0a0e1ab8 120px,#0a0e1a99 100%)}
 a{color:inherit}
 .wrap{max-width:1100px;margin:0 auto;padding:28px 20px 40px}
 h1,h2,h3,.hd{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;letter-spacing:.5px;text-transform:uppercase}
