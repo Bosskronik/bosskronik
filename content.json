@@ -20,6 +20,18 @@
       "x": {
         "count": "27",
         "label": "followers"
+      },
+      "instagram": {
+        "count": 99,
+        "label": "followers"
+      },
+      "rumble": {
+        "count": 21,
+        "label": "followers"
+      },
+      "patreon": {
+        "count": 0,
+        "label": "members"
       }
     }
   },
