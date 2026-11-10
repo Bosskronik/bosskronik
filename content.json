@@ -8,6 +8,18 @@
       "youtube": {
         "count": "7.19K",
         "label": "subscribers"
+      },
+      "tiktok": {
+        "count": "4,832",
+        "label": "followers"
+      },
+      "facebook": {
+        "count": "43",
+        "label": "followers"
+      },
+      "x": {
+        "count": "27",
+        "label": "followers"
       }
     }
   },
