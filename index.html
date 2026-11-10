@@ -329,15 +329,33 @@ function thumbInto(imId,src){const im=document.getElementById(imId);im.hidden=fa
   im.onerror=()=>{if(im.src.includes('maxresdefault')){im.src=src.replace('maxresdefault','hqdefault');}else{im.hidden=true;}};}
 function ytThumb(id){return id?`https://i.ytimg.com/vi/${id}/hqdefault.jpg`:null;}
 function fmtCount(n){if(n==null||n==='')return null;if(typeof n==='string')return n;if(n>=1e6)return (n/1e6).toFixed(1).replace(/\.0$/,'')+'M';if(n>=1e3)return (n/1e3).toFixed(n>=1e4?0:1).replace(/\.0$/,'')+'K';return String(n);}
+function countValue(n){
+  if(n==null||n==='')return null;
+  if(typeof n==='number')return isFinite(n)?n:null;
+  const m=String(n).trim().replace(/,/g,'').match(/^(\d+(?:\.\d+)?)([KMB])?$/i);
+  if(!m)return null;
+  const mult={K:1e3,M:1e6,B:1e9};
+  return parseFloat(m[1])*(mult[(m[2]||'').toUpperCase()]||1);
+}
+function platformsByCount(){
+  const st=(DATA&&DATA.stats&&DATA.stats.platforms)||{};
+  return PLATFORMS.map((p,i)=>({p,i,v:countValue((st[p.k]||{}).count)}))
+    .sort((a,b)=>{
+      if((a.v==null)!==(b.v==null))return a.v==null?1:-1;
+      if(a.v==null||a.v===b.v)return a.i-b.i;
+      return b.v-a.v;
+    }).map(x=>x.p);
+}
 function iconLinks(links){if(!links||!links.length)return '';return `<div class="icons">${links.map(l=>l.url?`<a href="${esc(l.url)}" title="${esc(l.name)}" target="_blank" rel="noopener">${ICONS[l.name]||''}</a>`:`<span title="${esc(l.name)}">${ICONS[l.name]||''}</span>`).join('')}</div>`;}
 
 function renderPlatforms(){
   const st=(DATA&&DATA.stats&&DATA.stats.platforms)||{};
-  document.getElementById('platforms').innerHTML=PLATFORMS.map(p=>{
+  const ordered=platformsByCount();
+  document.getElementById('platforms').innerHTML=ordered.map(p=>{
     const s=st[p.k]||{};const cnt=fmtCount(s.count);
     return `<a class="card ${p.k==='patreon'?'pt':''}" href="${p.url}" target="_blank" rel="noopener">${ICONS[p.k]}<div class="n">${p.n}</div><div class="h">${p.h}</div>${cnt?`<div class="c">${cnt}<small>${t(s.label||p.cl)}</small></div>`:`<div class="c" style="opacity:.6">→<small>${t(p.k==='patreon'?'members':'followers')}</small></div>`}</a>`;
   }).join('');
-  document.getElementById('footplat').innerHTML=PLATFORMS.map(p=>`<a href="${p.url}" target="_blank" rel="noopener">${p.n}</a>`).join('');
+  document.getElementById('footplat').innerHTML=ordered.map(p=>`<a href="${p.url}" target="_blank" rel="noopener">${p.n}</a>`).join('');
 }
 function renderStats(){
   const s=(DATA&&DATA.stats)||{};
