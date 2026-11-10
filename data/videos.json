@@ -4,13 +4,20 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.19K",
-    "videos": "643",
+    "videos": "644",
     "views": "282,474"
   },
   "videos": [
     {
+      "id": "ehyejtKi8Dc",
+      "title": "700m Kill Confirmed, Then I Went Back for My Squad | 1 Hour of Wardogs",
+      "url": "https://www.youtube.com/watch?v=ehyejtKi8Dc",
+      "thumb": "https://i.ytimg.com/vi/ehyejtKi8Dc/hqdefault.jpg",
+      "published": "2026-11-10T22:30:25+00:00"
+    },
+    {
       "id": "22LEe4zW-xk",
-      "title": "1 Hour of MX-5 Global Cup Rookie Racing",
+      "title": "I Almost Quit My Rookie Year, Then This Happened | 1 Hour of MX-5 Cup",
       "url": "https://www.youtube.com/watch?v=22LEe4zW-xk",
       "thumb": "https://i.ytimg.com/vi/22LEe4zW-xk/hqdefault.jpg",
       "published": "2026-11-09T22:30:35+00:00"
@@ -105,14 +112,7 @@
       "url": "https://www.youtube.com/watch?v=asrir4BAPHI",
       "thumb": "https://i.ytimg.com/vi/asrir4BAPHI/hqdefault.jpg",
       "published": "2026-11-05T20:00:27+00:00"
-    },
-    {
-      "id": "sBQtgAlBUMw",
-      "title": "63 m kill confirmed | Wardogs",
-      "url": "https://www.youtube.com/watch?v=sBQtgAlBUMw",
-      "thumb": "https://i.ytimg.com/vi/sBQtgAlBUMw/hqdefault.jpg",
-      "published": "2026-11-05T01:00:31+00:00"
     }
   ],
-  "updated": "2026-11-10T14:26:16.307355+00:00"
+  "updated": "2026-11-10T22:54:34.384964+00:00"
 }
