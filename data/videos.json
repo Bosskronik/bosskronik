@@ -1,7 +1,7 @@
 {
   "channel_id": "UCQzwqsRr5IfwatqzGlUWxyg",
   "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQzwqsRr5IfwatqzGlUWxyg",
-  "fetched_via": "rss",
+  "fetched_via": "channel-videos-page",
   "channel": {
     "subs": "7.18K",
     "videos": "644",
@@ -12,107 +12,92 @@
       "id": "ehyejtKi8Dc",
       "title": "700m Kill Confirmed, Then I Went Back for My Squad | 1 Hour of Wardogs",
       "url": "https://www.youtube.com/watch?v=ehyejtKi8Dc",
-      "thumb": "https://i.ytimg.com/vi/ehyejtKi8Dc/hqdefault.jpg",
-      "published": "2026-11-10T22:30:25+00:00"
+      "thumb": "https://i.ytimg.com/vi/ehyejtKi8Dc/hqdefault.jpg"
     },
     {
       "id": "22LEe4zW-xk",
       "title": "I Almost Quit My Rookie Year, Then This Happened | 1 Hour of MX-5 Cup",
       "url": "https://www.youtube.com/watch?v=22LEe4zW-xk",
-      "thumb": "https://i.ytimg.com/vi/22LEe4zW-xk/hqdefault.jpg",
-      "published": "2026-11-09T22:30:35+00:00"
-    },
-    {
-      "id": "T4xRo1VItuk",
-      "title": "Second Kill in Under a Minute, +$1,750 | Wardogs",
-      "url": "https://www.youtube.com/watch?v=T4xRo1VItuk",
-      "thumb": "https://i.ytimg.com/vi/T4xRo1VItuk/hqdefault.jpg",
-      "published": "2026-11-09T18:00:05+00:00"
-    },
-    {
-      "id": "0nKbjCyUMYI",
-      "title": "159 m kill confirmed | Wardogs",
-      "url": "https://www.youtube.com/watch?v=0nKbjCyUMYI",
-      "thumb": "https://i.ytimg.com/vi/0nKbjCyUMYI/hqdefault.jpg",
-      "published": "2026-11-09T01:00:37+00:00"
-    },
-    {
-      "id": "h86lC-WCcpo",
-      "title": "Another kill, 42 seconds after the last | Wardogs",
-      "url": "https://www.youtube.com/watch?v=h86lC-WCcpo",
-      "thumb": "https://i.ytimg.com/vi/h86lC-WCcpo/hqdefault.jpg",
-      "published": "2026-11-08T21:00:34+00:00"
-    },
-    {
-      "id": "81RoXOuM7tA",
-      "title": "\"There's one there.\" - 171m Kill Confirmed +$1,750 | Wardogs",
-      "url": "https://www.youtube.com/watch?v=81RoXOuM7tA",
-      "thumb": "https://i.ytimg.com/vi/81RoXOuM7tA/hqdefault.jpg",
-      "published": "2026-11-08T18:00:29+00:00"
-    },
-    {
-      "id": "ZqBU9Ek3s6g",
-      "title": "\"I'm getting sniped Rick, I'm going to try\" - Revive +$912 | Wardogs",
-      "url": "https://www.youtube.com/watch?v=ZqBU9Ek3s6g",
-      "thumb": "https://i.ytimg.com/vi/ZqBU9Ek3s6g/hqdefault.jpg",
-      "published": "2026-11-08T01:00:07+00:00"
+      "thumb": "https://i.ytimg.com/vi/22LEe4zW-xk/hqdefault.jpg"
     },
     {
       "id": "tlnpSqPMgFA",
       "title": "One HP and a dream | Wardogs",
       "url": "https://www.youtube.com/watch?v=tlnpSqPMgFA",
-      "thumb": "https://i.ytimg.com/vi/tlnpSqPMgFA/hqdefault.jpg",
-      "published": "2026-11-07T23:00:19+00:00"
-    },
-    {
-      "id": "cxMSxZagiOE",
-      "title": "Big Money +$2,400 | Wardogs",
-      "url": "https://www.youtube.com/watch?v=cxMSxZagiOE",
-      "thumb": "https://i.ytimg.com/vi/cxMSxZagiOE/hqdefault.jpg",
-      "published": "2026-11-07T20:00:26+00:00"
-    },
-    {
-      "id": "8GKuVpaHYBg",
-      "title": "Second +$2,750 Kill This Match | Wardogs",
-      "url": "https://www.youtube.com/watch?v=8GKuVpaHYBg",
-      "thumb": "https://i.ytimg.com/vi/8GKuVpaHYBg/hqdefault.jpg",
-      "published": "2026-11-06T21:00:06+00:00"
-    },
-    {
-      "id": "urk9v8kqgwc",
-      "title": "Kill Confirmed +$1,500 | Wardogs",
-      "url": "https://www.youtube.com/watch?v=urk9v8kqgwc",
-      "thumb": "https://i.ytimg.com/vi/urk9v8kqgwc/hqdefault.jpg",
-      "published": "2026-11-06T18:00:16+00:00"
-    },
-    {
-      "id": "Y9ooq_q0owU",
-      "title": "227m Kill Confirmed +$1,750 | Wardogs",
-      "url": "https://www.youtube.com/watch?v=Y9ooq_q0owU",
-      "thumb": "https://i.ytimg.com/vi/Y9ooq_q0owU/hqdefault.jpg",
-      "published": "2026-11-06T03:30:07+00:00"
-    },
-    {
-      "id": "48U05nly69w",
-      "title": "\"Uh-oh.\" - Big Money +$2,500 | Wardogs",
-      "url": "https://www.youtube.com/watch?v=48U05nly69w",
-      "thumb": "https://i.ytimg.com/vi/48U05nly69w/hqdefault.jpg",
-      "published": "2026-11-06T01:00:28+00:00"
+      "thumb": "https://i.ytimg.com/vi/tlnpSqPMgFA/hqdefault.jpg"
     },
     {
       "id": "5QzwN7pCFhE",
       "title": "You hit the jackpot! | Wardogs",
       "url": "https://www.youtube.com/watch?v=5QzwN7pCFhE",
-      "thumb": "https://i.ytimg.com/vi/5QzwN7pCFhE/hqdefault.jpg",
-      "published": "2026-11-05T23:00:33+00:00"
+      "thumb": "https://i.ytimg.com/vi/5QzwN7pCFhE/hqdefault.jpg"
     },
     {
-      "id": "asrir4BAPHI",
-      "title": "Going Back for Him | Wardogs",
-      "url": "https://www.youtube.com/watch?v=asrir4BAPHI",
-      "thumb": "https://i.ytimg.com/vi/asrir4BAPHI/hqdefault.jpg",
-      "published": "2026-11-05T20:00:27+00:00"
+      "id": "S9wa6kuJims",
+      "title": "They're Buffing Blue, I've Played Red for 5 Months | Wardogs",
+      "url": "https://www.youtube.com/watch?v=S9wa6kuJims",
+      "thumb": "https://i.ytimg.com/vi/S9wa6kuJims/hqdefault.jpg"
+    },
+    {
+      "id": "kRbRkdcKU84",
+      "title": "There's a sniper in the roof - be careful | Wardogs",
+      "url": "https://www.youtube.com/watch?v=kRbRkdcKU84",
+      "thumb": "https://i.ytimg.com/vi/kRbRkdcKU84/hqdefault.jpg"
+    },
+    {
+      "id": "YOk-eUZecko",
+      "title": "The enemy's first 4 kills were us | Wardogs",
+      "url": "https://www.youtube.com/watch?v=YOk-eUZecko",
+      "thumb": "https://i.ytimg.com/vi/YOk-eUZecko/hqdefault.jpg"
+    },
+    {
+      "id": "02Qxgz3YbKc",
+      "title": "Power4 is watching, be careful | Wardogs",
+      "url": "https://www.youtube.com/watch?v=02Qxgz3YbKc",
+      "thumb": "https://i.ytimg.com/vi/02Qxgz3YbKc/hqdefault.jpg"
+    },
+    {
+      "id": "3VHc8kf17Pc",
+      "title": "Don't shoot our own heli, you idiot! | Wardogs",
+      "url": "https://www.youtube.com/watch?v=3VHc8kf17Pc",
+      "thumb": "https://i.ytimg.com/vi/3VHc8kf17Pc/hqdefault.jpg"
+    },
+    {
+      "id": "Gee9wQ9fg_4",
+      "title": "\"I didn't even see it, I just shot.\" - 414m Kill, +$3,000 | Wardogs",
+      "url": "https://www.youtube.com/watch?v=Gee9wQ9fg_4",
+      "thumb": "https://i.ytimg.com/vi/Gee9wQ9fg_4/hqdefault.jpg"
+    },
+    {
+      "id": "R6j4AFVext8",
+      "title": "Jump Off the Tower, Then a 279 m Shot | Wardogs",
+      "url": "https://www.youtube.com/watch?v=R6j4AFVext8",
+      "thumb": "https://i.ytimg.com/vi/R6j4AFVext8/hqdefault.jpg"
+    },
+    {
+      "id": "5mpL8iwIJ58",
+      "title": "Oh no, it's a supply | Wardogs",
+      "url": "https://www.youtube.com/watch?v=5mpL8iwIJ58",
+      "thumb": "https://i.ytimg.com/vi/5mpL8iwIJ58/hqdefault.jpg"
+    },
+    {
+      "id": "moYGHdN0gII",
+      "title": "A Sniper, Then a 97m Kill | Wardogs",
+      "url": "https://www.youtube.com/watch?v=moYGHdN0gII",
+      "thumb": "https://i.ytimg.com/vi/moYGHdN0gII/hqdefault.jpg"
+    },
+    {
+      "id": "5yMrlj0bUdg",
+      "title": "GR86 Crash and Recovery Chaos | iRacing Toyota GR86",
+      "url": "https://www.youtube.com/watch?v=5yMrlj0bUdg",
+      "thumb": "https://i.ytimg.com/vi/5yMrlj0bUdg/hqdefault.jpg"
+    },
+    {
+      "id": "Cw-LE0saDBk",
+      "title": "Caught in the Chaos, I Wouldn't Give Up | iRacing Formula Ray 1600",
+      "url": "https://www.youtube.com/watch?v=Cw-LE0saDBk",
+      "thumb": "https://i.ytimg.com/vi/Cw-LE0saDBk/hqdefault.jpg"
     }
   ],
-  "updated": "2026-11-12T23:15:28.476125+00:00"
+  "updated": "2026-11-13T05:23:14.231712+00:00"
 }
