@@ -295,7 +295,6 @@ patreon:'<svg viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="4" height="19" rx
 };
 const PLATFORMS=[
  {k:"youtube",n:"YouTube",h:"@bosskronik",url:"https://www.youtube.com/@bosskronik?sub_confirmation=1",cl:"subscribers"},
- {k:"patreon",n:"Patreon",h:"Bosskronik",url:"https://www.patreon.com/Bosskronik",cl:"members"},
  {k:"rumble",n:"Rumble",h:"Bosskronik",url:"https://rumble.com/user/Bosskronik",cl:"followers"},
  {k:"tiktok",n:"TikTok",h:"@bosskronik",url:"https://www.tiktok.com/@bosskronik",cl:"followers"},
  {k:"instagram",n:"Instagram",h:"@bosskronik",url:"https://www.instagram.com/bosskronik/",cl:"followers"},
@@ -339,7 +338,7 @@ function countValue(n){
 }
 function platformsByCount(){
   const st=(DATA&&DATA.stats&&DATA.stats.platforms)||{};
-  return PLATFORMS.map((p,i)=>({p,i,v:p.k==='patreon'?null:countValue((st[p.k]||{}).count)}))
+  return PLATFORMS.filter(p=>p.k!=='patreon').map((p,i)=>({p,i,v:countValue((st[p.k]||{}).count)}))
     .sort((a,b)=>{
       if((a.v==null)!==(b.v==null))return a.v==null?1:-1;
       if(a.v==null||a.v===b.v)return a.i-b.i;
@@ -350,10 +349,10 @@ function iconLinks(links){if(!links||!links.length)return '';return `<div class=
 
 function renderPlatforms(){
   const st=(DATA&&DATA.stats&&DATA.stats.platforms)||{};
-  const ordered=platformsByCount();
+  const ordered=platformsByCount().filter(p=>p.k!=='patreon');
   document.getElementById('platforms').innerHTML=ordered.map(p=>{
-    const s=st[p.k]||{};const cnt=p.k==='patreon'?null:fmtCount(s.count);
-    return `<a class="card ${p.k==='patreon'?'pt':''}" href="${p.url}" target="_blank" rel="noopener">${ICONS[p.k]}<div class="n">${p.n}</div><div class="h">${p.h}</div>${cnt?`<div class="c">${cnt}<small>${t(s.label||p.cl)}</small></div>`:`<div class="c" style="opacity:.6">→<small>${t(p.k==='patreon'?'members':'followers')}</small></div>`}</a>`;
+    const s=st[p.k]||{};const cnt=fmtCount(s.count);
+    return `<a class="card" href="${p.url}" target="_blank" rel="noopener">${ICONS[p.k]}<div class="n">${p.n}</div><div class="h">${p.h}</div>${cnt?`<div class="c">${cnt}<small>${t(s.label||p.cl)}</small></div>`:`<div class="c" style="opacity:.6">→<small>${t('followers')}</small></div>`}</a>`;
   }).join('');
   document.getElementById('footplat').innerHTML=ordered.map(p=>`<a href="${p.url}" target="_blank" rel="noopener">${p.n}</a>`).join('');
 }
