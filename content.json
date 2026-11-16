@@ -28,10 +28,6 @@
       "rumble": {
         "count": 21,
         "label": "followers"
-      },
-      "patreon": {
-        "count": 0,
-        "label": "members"
       }
     }
   },
@@ -60,7 +56,7 @@
       {
         "title": "1 Hour of MX-5 Global Cup Rookie Racing",
         "url": "https://www.patreon.com/Bosskronik/posts/early-access-1-5-174869805",
-        "access": "paid"
+        "access": "free"
       }
     ]
   },
