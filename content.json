@@ -28,6 +28,10 @@
       "rumble": {
         "count": 21,
         "label": "followers"
+      },
+      "patreon": {
+        "count": 0,
+        "label": "members"
       }
     }
   },
