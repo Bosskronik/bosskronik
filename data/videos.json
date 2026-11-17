@@ -4,10 +4,24 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "644",
-    "views": "283,508"
+    "videos": "646",
+    "views": "283,517"
   },
   "videos": [
+    {
+      "id": "NFPZMvNsjT0",
+      "title": "First S3 Match: One Shot, 158 m | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=NFPZMvNsjT0",
+      "thumb": "https://i.ytimg.com/vi/NFPZMvNsjT0/hqdefault.jpg",
+      "published": "2026-11-17T01:00:33+00:00"
+    },
+    {
+      "id": "UT9zQ6yUnXQ",
+      "title": "\"You just got reported by 10 people.\" A Few Days Later… | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=UT9zQ6yUnXQ",
+      "thumb": "https://i.ytimg.com/vi/UT9zQ6yUnXQ/hqdefault.jpg",
+      "published": "2026-11-16T22:30:23+00:00"
+    },
     {
       "id": "ehyejtKi8Dc",
       "title": "700m Kill Confirmed, Then I Went Back for My Squad | 1 Hour of Wardogs",
@@ -98,21 +112,7 @@
       "url": "https://www.youtube.com/watch?v=48U05nly69w",
       "thumb": "https://i.ytimg.com/vi/48U05nly69w/hqdefault.jpg",
       "published": "2026-11-06T01:00:28+00:00"
-    },
-    {
-      "id": "5QzwN7pCFhE",
-      "title": "You hit the jackpot! | Wardogs",
-      "url": "https://www.youtube.com/watch?v=5QzwN7pCFhE",
-      "thumb": "https://i.ytimg.com/vi/5QzwN7pCFhE/hqdefault.jpg",
-      "published": "2026-11-05T23:00:33+00:00"
-    },
-    {
-      "id": "asrir4BAPHI",
-      "title": "Going Back for Him | Wardogs",
-      "url": "https://www.youtube.com/watch?v=asrir4BAPHI",
-      "thumb": "https://i.ytimg.com/vi/asrir4BAPHI/hqdefault.jpg",
-      "published": "2026-11-05T20:00:27+00:00"
     }
   ],
-  "updated": "2026-11-16T14:57:54.116704+00:00"
+  "updated": "2026-11-17T01:39:36.907362+00:00"
 }
