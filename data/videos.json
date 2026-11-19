@@ -4,10 +4,24 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "652",
+    "videos": "654",
     "views": "285,509"
   },
   "videos": [
+    {
+      "id": "6vqx01CMNmQ",
+      "title": "Second Long Shot in Under 2 Minutes | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=6vqx01CMNmQ",
+      "thumb": "https://i.ytimg.com/vi/6vqx01CMNmQ/hqdefault.jpg",
+      "published": "2026-11-19T18:30:07+00:00"
+    },
+    {
+      "id": "gWjTDsxlw_A",
+      "title": "\"You Just Got Reported by 10 People.\" | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=gWjTDsxlw_A",
+      "thumb": "https://i.ytimg.com/vi/gWjTDsxlw_A/hqdefault.jpg",
+      "published": "2026-11-19T16:00:03+00:00"
+    },
     {
       "id": "HxiuLmTC9dg",
       "title": "Mid Heli Fight, One Shot at 217 m | Wardogs Season 3",
@@ -98,21 +112,7 @@
       "url": "https://www.youtube.com/watch?v=h86lC-WCcpo",
       "thumb": "https://i.ytimg.com/vi/h86lC-WCcpo/hqdefault.jpg",
       "published": "2026-11-08T21:00:34+00:00"
-    },
-    {
-      "id": "81RoXOuM7tA",
-      "title": "\"There's one there.\" - 171m Kill Confirmed +$1,750 | Wardogs",
-      "url": "https://www.youtube.com/watch?v=81RoXOuM7tA",
-      "thumb": "https://i.ytimg.com/vi/81RoXOuM7tA/hqdefault.jpg",
-      "published": "2026-11-08T18:00:29+00:00"
-    },
-    {
-      "id": "ZqBU9Ek3s6g",
-      "title": "\"I'm getting sniped Rick, I'm going to try\" - Revive +$912 | Wardogs",
-      "url": "https://www.youtube.com/watch?v=ZqBU9Ek3s6g",
-      "thumb": "https://i.ytimg.com/vi/ZqBU9Ek3s6g/hqdefault.jpg",
-      "published": "2026-11-08T01:00:07+00:00"
     }
   ],
-  "updated": "2026-11-19T06:36:40.395136+00:00"
+  "updated": "2026-11-19T20:01:41.934866+00:00"
 }
