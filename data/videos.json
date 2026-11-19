@@ -4,10 +4,17 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "651",
-    "views": "284,024"
+    "videos": "652",
+    "views": "285,509"
   },
   "videos": [
+    {
+      "id": "HxiuLmTC9dg",
+      "title": "Mid Heli Fight, One Shot at 217 m | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=HxiuLmTC9dg",
+      "thumb": "https://i.ytimg.com/vi/HxiuLmTC9dg/hqdefault.jpg",
+      "published": "2026-11-19T01:00:00+00:00"
+    },
     {
       "id": "9dN-5ZinCG8",
       "title": "Heli Chaos and a 217 m Hit, but We Finished 2nd | Wardogs Season 3",
@@ -105,14 +112,7 @@
       "url": "https://www.youtube.com/watch?v=ZqBU9Ek3s6g",
       "thumb": "https://i.ytimg.com/vi/ZqBU9Ek3s6g/hqdefault.jpg",
       "published": "2026-11-08T01:00:07+00:00"
-    },
-    {
-      "id": "tlnpSqPMgFA",
-      "title": "One HP and a dream | Wardogs",
-      "url": "https://www.youtube.com/watch?v=tlnpSqPMgFA",
-      "thumb": "https://i.ytimg.com/vi/tlnpSqPMgFA/hqdefault.jpg",
-      "published": "2026-11-07T23:00:19+00:00"
     }
   ],
-  "updated": "2026-11-18T23:56:20.455758+00:00"
+  "updated": "2026-11-19T06:36:40.395136+00:00"
 }
