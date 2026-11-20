@@ -4,10 +4,17 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "654",
-    "views": "285,509"
+    "videos": "655",
+    "views": "288,177"
   },
   "videos": [
+    {
+      "id": "SAV1SuyMbjA",
+      "title": "\"Press V!\" … I Died to 1 Damage | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=SAV1SuyMbjA",
+      "thumb": "https://i.ytimg.com/vi/SAV1SuyMbjA/hqdefault.jpg",
+      "published": "2026-11-19T21:00:33+00:00"
+    },
     {
       "id": "6vqx01CMNmQ",
       "title": "Second Long Shot in Under 2 Minutes | Wardogs Season 3",
@@ -105,14 +112,7 @@
       "url": "https://www.youtube.com/watch?v=0nKbjCyUMYI",
       "thumb": "https://i.ytimg.com/vi/0nKbjCyUMYI/hqdefault.jpg",
       "published": "2026-11-09T01:00:37+00:00"
-    },
-    {
-      "id": "h86lC-WCcpo",
-      "title": "Another kill, 42 seconds after the last | Wardogs",
-      "url": "https://www.youtube.com/watch?v=h86lC-WCcpo",
-      "thumb": "https://i.ytimg.com/vi/h86lC-WCcpo/hqdefault.jpg",
-      "published": "2026-11-08T21:00:34+00:00"
     }
   ],
-  "updated": "2026-11-19T20:01:41.934866+00:00"
+  "updated": "2026-11-20T05:56:54.904559+00:00"
 }
