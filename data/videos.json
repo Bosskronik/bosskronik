@@ -4,10 +4,24 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "655",
+    "videos": "657",
     "views": "288,177"
   },
   "videos": [
+    {
+      "id": "3MNidrpHcrY",
+      "title": "\"Look at my recording!\" A 205 m Flick Through the Trees | Wardogs",
+      "url": "https://www.youtube.com/watch?v=3MNidrpHcrY",
+      "thumb": "https://i.ytimg.com/vi/3MNidrpHcrY/hqdefault.jpg",
+      "published": "2026-11-20T22:30:19+00:00"
+    },
+    {
+      "id": "ax-yXbrsEcs",
+      "title": "Lou Gets One, I Get the Assist | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=ax-yXbrsEcs",
+      "thumb": "https://i.ytimg.com/vi/ax-yXbrsEcs/hqdefault.jpg",
+      "published": "2026-11-20T18:30:09+00:00"
+    },
     {
       "id": "SAV1SuyMbjA",
       "title": "\"Press V!\" … I Died to 1 Damage | Wardogs Season 3",
@@ -98,21 +112,7 @@
       "url": "https://www.youtube.com/watch?v=22LEe4zW-xk",
       "thumb": "https://i.ytimg.com/vi/22LEe4zW-xk/hqdefault.jpg",
       "published": "2026-11-09T22:30:35+00:00"
-    },
-    {
-      "id": "T4xRo1VItuk",
-      "title": "Striking Again in Under a Minute | Wardogs",
-      "url": "https://www.youtube.com/watch?v=T4xRo1VItuk",
-      "thumb": "https://i.ytimg.com/vi/T4xRo1VItuk/hqdefault.jpg",
-      "published": "2026-11-09T18:00:05+00:00"
-    },
-    {
-      "id": "0nKbjCyUMYI",
-      "title": "159 m kill confirmed | Wardogs",
-      "url": "https://www.youtube.com/watch?v=0nKbjCyUMYI",
-      "thumb": "https://i.ytimg.com/vi/0nKbjCyUMYI/hqdefault.jpg",
-      "published": "2026-11-09T01:00:37+00:00"
     }
   ],
-  "updated": "2026-11-20T05:56:54.904559+00:00"
+  "updated": "2026-11-20T23:43:07.062427+00:00"
 }
