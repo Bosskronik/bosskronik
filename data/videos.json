@@ -4,10 +4,17 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "657",
-    "views": "288,177"
+    "videos": "658",
+    "views": "289,290"
   },
   "videos": [
+    {
+      "id": "7y-VLklQUkY",
+      "title": "Buy Back Your Kit? \"That's a Death, Bro.\" | Wardogs",
+      "url": "https://www.youtube.com/watch?v=7y-VLklQUkY",
+      "thumb": "https://i.ytimg.com/vi/7y-VLklQUkY/hqdefault.jpg",
+      "published": "2026-11-21T01:00:14+00:00"
+    },
     {
       "id": "3MNidrpHcrY",
       "title": "\"Look at my recording!\" A 205 m Flick Through the Trees | Wardogs",
@@ -105,14 +112,7 @@
       "url": "https://www.youtube.com/watch?v=ehyejtKi8Dc",
       "thumb": "https://i.ytimg.com/vi/ehyejtKi8Dc/hqdefault.jpg",
       "published": "2026-11-10T22:30:25+00:00"
-    },
-    {
-      "id": "22LEe4zW-xk",
-      "title": "I Almost Quit My Rookie Year, Then This Happened | 1 Hour of MX-5 Cup",
-      "url": "https://www.youtube.com/watch?v=22LEe4zW-xk",
-      "thumb": "https://i.ytimg.com/vi/22LEe4zW-xk/hqdefault.jpg",
-      "published": "2026-11-09T22:30:35+00:00"
     }
   ],
-  "updated": "2026-11-20T23:43:07.062427+00:00"
+  "updated": "2026-11-21T05:52:03.592246+00:00"
 }
