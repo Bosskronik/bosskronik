@@ -4,10 +4,24 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "665",
-    "views": "290,134"
+    "videos": "667",
+    "views": "290,221"
   },
   "videos": [
+    {
+      "id": "aAhIUPgsP4g",
+      "title": "\"MOVE!\" I Went Down... Then Lou Hit the Feed | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=aAhIUPgsP4g",
+      "thumb": "https://i.ytimg.com/vi/aAhIUPgsP4g/hqdefault.jpg",
+      "published": "2026-11-23T03:30:17+00:00"
+    },
+    {
+      "id": "a-rVJU6owvY",
+      "title": "\"Can I Just Run Naked?\" | Wardogs",
+      "url": "https://www.youtube.com/watch?v=a-rVJU6owvY",
+      "thumb": "https://i.ytimg.com/vi/a-rVJU6owvY/hqdefault.jpg",
+      "published": "2026-11-23T01:00:11+00:00"
+    },
     {
       "id": "6HhJDnN5yug",
       "title": "They Stripped Me and Let Me Go. I Went Back In | Wardogs",
@@ -98,21 +112,7 @@
       "url": "https://www.youtube.com/watch?v=gWjTDsxlw_A",
       "thumb": "https://i.ytimg.com/vi/gWjTDsxlw_A/hqdefault.jpg",
       "published": "2026-11-19T16:00:03+00:00"
-    },
-    {
-      "id": "HxiuLmTC9dg",
-      "title": "Mid Heli Fight, One Shot at 217 m | Wardogs Season 3",
-      "url": "https://www.youtube.com/watch?v=HxiuLmTC9dg",
-      "thumb": "https://i.ytimg.com/vi/HxiuLmTC9dg/hqdefault.jpg",
-      "published": "2026-11-19T01:00:00+00:00"
-    },
-    {
-      "id": "9dN-5ZinCG8",
-      "title": "Heli Chaos and a 217 m Hit, but We Finished 2nd | Wardogs Season 3",
-      "url": "https://www.youtube.com/watch?v=9dN-5ZinCG8",
-      "thumb": "https://i.ytimg.com/vi/9dN-5ZinCG8/hqdefault.jpg",
-      "published": "2026-11-18T22:30:39+00:00"
     }
   ],
-  "updated": "2026-11-22T23:17:35.157856+00:00"
+  "updated": "2026-11-23T06:01:49.912428+00:00"
 }
