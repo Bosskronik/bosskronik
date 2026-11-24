@@ -4,10 +4,17 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "671",
-    "views": "291,293"
+    "videos": "672",
+    "views": "292,571"
   },
   "videos": [
+    {
+      "id": "zYRvQLScUD0",
+      "title": "Lou Dropped Him, No Parachute, at My Feet | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=zYRvQLScUD0",
+      "thumb": "https://i.ytimg.com/vi/zYRvQLScUD0/hqdefault.jpg",
+      "published": "2026-11-23T23:30:06+00:00"
+    },
     {
       "id": "n3pSmqLCIHA",
       "title": "Drop Him, Then Get the Squad Back Up | Wardogs",
@@ -105,14 +112,7 @@
       "url": "https://www.youtube.com/watch?v=7y-VLklQUkY",
       "thumb": "https://i.ytimg.com/vi/7y-VLklQUkY/hqdefault.jpg",
       "published": "2026-11-21T01:00:14+00:00"
-    },
-    {
-      "id": "3MNidrpHcrY",
-      "title": "\"Look at my recording!\" A 205 m Flick Through the Trees | Wardogs",
-      "url": "https://www.youtube.com/watch?v=3MNidrpHcrY",
-      "thumb": "https://i.ytimg.com/vi/3MNidrpHcrY/hqdefault.jpg",
-      "published": "2026-11-20T22:30:19+00:00"
     }
   ],
-  "updated": "2026-11-23T23:27:36.453708+00:00"
+  "updated": "2026-11-24T08:41:23.567819+00:00"
 }
