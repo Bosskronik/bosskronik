@@ -4,10 +4,24 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "678",
-    "views": "293,432"
+    "videos": "680",
+    "views": "294,101"
   },
   "videos": [
+    {
+      "id": "HQP1LjOeLQY",
+      "title": "3, 2, 1… 558 m, and He's Parachuting | Wardogs",
+      "url": "https://www.youtube.com/watch?v=HQP1LjOeLQY",
+      "thumb": "https://i.ytimg.com/vi/HQP1LjOeLQY/hqdefault.jpg",
+      "published": "2026-11-25T21:00:07+00:00"
+    },
+    {
+      "id": "_ZtCKIjXzhU",
+      "title": "We Won: 1st Place on the End Screen | Wardogs",
+      "url": "https://www.youtube.com/watch?v=_ZtCKIjXzhU",
+      "thumb": "https://i.ytimg.com/vi/_ZtCKIjXzhU/hqdefault.jpg",
+      "published": "2026-11-25T13:00:29+00:00"
+    },
     {
       "id": "6ginwTt2fXk",
       "title": "175 m Shot, Then Instant Panic | Wardogs",
@@ -98,21 +112,7 @@
       "url": "https://www.youtube.com/watch?v=a-rVJU6owvY",
       "thumb": "https://i.ytimg.com/vi/a-rVJU6owvY/hqdefault.jpg",
       "published": "2026-11-23T01:00:11+00:00"
-    },
-    {
-      "id": "6HhJDnN5yug",
-      "title": "They Stripped Me and Let Me Go. I Went Back In | Wardogs",
-      "url": "https://www.youtube.com/watch?v=6HhJDnN5yug",
-      "thumb": "https://i.ytimg.com/vi/6HhJDnN5yug/hqdefault.jpg",
-      "published": "2026-11-22T22:30:09+00:00"
-    },
-    {
-      "id": "oJbQ749XJuw",
-      "title": "\"Both Legs Are Broken\" | Wardogs Season 3",
-      "url": "https://www.youtube.com/watch?v=oJbQ749XJuw",
-      "thumb": "https://i.ytimg.com/vi/oJbQ749XJuw/hqdefault.jpg",
-      "published": "2026-11-22T21:00:30+00:00"
     }
   ],
-  "updated": "2026-11-25T07:16:05.974924+00:00"
+  "updated": "2026-11-25T21:08:50.257860+00:00"
 }
