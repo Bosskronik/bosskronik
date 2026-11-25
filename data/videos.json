@@ -4,10 +4,24 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.18K",
-    "videos": "676",
-    "views": "293,063"
+    "videos": "678",
+    "views": "293,432"
   },
   "videos": [
+    {
+      "id": "6ginwTt2fXk",
+      "title": "175 m Shot, Then Instant Panic | Wardogs",
+      "url": "https://www.youtube.com/watch?v=6ginwTt2fXk",
+      "thumb": "https://i.ytimg.com/vi/6ginwTt2fXk/hqdefault.jpg",
+      "published": "2026-11-25T01:00:15+00:00"
+    },
+    {
+      "id": "6rTLrWs4J4w",
+      "title": "Long Shot After Long Shot, All the Way to 1st Place | Wardogs",
+      "url": "https://www.youtube.com/watch?v=6rTLrWs4J4w",
+      "thumb": "https://i.ytimg.com/vi/6rTLrWs4J4w/hqdefault.jpg",
+      "published": "2026-11-24T22:30:01+00:00"
+    },
     {
       "id": "jdsnzjLnYuQ",
       "title": "3 Parachute Drops, 0 Clean Landings | Wardogs Season 3",
@@ -98,21 +112,7 @@
       "url": "https://www.youtube.com/watch?v=oJbQ749XJuw",
       "thumb": "https://i.ytimg.com/vi/oJbQ749XJuw/hqdefault.jpg",
       "published": "2026-11-22T21:00:30+00:00"
-    },
-    {
-      "id": "rwDEuknhbCM",
-      "title": "Sniper Real Close — \"You're Doing Good, Lou\" | Wardogs",
-      "url": "https://www.youtube.com/watch?v=rwDEuknhbCM",
-      "thumb": "https://i.ytimg.com/vi/rwDEuknhbCM/hqdefault.jpg",
-      "published": "2026-11-22T18:30:39+00:00"
-    },
-    {
-      "id": "4rzeRne_mog",
-      "title": "First S3 Match: One Shot, 158 m | Wardogs Season 3",
-      "url": "https://www.youtube.com/watch?v=4rzeRne_mog",
-      "thumb": "https://i.ytimg.com/vi/4rzeRne_mog/hqdefault.jpg",
-      "published": "2026-11-22T15:30:03+00:00"
     }
   ],
-  "updated": "2026-11-24T21:57:56.034143+00:00"
+  "updated": "2026-11-25T07:16:05.974924+00:00"
 }
