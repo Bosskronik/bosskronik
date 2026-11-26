@@ -4,10 +4,17 @@
   "fetched_via": "rss",
   "channel": {
     "subs": "7.17K",
-    "videos": "680",
-    "views": "294,101"
+    "videos": "681",
+    "views": "294,870"
   },
   "videos": [
+    {
+      "id": "W7HJr0GQFjI",
+      "title": "3, 2, 1… 558 m, and He's Parachuting | Wardogs",
+      "url": "https://www.youtube.com/watch?v=W7HJr0GQFjI",
+      "thumb": "https://i.ytimg.com/vi/W7HJr0GQFjI/hqdefault.jpg",
+      "published": "2026-11-26T18:30:15+00:00"
+    },
     {
       "id": "HQP1LjOeLQY",
       "title": "3, 2, 1… 558 m, and He's Parachuting | Wardogs",
@@ -105,14 +112,7 @@
       "url": "https://www.youtube.com/watch?v=aAhIUPgsP4g",
       "thumb": "https://i.ytimg.com/vi/aAhIUPgsP4g/hqdefault.jpg",
       "published": "2026-11-23T03:30:17+00:00"
-    },
-    {
-      "id": "a-rVJU6owvY",
-      "title": "\"Can I Just Run Naked?\" | Wardogs",
-      "url": "https://www.youtube.com/watch?v=a-rVJU6owvY",
-      "thumb": "https://i.ytimg.com/vi/a-rVJU6owvY/hqdefault.jpg",
-      "published": "2026-11-23T01:00:11+00:00"
     }
   ],
-  "updated": "2026-11-26T07:04:02.716005+00:00"
+  "updated": "2026-11-26T20:59:12.689010+00:00"
 }
