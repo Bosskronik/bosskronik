@@ -1,103 +1,118 @@
 {
   "channel_id": "UCQzwqsRr5IfwatqzGlUWxyg",
   "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQzwqsRr5IfwatqzGlUWxyg",
-  "fetched_via": "channel-videos-page",
+  "fetched_via": "rss",
   "channel": {
     "subs": "7.17K",
-    "videos": "684",
-    "views": "294,870"
+    "videos": "686",
+    "views": "295,910"
   },
   "videos": [
+    {
+      "id": "FSFNifV4QiQ",
+      "title": "We Won, and the End Screen Proves It | Wardogs",
+      "url": "https://www.youtube.com/watch?v=FSFNifV4QiQ",
+      "thumb": "https://i.ytimg.com/vi/FSFNifV4QiQ/hqdefault.jpg",
+      "published": "2026-11-27T15:30:10+00:00"
+    },
+    {
+      "id": "ba1qzDGfNts",
+      "title": "\"I Don't See Him\" — Then \"He's Dead\" | Wardogs",
+      "url": "https://www.youtube.com/watch?v=ba1qzDGfNts",
+      "thumb": "https://i.ytimg.com/vi/ba1qzDGfNts/hqdefault.jpg",
+      "published": "2026-11-27T13:00:15+00:00"
+    },
+    {
+      "id": "y2mcVzRMCvI",
+      "title": "\"What a Shot!\" 432 m Before the Big One | Wardogs",
+      "url": "https://www.youtube.com/watch?v=y2mcVzRMCvI",
+      "thumb": "https://i.ytimg.com/vi/y2mcVzRMCvI/hqdefault.jpg",
+      "published": "2026-11-27T03:30:16+00:00"
+    },
+    {
+      "id": "GiFonOhOfj8",
+      "title": "Can I Hit It From 705 m? | Wardogs",
+      "url": "https://www.youtube.com/watch?v=GiFonOhOfj8",
+      "thumb": "https://i.ytimg.com/vi/GiFonOhOfj8/hqdefault.jpg",
+      "published": "2026-11-27T01:00:14+00:00"
+    },
     {
       "id": "CPK7RQazhNw",
       "title": "705 Meters Out, One Bullet | Wardogs",
       "url": "https://www.youtube.com/watch?v=CPK7RQazhNw",
-      "thumb": "https://i.ytimg.com/vi/CPK7RQazhNw/hqdefault.jpg"
+      "thumb": "https://i.ytimg.com/vi/CPK7RQazhNw/hqdefault.jpg",
+      "published": "2026-11-26T22:30:19+00:00"
+    },
+    {
+      "id": "W7HJr0GQFjI",
+      "title": "3, 2, 1… 558 m, and He's Parachuting | Wardogs",
+      "url": "https://www.youtube.com/watch?v=W7HJr0GQFjI",
+      "thumb": "https://i.ytimg.com/vi/W7HJr0GQFjI/hqdefault.jpg",
+      "published": "2026-11-26T18:30:15+00:00"
+    },
+    {
+      "id": "HQP1LjOeLQY",
+      "title": "3, 2, 1… 558 m, and He's Parachuting | Wardogs",
+      "url": "https://www.youtube.com/watch?v=HQP1LjOeLQY",
+      "thumb": "https://i.ytimg.com/vi/HQP1LjOeLQY/hqdefault.jpg",
+      "published": "2026-11-25T21:00:07+00:00"
+    },
+    {
+      "id": "_ZtCKIjXzhU",
+      "title": "We Won: 1st Place on the End Screen | Wardogs",
+      "url": "https://www.youtube.com/watch?v=_ZtCKIjXzhU",
+      "thumb": "https://i.ytimg.com/vi/_ZtCKIjXzhU/hqdefault.jpg",
+      "published": "2026-11-25T13:00:29+00:00"
+    },
+    {
+      "id": "6ginwTt2fXk",
+      "title": "175 m Shot, Then Instant Panic | Wardogs",
+      "url": "https://www.youtube.com/watch?v=6ginwTt2fXk",
+      "thumb": "https://i.ytimg.com/vi/6ginwTt2fXk/hqdefault.jpg",
+      "published": "2026-11-25T01:00:15+00:00"
     },
     {
       "id": "6rTLrWs4J4w",
       "title": "Long Shot After Long Shot, All the Way to 1st Place | Wardogs",
       "url": "https://www.youtube.com/watch?v=6rTLrWs4J4w",
-      "thumb": "https://i.ytimg.com/vi/6rTLrWs4J4w/hqdefault.jpg"
+      "thumb": "https://i.ytimg.com/vi/6rTLrWs4J4w/hqdefault.jpg",
+      "published": "2026-11-24T22:30:01+00:00"
     },
     {
-      "id": "6HhJDnN5yug",
-      "title": "They Stripped Me and Let Me Go. I Went Back In | Wardogs",
-      "url": "https://www.youtube.com/watch?v=6HhJDnN5yug",
-      "thumb": "https://i.ytimg.com/vi/6HhJDnN5yug/hqdefault.jpg"
+      "id": "jdsnzjLnYuQ",
+      "title": "3 Parachute Drops, 0 Clean Landings | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=jdsnzjLnYuQ",
+      "thumb": "https://i.ytimg.com/vi/jdsnzjLnYuQ/hqdefault.jpg",
+      "published": "2026-11-24T21:00:23+00:00"
     },
     {
-      "id": "3MNidrpHcrY",
-      "title": "\"Look at my recording!\" A 205 m Flick Through the Trees | Wardogs",
-      "url": "https://www.youtube.com/watch?v=3MNidrpHcrY",
-      "thumb": "https://i.ytimg.com/vi/3MNidrpHcrY/hqdefault.jpg"
+      "id": "GrXXsV6DTPM",
+      "title": "\"You Let the Guy Kill Me.\" | Wardogs",
+      "url": "https://www.youtube.com/watch?v=GrXXsV6DTPM",
+      "thumb": "https://i.ytimg.com/vi/GrXXsV6DTPM/hqdefault.jpg",
+      "published": "2026-11-24T18:30:07+00:00"
     },
     {
-      "id": "9dN-5ZinCG8",
-      "title": "Heli Chaos and a 217 m Hit, but We Finished 2nd | Wardogs Season 3",
-      "url": "https://www.youtube.com/watch?v=9dN-5ZinCG8",
-      "thumb": "https://i.ytimg.com/vi/9dN-5ZinCG8/hqdefault.jpg"
+      "id": "bhqslxF9OQ0",
+      "title": "\"Press V!\"... I Died to 1 Damage | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=bhqslxF9OQ0",
+      "thumb": "https://i.ytimg.com/vi/bhqslxF9OQ0/hqdefault.jpg",
+      "published": "2026-11-24T15:30:30+00:00"
     },
     {
-      "id": "UT9zQ6yUnXQ",
-      "title": "\"You just got reported by 10 people.\" A Few Days Later… | Wardogs Season 3",
-      "url": "https://www.youtube.com/watch?v=UT9zQ6yUnXQ",
-      "thumb": "https://i.ytimg.com/vi/UT9zQ6yUnXQ/hqdefault.jpg"
+      "id": "j2izn5nRjQ4",
+      "title": "\"You Just Got Reported by 10 People.\" | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=j2izn5nRjQ4",
+      "thumb": "https://i.ytimg.com/vi/j2izn5nRjQ4/hqdefault.jpg",
+      "published": "2026-11-24T13:00:34+00:00"
     },
     {
-      "id": "ehyejtKi8Dc",
-      "title": "700m Kill Confirmed, Then I Went Back for My Squad | 1 Hour of Wardogs",
-      "url": "https://www.youtube.com/watch?v=ehyejtKi8Dc",
-      "thumb": "https://i.ytimg.com/vi/ehyejtKi8Dc/hqdefault.jpg"
-    },
-    {
-      "id": "22LEe4zW-xk",
-      "title": "I Almost Quit My Rookie Year, Then This Happened | 1 Hour of MX-5 Cup",
-      "url": "https://www.youtube.com/watch?v=22LEe4zW-xk",
-      "thumb": "https://i.ytimg.com/vi/22LEe4zW-xk/hqdefault.jpg"
-    },
-    {
-      "id": "tlnpSqPMgFA",
-      "title": "One HP and a dream | Wardogs",
-      "url": "https://www.youtube.com/watch?v=tlnpSqPMgFA",
-      "thumb": "https://i.ytimg.com/vi/tlnpSqPMgFA/hqdefault.jpg"
-    },
-    {
-      "id": "5QzwN7pCFhE",
-      "title": "You hit the jackpot! | Wardogs",
-      "url": "https://www.youtube.com/watch?v=5QzwN7pCFhE",
-      "thumb": "https://i.ytimg.com/vi/5QzwN7pCFhE/hqdefault.jpg"
-    },
-    {
-      "id": "S9wa6kuJims",
-      "title": "They're Buffing Blue, I've Played Red for 5 Months | Wardogs",
-      "url": "https://www.youtube.com/watch?v=S9wa6kuJims",
-      "thumb": "https://i.ytimg.com/vi/S9wa6kuJims/hqdefault.jpg"
-    },
-    {
-      "id": "kRbRkdcKU84",
-      "title": "There's a sniper in the roof - be careful | Wardogs",
-      "url": "https://www.youtube.com/watch?v=kRbRkdcKU84",
-      "thumb": "https://i.ytimg.com/vi/kRbRkdcKU84/hqdefault.jpg"
-    },
-    {
-      "id": "YOk-eUZecko",
-      "title": "Chopper Down, Then the Game Crashed | Wardogs",
-      "url": "https://www.youtube.com/watch?v=YOk-eUZecko",
-      "thumb": "https://i.ytimg.com/vi/YOk-eUZecko/hqdefault.jpg"
-    },
-    {
-      "id": "02Qxgz3YbKc",
-      "title": "Power4 is watching, be careful | Wardogs",
-      "url": "https://www.youtube.com/watch?v=02Qxgz3YbKc",
-      "thumb": "https://i.ytimg.com/vi/02Qxgz3YbKc/hqdefault.jpg"
-    },
-    {
-      "id": "3VHc8kf17Pc",
-      "title": "Don't shoot our own heli, you idiot! | Wardogs",
-      "url": "https://www.youtube.com/watch?v=3VHc8kf17Pc",
-      "thumb": "https://i.ytimg.com/vi/3VHc8kf17Pc/hqdefault.jpg"
+      "id": "zYRvQLScUD0",
+      "title": "Lou Dropped Him, No Parachute, at My Feet | Wardogs Season 3",
+      "url": "https://www.youtube.com/watch?v=zYRvQLScUD0",
+      "thumb": "https://i.ytimg.com/vi/zYRvQLScUD0/hqdefault.jpg",
+      "published": "2026-11-23T23:30:06+00:00"
     }
   ],
-  "updated": "2026-11-27T06:59:15.029768+00:00"
+  "updated": "2026-11-27T20:44:43.351258+00:00"
 }
